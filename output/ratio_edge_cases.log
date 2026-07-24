@@ -1,0 +1,1678 @@
+company_id|fiscal_year|rule|category|explanation
+ABB|2012|ROE_SOURCE_VARIANCE|data source issue|computed=22.41, source_display=34.9
+ABB|2012|ROCE_SOURCE_VARIANCE|version difference|computed=36.32, source_display=46.0
+ABB|2014|ROE_SOURCE_VARIANCE|data source issue|computed=25.13, source_display=34.9
+ABB|2014|ROCE_SOURCE_VARIANCE|version difference|computed=40.10, source_display=46.0
+ABB|2014|ROE_SOURCE_VARIANCE|data source issue|computed=25.13, source_display=34.9
+ABB|2014|ROCE_SOURCE_VARIANCE|version difference|computed=40.10, source_display=46.0
+ABB|2015|ROE_SOURCE_VARIANCE|data source issue|computed=24.44, source_display=34.9
+ABB|2015|ROCE_SOURCE_VARIANCE|version difference|computed=38.42, source_display=46.0
+ABB|2015|ROE_SOURCE_VARIANCE|data source issue|computed=24.44, source_display=34.9
+ABB|2015|ROCE_SOURCE_VARIANCE|version difference|computed=38.42, source_display=46.0
+ABB|2016|ROE_SOURCE_VARIANCE|data source issue|computed=21.34, source_display=34.9
+ABB|2016|ROCE_SOURCE_VARIANCE|version difference|computed=34.73, source_display=46.0
+ABB|2016|ROE_SOURCE_VARIANCE|data source issue|computed=21.34, source_display=34.9
+ABB|2016|ROCE_SOURCE_VARIANCE|version difference|computed=34.73, source_display=46.0
+ABB|2017|ROE_SOURCE_VARIANCE|data source issue|computed=19.97, source_display=34.9
+ABB|2017|ROCE_SOURCE_VARIANCE|version difference|computed=32.80, source_display=46.0
+ABB|2017|ROE_SOURCE_VARIANCE|data source issue|computed=19.97, source_display=34.9
+ABB|2017|ROCE_SOURCE_VARIANCE|version difference|computed=32.80, source_display=46.0
+ABB|2018|ROE_SOURCE_VARIANCE|data source issue|computed=23.69, source_display=34.9
+ABB|2018|ROCE_SOURCE_VARIANCE|version difference|computed=37.92, source_display=46.0
+ABB|2018|ROE_SOURCE_VARIANCE|data source issue|computed=23.69, source_display=34.9
+ABB|2018|ROCE_SOURCE_VARIANCE|version difference|computed=37.92, source_display=46.0
+ABB|2019|ROE_SOURCE_VARIANCE|data source issue|computed=22.41, source_display=34.9
+ABB|2019|ROCE_SOURCE_VARIANCE|version difference|computed=35.76, source_display=46.0
+ABB|2019|ROE_SOURCE_VARIANCE|data source issue|computed=22.41, source_display=34.9
+ABB|2019|ROCE_SOURCE_VARIANCE|version difference|computed=35.76, source_display=46.0
+ABB|2020|ROE_SOURCE_VARIANCE|data source issue|computed=24.39, source_display=34.9
+ABB|2020|ROCE_SOURCE_VARIANCE|version difference|computed=33.42, source_display=46.0
+ABB|2020|ROE_SOURCE_VARIANCE|data source issue|computed=24.39, source_display=34.9
+ABB|2020|ROCE_SOURCE_VARIANCE|version difference|computed=33.42, source_display=46.0
+ABB|2021|ROE_SOURCE_VARIANCE|data source issue|computed=26.56, source_display=34.9
+ABB|2021|ROCE_SOURCE_VARIANCE|version difference|computed=36.41, source_display=46.0
+ABB|2021|ROE_SOURCE_VARIANCE|data source issue|computed=26.56, source_display=34.9
+ABB|2021|ROCE_SOURCE_VARIANCE|version difference|computed=36.41, source_display=46.0
+ABB|2022|ROE_SOURCE_VARIANCE|data source issue|computed=28.33, source_display=34.9
+ABB|2022|ROCE_SOURCE_VARIANCE|version difference|computed=39.20, source_display=46.0
+ABB|2022|ROE_SOURCE_VARIANCE|data source issue|computed=28.33, source_display=34.9
+ABB|2022|ROCE_SOURCE_VARIANCE|version difference|computed=39.20, source_display=46.0
+ABB|2023|ROE_SOURCE_VARIANCE|data source issue|computed=29.77, source_display=34.9
+ABB|2023|ROE_SOURCE_VARIANCE|data source issue|computed=29.77, source_display=34.9
+ADANIENSOL|2014|ROE_SOURCE_VARIANCE|data source issue|computed=0.00, source_display=8.59
+ADANIENSOL|2014|ROCE_SOURCE_VARIANCE|version difference|computed=0.00, source_display=9.0
+ADANIENSOL|2015|ROE_SOURCE_VARIANCE|data source issue|computed=-0.65, source_display=8.59
+ADANIENSOL|2015|ROCE_SOURCE_VARIANCE|version difference|computed=0.96, source_display=9.0
+ADANIENSOL|2016|ROE_SOURCE_VARIANCE|data source issue|computed=13.77, source_display=8.59
+ADANIENSOL|2016|ROCE_SOURCE_VARIANCE|version difference|computed=17.74, source_display=9.0
+ADANIENSOL|2017|ROE_SOURCE_VARIANCE|data source issue|computed=14.12, source_display=8.59
+ADANIENSOL|2017|ROCE_SOURCE_VARIANCE|version difference|computed=16.82, source_display=9.0
+ADANIENSOL|2018|ROE_SOURCE_VARIANCE|data source issue|computed=18.87, source_display=8.59
+ADANIENSOL|2018|ROCE_SOURCE_VARIANCE|version difference|computed=17.82, source_display=9.0
+ADANIENSOL|2021|ROE_SOURCE_VARIANCE|data source issue|computed=14.46, source_display=8.59
+ADANIENSOL|2021|ROCE_SOURCE_VARIANCE|version difference|computed=14.06, source_display=9.0
+ADANIENSOL|2024|OPM_MISMATCH|formula discrepancy|computed=34.39, source=30.0
+ADANIENT|2013|ROE_SOURCE_VARIANCE|data source issue|computed=5.69, source_display=13.64
+ADANIENT|2016|ROE_SOURCE_VARIANCE|data source issue|computed=7.47, source_display=13.64
+ADANIENT|2017|ROE_SOURCE_VARIANCE|data source issue|computed=6.54, source_display=13.64
+ADANIENT|2018|ROE_SOURCE_VARIANCE|data source issue|computed=3.94, source_display=13.64
+ADANIENT|2019|ROE_SOURCE_VARIANCE|data source issue|computed=3.43, source_display=13.64
+ADANIENT|2020|ROE_SOURCE_VARIANCE|data source issue|computed=6.14, source_display=13.64
+ADANIENT|2021|ROE_SOURCE_VARIANCE|data source issue|computed=6.10, source_display=13.64
+ADANIENT|2022|ROE_SOURCE_VARIANCE|data source issue|computed=3.54, source_display=13.64
+ADANIENT|2023|ROE_SOURCE_VARIANCE|data source issue|computed=7.33, source_display=13.64
+ADANIENT|2024|ROE_SOURCE_VARIANCE|data source issue|computed=8.53, source_display=13.64
+ADANIGREEN|2017|ROE_SOURCE_VARIANCE|data source issue|computed=-3.91, source_display=14.7
+ADANIGREEN|2017|ROCE_SOURCE_VARIANCE|version difference|computed=8.70, source_display=96.5
+ADANIGREEN|2018|ROE_SOURCE_VARIANCE|data source issue|computed=-10.29, source_display=14.7
+ADANIGREEN|2018|ROCE_SOURCE_VARIANCE|version difference|computed=7.90, source_display=96.5
+ADANIGREEN|2019|ROE_SOURCE_VARIANCE|data source issue|computed=-24.57, source_display=14.7
+ADANIGREEN|2019|ROCE_SOURCE_VARIANCE|version difference|computed=12.23, source_display=96.5
+ADANIGREEN|2020|ROE_SOURCE_VARIANCE|data source issue|computed=-2.89, source_display=14.7
+ADANIGREEN|2020|ROCE_SOURCE_VARIANCE|version difference|computed=7.77, source_display=96.5
+ADANIGREEN|2021|ROE_SOURCE_VARIANCE|data source issue|computed=8.27, source_display=14.7
+ADANIGREEN|2021|ROCE_SOURCE_VARIANCE|version difference|computed=9.97, source_display=96.5
+ADANIGREEN|2022|ROCE_SOURCE_VARIANCE|version difference|computed=7.25, source_display=96.5
+ADANIGREEN|2023|ROCE_SOURCE_VARIANCE|version difference|computed=9.16, source_display=96.5
+ADANIGREEN|2024|ROCE_SOURCE_VARIANCE|version difference|computed=11.49, source_display=96.5
+ADANIPORTS|2013|ROE_SOURCE_VARIANCE|data source issue|computed=25.63, source_display=18.1
+ADANIPORTS|2018|ROCE_SOURCE_VARIANCE|version difference|computed=18.49, source_display=12.9
+ADANIPORTS|2022|ROE_SOURCE_VARIANCE|data source issue|computed=11.84, source_display=18.1
+ADANIPORTS|2023|ROE_SOURCE_VARIANCE|data source issue|computed=11.88, source_display=18.1
+ADANIPORTS|2013|ROE_SOURCE_VARIANCE|data source issue|computed=25.63, source_display=18.1
+ADANIPORTS|2018|ROCE_SOURCE_VARIANCE|version difference|computed=18.49, source_display=12.9
+ADANIPORTS|2022|ROE_SOURCE_VARIANCE|data source issue|computed=11.84, source_display=18.1
+ADANIPORTS|2023|ROE_SOURCE_VARIANCE|data source issue|computed=11.88, source_display=18.1
+ADANIPOWER|2013|ROE_SOURCE_VARIANCE|data source issue|computed=-53.46, source_display=57.1
+ADANIPOWER|2013|ROCE_SOURCE_VARIANCE|version difference|computed=2.55, source_display=32.2
+ADANIPOWER|2014|ROE_SOURCE_VARIANCE|data source issue|computed=-4.45, source_display=57.1
+ADANIPOWER|2014|ROCE_SOURCE_VARIANCE|version difference|computed=9.33, source_display=32.2
+ADANIPOWER|2015|ROE_SOURCE_VARIANCE|data source issue|computed=-14.25, source_display=57.1
+ADANIPOWER|2015|ROCE_SOURCE_VARIANCE|version difference|computed=11.62, source_display=32.2
+ADANIPOWER|2016|ROE_SOURCE_VARIANCE|data source issue|computed=7.38, source_display=57.1
+ADANIPOWER|2016|ROCE_SOURCE_VARIANCE|version difference|computed=14.29, source_display=32.2
+ADANIPOWER|2017|ROE_SOURCE_VARIANCE|data source issue|computed=-205.80, source_display=57.1
+ADANIPOWER|2017|ROCE_SOURCE_VARIANCE|version difference|computed=4.17, source_display=32.2
+ADANIPOWER|2018|ROE_SOURCE_VARIANCE|data source issue|computed=-236.56, source_display=57.1
+ADANIPOWER|2018|ROCE_SOURCE_VARIANCE|version difference|computed=11.52, source_display=32.2
+ADANIPOWER|2019|ROE_SOURCE_VARIANCE|data source issue|computed=-12.76, source_display=57.1
+ADANIPOWER|2019|ROCE_SOURCE_VARIANCE|version difference|computed=13.59, source_display=32.2
+ADANIPOWER|2020|ROE_SOURCE_VARIANCE|data source issue|computed=-35.10, source_display=57.1
+ADANIPOWER|2020|ROCE_SOURCE_VARIANCE|version difference|computed=9.82, source_display=32.2
+ADANIPOWER|2021|ROE_SOURCE_VARIANCE|data source issue|computed=9.69, source_display=57.1
+ADANIPOWER|2021|ROCE_SOURCE_VARIANCE|version difference|computed=16.15, source_display=32.2
+ADANIPOWER|2022|ROE_SOURCE_VARIANCE|data source issue|computed=26.61, source_display=57.1
+ADANIPOWER|2022|ROCE_SOURCE_VARIANCE|version difference|computed=20.40, source_display=32.2
+ADANIPOWER|2023|ROE_SOURCE_VARIANCE|data source issue|computed=35.91, source_display=57.1
+ADANIPOWER|2023|ROCE_SOURCE_VARIANCE|version difference|computed=19.82, source_display=32.2
+ADANIPOWER|2024|ROE_SOURCE_VARIANCE|data source issue|computed=48.28, source_display=57.1
+AMBUJACEM|2012|ROE_SOURCE_VARIANCE|data source issue|computed=14.69, source_display=9.24
+AMBUJACEM|2012|ROCE_SOURCE_VARIANCE|version difference|computed=28.70, source_display=12.8
+AMBUJACEM|2013|ROCE_SOURCE_VARIANCE|version difference|computed=21.65, source_display=12.8
+AMBUJACEM|2014|ROE_SOURCE_VARIANCE|data source issue|computed=14.77, source_display=9.24
+AMBUJACEM|2014|ROCE_SOURCE_VARIANCE|version difference|computed=23.29, source_display=12.8
+AMBUJACEM|2015|ROCE_SOURCE_VARIANCE|version difference|computed=18.39, source_display=12.8
+AMBUJACEM|2016|ROCE_SOURCE_VARIANCE|version difference|computed=18.25, source_display=12.8
+AMBUJACEM|2017|ROCE_SOURCE_VARIANCE|version difference|computed=20.26, source_display=12.8
+AMBUJACEM|2018|ROCE_SOURCE_VARIANCE|version difference|computed=18.93, source_display=12.8
+AMBUJACEM|2019|ROCE_SOURCE_VARIANCE|version difference|computed=21.55, source_display=12.8
+AMBUJACEM|2020|ROCE_SOURCE_VARIANCE|version difference|computed=22.79, source_display=12.8
+AMBUJACEM|2021|ROE_SOURCE_VARIANCE|data source issue|computed=14.64, source_display=9.24
+AMBUJACEM|2021|ROCE_SOURCE_VARIANCE|version difference|computed=25.02, source_display=12.8
+AMBUJACEM|2024|ROCE_SOURCE_VARIANCE|version difference|computed=18.51, source_display=12.8
+APOLLOHOSP|2016|ROE_SOURCE_VARIANCE|data source issue|computed=7.05, source_display=13.81
+APOLLOHOSP|2017|ROE_SOURCE_VARIANCE|data source issue|computed=3.95, source_display=13.81
+APOLLOHOSP|2018|ROE_SOURCE_VARIANCE|data source issue|computed=1.85, source_display=13.81
+APOLLOHOSP|2019|ROE_SOURCE_VARIANCE|data source issue|computed=6.00, source_display=13.81
+APOLLOHOSP|2020|ROCE_SOURCE_VARIANCE|version difference|computed=26.14, source_display=17.2
+APOLLOHOSP|2021|ROE_SOURCE_VARIANCE|data source issue|computed=2.98, source_display=13.81
+APOLLOHOSP|2022|ROE_SOURCE_VARIANCE|data source issue|computed=19.70, source_display=13.81
+APOLLOHOSP|2022|ROCE_SOURCE_VARIANCE|version difference|computed=26.39, source_display=17.2
+ASIANPAINT|2013|ROCE_SOURCE_VARIANCE|version difference|computed=50.92, source_display=41.75
+ASIANPAINT|2013|ROCE_SOURCE_VARIANCE|version difference|computed=50.92, source_display=41.75
+ASIANPAINT|2014|ROCE_SOURCE_VARIANCE|version difference|computed=49.63, source_display=41.75
+ASIANPAINT|2014|ROCE_SOURCE_VARIANCE|version difference|computed=49.63, source_display=41.75
+ASIANPAINT|2018|ROE_SOURCE_VARIANCE|data source issue|computed=24.95, source_display=31.45
+ASIANPAINT|2018|ROE_SOURCE_VARIANCE|data source issue|computed=24.95, source_display=31.45
+ASIANPAINT|2019|ROE_SOURCE_VARIANCE|data source issue|computed=23.31, source_display=31.45
+ASIANPAINT|2019|ROE_SOURCE_VARIANCE|data source issue|computed=23.31, source_display=31.45
+ASIANPAINT|2021|ROE_SOURCE_VARIANCE|data source issue|computed=25.04, source_display=31.45
+ASIANPAINT|2021|ROE_SOURCE_VARIANCE|data source issue|computed=25.04, source_display=31.45
+ASIANPAINT|2022|ROE_SOURCE_VARIANCE|data source issue|computed=22.34, source_display=31.45
+ASIANPAINT|2022|ROCE_SOURCE_VARIANCE|version difference|computed=33.12, source_display=41.75
+ASIANPAINT|2022|ROE_SOURCE_VARIANCE|data source issue|computed=22.34, source_display=31.45
+ASIANPAINT|2022|ROCE_SOURCE_VARIANCE|version difference|computed=33.12, source_display=41.75
+ASIANPAINT|2023|ROE_SOURCE_VARIANCE|data source issue|computed=26.23, source_display=31.45
+ASIANPAINT|2023|ROE_SOURCE_VARIANCE|data source issue|computed=26.23, source_display=31.45
+BAJAJ-AUTO|2013|ROE_SOURCE_VARIANCE|data source issue|computed=38.85, source_display=26.5
+BAJAJ-AUTO|2013|ROCE_SOURCE_VARIANCE|version difference|computed=54.35, source_display=33.5
+BAJAJ-AUTO|2013|ROE_SOURCE_VARIANCE|data source issue|computed=38.85, source_display=26.5
+BAJAJ-AUTO|2013|ROCE_SOURCE_VARIANCE|version difference|computed=54.35, source_display=33.5
+BAJAJ-AUTO|2014|ROE_SOURCE_VARIANCE|data source issue|computed=33.24, source_display=26.5
+BAJAJ-AUTO|2014|ROCE_SOURCE_VARIANCE|version difference|computed=47.30, source_display=33.5
+BAJAJ-AUTO|2014|ROE_SOURCE_VARIANCE|data source issue|computed=33.24, source_display=26.5
+BAJAJ-AUTO|2014|ROCE_SOURCE_VARIANCE|version difference|computed=47.30, source_display=33.5
+BAJAJ-AUTO|2015|ROCE_SOURCE_VARIANCE|version difference|computed=38.87, source_display=33.5
+BAJAJ-AUTO|2015|ROCE_SOURCE_VARIANCE|version difference|computed=38.87, source_display=33.5
+BAJAJ-AUTO|2016|ROCE_SOURCE_VARIANCE|version difference|computed=42.35, source_display=33.5
+BAJAJ-AUTO|2016|ROCE_SOURCE_VARIANCE|version difference|computed=42.35, source_display=33.5
+BAJAJ-AUTO|2018|ROE_SOURCE_VARIANCE|data source issue|computed=20.66, source_display=26.5
+BAJAJ-AUTO|2018|ROE_SOURCE_VARIANCE|data source issue|computed=20.66, source_display=26.5
+BAJAJ-AUTO|2019|ROE_SOURCE_VARIANCE|data source issue|computed=21.21, source_display=26.5
+BAJAJ-AUTO|2019|ROE_SOURCE_VARIANCE|data source issue|computed=21.21, source_display=26.5
+BAJAJ-AUTO|2021|ROE_SOURCE_VARIANCE|data source issue|computed=17.81, source_display=26.5
+BAJAJ-AUTO|2021|ROCE_SOURCE_VARIANCE|version difference|computed=23.76, source_display=33.5
+BAJAJ-AUTO|2021|ROE_SOURCE_VARIANCE|data source issue|computed=17.81, source_display=26.5
+BAJAJ-AUTO|2021|ROCE_SOURCE_VARIANCE|version difference|computed=23.76, source_display=33.5
+BAJAJ-AUTO|2022|ROE_SOURCE_VARIANCE|data source issue|computed=20.65, source_display=26.5
+BAJAJ-AUTO|2022|ROCE_SOURCE_VARIANCE|version difference|computed=26.45, source_display=33.5
+BAJAJ-AUTO|2022|ROE_SOURCE_VARIANCE|data source issue|computed=20.65, source_display=26.5
+BAJAJ-AUTO|2022|ROCE_SOURCE_VARIANCE|version difference|computed=26.45, source_display=33.5
+BAJAJ-AUTO|2023|ROE_SOURCE_VARIANCE|data source issue|computed=20.64, source_display=26.5
+BAJAJ-AUTO|2023|ROCE_SOURCE_VARIANCE|version difference|computed=27.70, source_display=33.5
+BAJAJ-AUTO|2023|ROE_SOURCE_VARIANCE|data source issue|computed=20.64, source_display=26.5
+BAJAJ-AUTO|2023|ROCE_SOURCE_VARIANCE|version difference|computed=27.70, source_display=33.5
+AXISBANK|2013|OPM_MISMATCH|formula discrepancy|computed=30.58, source=1353.0
+AXISBANK|2013|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+AXISBANK|2014|OPM_MISMATCH|formula discrepancy|computed=31.47, source=2307.0
+AXISBANK|2014|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+AXISBANK|2015|OPM_MISMATCH|formula discrepancy|computed=31.36, source=3097.0
+AXISBANK|2015|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+AXISBANK|2016|OPM_MISMATCH|formula discrepancy|computed=32.61, source=3466.0
+AXISBANK|2016|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+AXISBANK|2017|OPM_MISMATCH|formula discrepancy|computed=53.45, source=-5715.0
+AXISBANK|2017|ROE_SOURCE_VARIANCE|data source issue|computed=6.53, source_display=18.4
+AXISBANK|2017|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+AXISBANK|2018|OPM_MISMATCH|formula discrepancy|computed=63.12, source=-10277.0
+AXISBANK|2018|ROE_SOURCE_VARIANCE|data source issue|computed=0.43, source_display=18.4
+AXISBANK|2018|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+AXISBANK|2019|OPM_MISMATCH|formula discrepancy|computed=49.39, source=-5447.0
+AXISBANK|2019|ROE_SOURCE_VARIANCE|data source issue|computed=6.90, source_display=18.4
+AXISBANK|2019|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+AXISBANK|2020|OPM_MISMATCH|formula discrepancy|computed=55.98, source=-9859.0
+AXISBANK|2020|ROE_SOURCE_VARIANCE|data source issue|computed=1.88, source_display=18.4
+AXISBANK|2020|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+AXISBANK|2021|OPM_MISMATCH|formula discrepancy|computed=50.12, source=-2510.0
+AXISBANK|2021|ROE_SOURCE_VARIANCE|data source issue|computed=6.36, source_display=18.4
+AXISBANK|2021|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+AXISBANK|2022|OPM_MISMATCH|formula discrepancy|computed=44.47, source=3170.0
+AXISBANK|2022|ROE_SOURCE_VARIANCE|data source issue|computed=11.01, source_display=18.4
+AXISBANK|2022|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+AXISBANK|2023|OPM_MISMATCH|formula discrepancy|computed=34.16, source=13857.0
+AXISBANK|2023|ROE_SOURCE_VARIANCE|data source issue|computed=7.38, source_display=18.4
+AXISBANK|2023|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+AXISBANK|2024|OPM_MISMATCH|formula discrepancy|computed=34.69, source=11952.0
+AXISBANK|2024|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+BAJAJFINSV|2013|ROE_SOURCE_VARIANCE|data source issue|computed=28.38, source_display=11.72
+BAJAJFINSV|2014|ROE_SOURCE_VARIANCE|data source issue|computed=23.53, source_display=11.72
+BAJAJFINSV|2014|ROCE_SOURCE_VARIANCE|version difference|computed=15.59, source_display=21.14
+BAJAJFINSV|2015|ROE_SOURCE_VARIANCE|data source issue|computed=21.72, source_display=11.72
+BAJAJFINSV|2015|ROCE_SOURCE_VARIANCE|version difference|computed=14.76, source_display=21.14
+BAJAJFINSV|2016|ROE_SOURCE_VARIANCE|data source issue|computed=20.41, source_display=11.72
+BAJAJFINSV|2016|ROCE_SOURCE_VARIANCE|version difference|computed=13.57, source_display=21.14
+BAJAJFINSV|2017|ROE_SOURCE_VARIANCE|data source issue|computed=21.36, source_display=11.72
+BAJAJFINSV|2017|ROCE_SOURCE_VARIANCE|version difference|computed=13.52, source_display=21.14
+BAJAJFINSV|2018|ROE_SOURCE_VARIANCE|data source issue|computed=20.39, source_display=11.72
+BAJAJFINSV|2018|ROCE_SOURCE_VARIANCE|version difference|computed=12.52, source_display=21.14
+BAJAJFINSV|2019|ROE_SOURCE_VARIANCE|data source issue|computed=22.64, source_display=11.72
+BAJAJFINSV|2019|ROCE_SOURCE_VARIANCE|version difference|computed=12.18, source_display=21.14
+BAJAJFINSV|2020|ROE_SOURCE_VARIANCE|data source issue|computed=19.15, source_display=11.72
+BAJAJFINSV|2020|ROCE_SOURCE_VARIANCE|version difference|computed=11.52, source_display=21.14
+BAJAJFINSV|2021|ROE_SOURCE_VARIANCE|data source issue|computed=20.56, source_display=11.72
+BAJAJFINSV|2021|ROCE_SOURCE_VARIANCE|version difference|computed=11.95, source_display=21.14
+BAJAJFINSV|2022|ROE_SOURCE_VARIANCE|data source issue|computed=20.66, source_display=11.72
+BAJAJFINSV|2022|ROCE_SOURCE_VARIANCE|version difference|computed=10.66, source_display=21.14
+BAJAJFINSV|2023|ROE_SOURCE_VARIANCE|data source issue|computed=26.31, source_display=11.72
+BAJAJFINSV|2023|ROCE_SOURCE_VARIANCE|version difference|computed=11.55, source_display=21.14
+BAJAJFINSV|2024|ROE_SOURCE_VARIANCE|data source issue|computed=25.85, source_display=11.72
+BAJAJFINSV|2024|ROCE_SOURCE_VARIANCE|version difference|computed=11.71, source_display=21.14
+BAJAJHLDNG|2013|ROCE_SOURCE_VARIANCE|version difference|computed=3.14, source_display=13.1
+BAJAJHLDNG|2014|ROCE_SOURCE_VARIANCE|version difference|computed=3.38, source_display=13.1
+BAJAJHLDNG|2015|ROCE_SOURCE_VARIANCE|version difference|computed=3.88, source_display=13.1
+BAJAJHLDNG|2016|ROCE_SOURCE_VARIANCE|version difference|computed=2.85, source_display=13.1
+BAJAJHLDNG|2017|ROCE_SOURCE_VARIANCE|version difference|computed=3.57, source_display=13.1
+BAJAJHLDNG|2022|ROE_SOURCE_VARIANCE|data source issue|computed=9.63, source_display=14.8
+BAJFINANCE|2015|OPM_MISMATCH|formula discrepancy|computed=32.49, source=1367.0
+BAJFINANCE|2015|ROCE_SOURCE_VARIANCE|version difference|computed=5.65, source_display=11.9
+BAJFINANCE|2015|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+BAJFINANCE|2016|OPM_MISMATCH|formula discrepancy|computed=32.25, source=1986.0
+BAJFINANCE|2016|ROCE_SOURCE_VARIANCE|version difference|computed=5.36, source_display=11.9
+BAJFINANCE|2017|OPM_MISMATCH|formula discrepancy|computed=32.60, source=2867.0
+BAJFINANCE|2017|ROCE_SOURCE_VARIANCE|version difference|computed=5.57, source_display=11.9
+BAJFINANCE|2017|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+BAJFINANCE|2018|OPM_MISMATCH|formula discrepancy|computed=32.28, source=3935.0
+BAJFINANCE|2018|ROE_SOURCE_VARIANCE|data source issue|computed=15.75, source_display=22.1
+BAJFINANCE|2018|ROCE_SOURCE_VARIANCE|version difference|computed=5.03, source_display=11.9
+BAJFINANCE|2019|OPM_MISMATCH|formula discrepancy|computed=29.50, source=6310.0
+BAJFINANCE|2019|ROCE_SOURCE_VARIANCE|version difference|computed=4.52, source_display=11.9
+BAJFINANCE|2019|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+BAJFINANCE|2020|OPM_MISMATCH|formula discrepancy|computed=34.73, source=7608.0
+BAJFINANCE|2020|ROE_SOURCE_VARIANCE|data source issue|computed=16.28, source_display=22.1
+BAJFINANCE|2020|ROCE_SOURCE_VARIANCE|version difference|computed=5.67, source_display=11.9
+BAJFINANCE|2021|OPM_MISMATCH|formula discrepancy|computed=40.64, source=6314.0
+BAJFINANCE|2021|ROE_SOURCE_VARIANCE|data source issue|computed=11.97, source_display=22.1
+BAJFINANCE|2021|ROCE_SOURCE_VARIANCE|version difference|computed=6.44, source_display=11.9
+BAJFINANCE|2022|OPM_MISMATCH|formula discrepancy|computed=37.55, source=9906.0
+BAJFINANCE|2022|ROE_SOURCE_VARIANCE|data source issue|computed=16.08, source_display=22.1
+BAJFINANCE|2022|ROCE_SOURCE_VARIANCE|version difference|computed=5.70, source_display=11.9
+BAJFINANCE|2023|OPM_MISMATCH|formula discrepancy|computed=30.65, source=16018.0
+BAJFINANCE|2023|ROCE_SOURCE_VARIANCE|version difference|computed=4.70, source_display=11.9
+BAJFINANCE|2024|OPM_MISMATCH|formula discrepancy|computed=29.29, source=19987.0
+BAJFINANCE|2024|ROCE_SOURCE_VARIANCE|version difference|computed=4.36, source_display=11.9
+BANKBARODA|2013|OPM_MISMATCH|formula discrepancy|computed=30.05, source=1006.0
+BANKBARODA|2013|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+BANKBARODA|2014|OPM_MISMATCH|formula discrepancy|computed=29.78, source=809.0
+BANKBARODA|2014|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+BANKBARODA|2015|OPM_MISMATCH|formula discrepancy|computed=29.98, source=902.0
+BANKBARODA|2015|ROE_SOURCE_VARIANCE|data source issue|computed=9.40, source_display=16.7
+BANKBARODA|2015|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+BANKBARODA|2016|OPM_MISMATCH|formula discrepancy|computed=55.44, source=-11700.0
+BANKBARODA|2016|ROE_SOURCE_VARIANCE|data source issue|computed=-11.84, source_display=16.7
+BANKBARODA|2016|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+BANKBARODA|2017|OPM_MISMATCH|formula discrepancy|computed=43.28, source=-4372.0
+BANKBARODA|2017|ROE_SOURCE_VARIANCE|data source issue|computed=4.31, source_display=16.7
+BANKBARODA|2017|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+BANKBARODA|2018|OPM_MISMATCH|formula discrepancy|computed=56.65, source=-9197.0
+BANKBARODA|2018|ROE_SOURCE_VARIANCE|data source issue|computed=-3.94, source_display=16.7
+BANKBARODA|2018|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+BANKBARODA|2019|OPM_MISMATCH|formula discrepancy|computed=48.79, source=-5414.0
+BANKBARODA|2019|ROE_SOURCE_VARIANCE|data source issue|computed=2.12, source_display=16.7
+BANKBARODA|2019|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+BANKBARODA|2020|OPM_MISMATCH|formula discrepancy|computed=51.44, source=-11728.0
+BANKBARODA|2020|ROE_SOURCE_VARIANCE|data source issue|computed=1.29, source_display=16.7
+BANKBARODA|2020|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+BANKBARODA|2021|OPM_MISMATCH|formula discrepancy|computed=51.23, source=-6957.0
+BANKBARODA|2021|ROE_SOURCE_VARIANCE|data source issue|computed=1.97, source_display=16.7
+BANKBARODA|2021|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+BANKBARODA|2022|OPM_MISMATCH|formula discrepancy|computed=51.12, source=-2948.0
+BANKBARODA|2022|ROE_SOURCE_VARIANCE|data source issue|computed=8.64, source_display=16.7
+BANKBARODA|2022|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+BANKBARODA|2023|OPM_MISMATCH|formula discrepancy|computed=40.45, source=6329.0
+BANKBARODA|2023|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+BANKBARODA|2024|OPM_MISMATCH|formula discrepancy|computed=37.49, source=4102.0
+BANKBARODA|2024|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+BHARTIARTL|2013|ROE_SOURCE_VARIANCE|data source issue|computed=4.50, source_display=14.9
+BHARTIARTL|2013|ROCE_SOURCE_VARIANCE|version difference|computed=20.60, source_display=13.1
+BHARTIARTL|2014|ROE_SOURCE_VARIANCE|data source issue|computed=5.05, source_display=14.9
+BHARTIARTL|2014|ROCE_SOURCE_VARIANCE|version difference|computed=21.67, source_display=13.1
+BHARTIARTL|2015|ROCE_SOURCE_VARIANCE|version difference|computed=28.29, source_display=13.1
+BHARTIARTL|2016|ROCE_SOURCE_VARIANCE|version difference|computed=23.20, source_display=13.1
+BHARTIARTL|2017|ROE_SOURCE_VARIANCE|data source issue|computed=6.29, source_display=14.9
+BHARTIARTL|2017|ROCE_SOURCE_VARIANCE|version difference|computed=21.20, source_display=13.1
+BHARTIARTL|2018|ROE_SOURCE_VARIANCE|data source issue|computed=3.14, source_display=14.9
+BHARTIARTL|2019|ROE_SOURCE_VARIANCE|data source issue|computed=2.36, source_display=14.9
+BHARTIARTL|2020|ROE_SOURCE_VARIANCE|data source issue|computed=-39.75, source_display=14.9
+BHARTIARTL|2020|ROCE_SOURCE_VARIANCE|version difference|computed=-0.52, source_display=13.1
+BHARTIARTL|2021|ROE_SOURCE_VARIANCE|data source issue|computed=-20.97, source_display=14.9
+BHARTIARTL|2021|ROCE_SOURCE_VARIANCE|version difference|computed=18.52, source_display=13.1
+BHARTIARTL|2022|ROCE_SOURCE_VARIANCE|version difference|computed=26.33, source_display=13.1
+BHARTIARTL|2023|ROCE_SOURCE_VARIANCE|version difference|computed=23.81, source_display=13.1
+BHARTIARTL|2024|ROCE_SOURCE_VARIANCE|version difference|computed=25.10, source_display=13.1
+BEL|2013|ROE_SOURCE_VARIANCE|data source issue|computed=15183.33, source_display=26.3
+BEL|2013|ROCE_SOURCE_VARIANCE|version difference|computed=4303.33, source_display=34.6
+BEL|2014|ROE_SOURCE_VARIANCE|data source issue|computed=13600.00, source_display=26.3
+BEL|2014|ROCE_SOURCE_VARIANCE|version difference|computed=4867.86, source_display=34.6
+BEL|2015|ROE_SOURCE_VARIANCE|data source issue|computed=17100.00, source_display=26.3
+BEL|2015|ROCE_SOURCE_VARIANCE|version difference|computed=5109.09, source_display=34.6
+BEL|2016|ROE_SOURCE_VARIANCE|data source issue|computed=11141.67, source_display=26.3
+BEL|2016|ROCE_SOURCE_VARIANCE|version difference|computed=5313.51, source_display=34.6
+BEL|2017|ROE_SOURCE_VARIANCE|data source issue|computed=10153.33, source_display=26.3
+BEL|2017|ROCE_SOURCE_VARIANCE|version difference|computed=5027.27, source_display=34.6
+BEL|2018|ROE_SOURCE_VARIANCE|data source issue|computed=4616.13, source_display=26.3
+BEL|2018|ROCE_SOURCE_VARIANCE|version difference|computed=2829.11, source_display=34.6
+BEL|2019|ROE_SOURCE_VARIANCE|data source issue|computed=3851.02, source_display=26.3
+BEL|2019|ROCE_SOURCE_VARIANCE|version difference|computed=3106.25, source_display=34.6
+BEL|2020|ROE_SOURCE_VARIANCE|data source issue|computed=3318.18, source_display=26.3
+BEL|2020|ROCE_SOURCE_VARIANCE|version difference|computed=2886.87, source_display=34.6
+BEL|2021|ROE_SOURCE_VARIANCE|data source issue|computed=3559.32, source_display=26.3
+BEL|2021|ROCE_SOURCE_VARIANCE|version difference|computed=3091.67, source_display=34.6
+BEL|2022|ROE_SOURCE_VARIANCE|data source issue|computed=3478.26, source_display=26.3
+BEL|2022|ROCE_SOURCE_VARIANCE|version difference|computed=2815.75, source_display=34.6
+BEL|2023|ROE_SOURCE_VARIANCE|data source issue|computed=3981.33, source_display=26.3
+BEL|2023|ROCE_SOURCE_VARIANCE|version difference|computed=3834.21, source_display=34.6
+BEL|2024|ROE_SOURCE_VARIANCE|data source issue|computed=4744.05, source_display=26.3
+BEL|2024|ROCE_SOURCE_VARIANCE|version difference|computed=4504.72, source_display=34.6
+BHEL|2013|ROE_SOURCE_VARIANCE|data source issue|computed=21.91, source_display=1.05
+BHEL|2013|ROCE_SOURCE_VARIANCE|version difference|computed=31.93, source_display=3.28
+BHEL|2014|ROE_SOURCE_VARIANCE|data source issue|computed=10.56, source_display=1.05
+BHEL|2014|ROCE_SOURCE_VARIANCE|version difference|computed=16.36, source_display=3.28
+BHEL|2015|ROCE_SOURCE_VARIANCE|version difference|computed=9.31, source_display=3.28
+BHEL|2020|ROE_SOURCE_VARIANCE|data source issue|computed=-5.12, source_display=1.05
+BHEL|2021|ROE_SOURCE_VARIANCE|data source issue|computed=-10.39, source_display=1.05
+BHEL|2021|ROCE_SOURCE_VARIANCE|version difference|computed=-8.59, source_display=3.28
+BOSCHLTD|2012|ROCE_SOURCE_VARIANCE|version difference|computed=29.62, source_display=20.6
+BOSCHLTD|2015|ROCE_SOURCE_VARIANCE|version difference|computed=33.76, source_display=20.6
+BOSCHLTD|2016|ROCE_SOURCE_VARIANCE|version difference|computed=26.09, source_display=20.6
+BOSCHLTD|2017|ROCE_SOURCE_VARIANCE|version difference|computed=32.67, source_display=20.6
+BOSCHLTD|2019|ROCE_SOURCE_VARIANCE|version difference|computed=30.17, source_display=20.6
+BOSCHLTD|2020|ROE_SOURCE_VARIANCE|data source issue|computed=7.01, source_display=16.0
+BOSCHLTD|2020|ROCE_SOURCE_VARIANCE|version difference|computed=14.75, source_display=20.6
+BOSCHLTD|2021|ROE_SOURCE_VARIANCE|data source issue|computed=4.91, source_display=16.0
+BOSCHLTD|2021|ROCE_SOURCE_VARIANCE|version difference|computed=9.33, source_display=20.6
+BOSCHLTD|2024|ROCE_SOURCE_VARIANCE|version difference|computed=30.25, source_display=20.6
+BPCL|2013|ROE_SOURCE_VARIANCE|data source issue|computed=11.54, source_display=41.9
+BPCL|2013|ROCE_SOURCE_VARIANCE|version difference|computed=16.42, source_display=32.1
+BPCL|2014|ROE_SOURCE_VARIANCE|data source issue|computed=20.85, source_display=41.9
+BPCL|2014|ROCE_SOURCE_VARIANCE|version difference|computed=20.46, source_display=32.1
+BPCL|2015|ROE_SOURCE_VARIANCE|data source issue|computed=22.52, source_display=41.9
+BPCL|2015|ROCE_SOURCE_VARIANCE|version difference|computed=24.76, source_display=32.1
+BPCL|2016|ROE_SOURCE_VARIANCE|data source issue|computed=29.10, source_display=41.9
+BPCL|2017|ROE_SOURCE_VARIANCE|data source issue|computed=30.85, source_display=41.9
+BPCL|2017|ROCE_SOURCE_VARIANCE|version difference|computed=24.80, source_display=32.1
+BPCL|2018|ROE_SOURCE_VARIANCE|data source issue|computed=26.74, source_display=41.9
+BPCL|2018|ROCE_SOURCE_VARIANCE|version difference|computed=24.56, source_display=32.1
+BPCL|2019|ROE_SOURCE_VARIANCE|data source issue|computed=22.00, source_display=41.9
+BPCL|2019|ROCE_SOURCE_VARIANCE|version difference|computed=21.63, source_display=32.1
+BPCL|2020|ROE_SOURCE_VARIANCE|data source issue|computed=10.04, source_display=41.9
+BPCL|2020|ROCE_SOURCE_VARIANCE|version difference|computed=10.16, source_display=32.1
+BPCL|2021|ROE_SOURCE_VARIANCE|data source issue|computed=32.34, source_display=41.9
+BPCL|2021|ROCE_SOURCE_VARIANCE|version difference|computed=26.36, source_display=32.1
+BPCL|2022|ROE_SOURCE_VARIANCE|data source issue|computed=22.51, source_display=41.9
+BPCL|2022|ROCE_SOURCE_VARIANCE|version difference|computed=20.68, source_display=32.1
+BPCL|2023|ROE_SOURCE_VARIANCE|data source issue|computed=3.98, source_display=41.9
+BPCL|2023|ROCE_SOURCE_VARIANCE|version difference|computed=10.52, source_display=32.1
+BPCL|2024|ROE_SOURCE_VARIANCE|data source issue|computed=35.51, source_display=41.9
+BRITANNIA|2013|ROE_SOURCE_VARIANCE|data source issue|computed=46.59, source_display=57.1
+BRITANNIA|2014|ROE_SOURCE_VARIANCE|data source issue|computed=49.50, source_display=57.1
+BRITANNIA|2014|ROCE_SOURCE_VARIANCE|version difference|computed=69.73, source_display=48.9
+BRITANNIA|2015|ROCE_SOURCE_VARIANCE|version difference|computed=78.99, source_display=48.9
+BRITANNIA|2016|ROE_SOURCE_VARIANCE|data source issue|computed=39.44, source_display=57.1
+BRITANNIA|2016|ROCE_SOURCE_VARIANCE|version difference|computed=60.23, source_display=48.9
+BRITANNIA|2017|ROE_SOURCE_VARIANCE|data source issue|computed=32.83, source_display=57.1
+BRITANNIA|2018|ROE_SOURCE_VARIANCE|data source issue|computed=29.48, source_display=57.1
+BRITANNIA|2019|ROE_SOURCE_VARIANCE|data source issue|computed=27.16, source_display=57.1
+BRITANNIA|2020|ROE_SOURCE_VARIANCE|data source issue|computed=31.66, source_display=57.1
+BRITANNIA|2020|ROCE_SOURCE_VARIANCE|version difference|computed=35.45, source_display=48.9
+BRITANNIA|2023|ROE_SOURCE_VARIANCE|data source issue|computed=65.53, source_display=57.1
+BRITANNIA|2024|ROCE_SOURCE_VARIANCE|version difference|computed=56.24, source_display=48.9
+CANBK|2013|OPM_MISMATCH|formula discrepancy|computed=21.18, source=655.0
+CANBK|2013|ROE_SOURCE_VARIANCE|data source issue|computed=11.90, source_display=17.9
+CANBK|2013|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+CANBK|2014|OPM_MISMATCH|formula discrepancy|computed=24.35, source=-672.0
+CANBK|2014|ROE_SOURCE_VARIANCE|data source issue|computed=8.85, source_display=17.9
+CANBK|2014|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+CANBK|2015|OPM_MISMATCH|formula discrepancy|computed=23.51, source=-621.0
+CANBK|2015|ROE_SOURCE_VARIANCE|data source issue|computed=9.02, source_display=17.9
+CANBK|2015|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+CANBK|2016|OPM_MISMATCH|formula discrepancy|computed=40.38, source=-8008.0
+CANBK|2016|ROE_SOURCE_VARIANCE|data source issue|computed=-7.82, source_display=17.9
+CANBK|2016|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+CANBK|2017|OPM_MISMATCH|formula discrepancy|computed=37.85, source=-5775.0
+CANBK|2017|ROE_SOURCE_VARIANCE|data source issue|computed=4.07, source_display=17.9
+CANBK|2017|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+CANBK|2018|OPM_MISMATCH|formula discrepancy|computed=61.87, source=-13350.0
+CANBK|2018|ROE_SOURCE_VARIANCE|data source issue|computed=-10.50, source_display=17.9
+CANBK|2018|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+CANBK|2019|OPM_MISMATCH|formula discrepancy|computed=56.73, source=-11590.0
+CANBK|2019|ROE_SOURCE_VARIANCE|data source issue|computed=1.85, source_display=17.9
+CANBK|2019|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+CANBK|2020|OPM_MISMATCH|formula discrepancy|computed=53.88, source=-12867.0
+CANBK|2020|ROE_SOURCE_VARIANCE|data source issue|computed=-4.66, source_display=17.9
+CANBK|2020|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+CANBK|2021|OPM_MISMATCH|formula discrepancy|computed=61.83, source=-18367.0
+CANBK|2021|ROE_SOURCE_VARIANCE|data source issue|computed=4.74, source_display=17.9
+CANBK|2021|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+CANBK|2022|OPM_MISMATCH|formula discrepancy|computed=58.39, source=-13657.0
+CANBK|2022|ROE_SOURCE_VARIANCE|data source issue|computed=8.80, source_display=17.9
+CANBK|2022|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+CANBK|2023|OPM_MISMATCH|formula discrepancy|computed=49.80, source=-9877.0
+CANBK|2023|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+CANBK|2024|OPM_MISMATCH|formula discrepancy|computed=41.75, source=-7745.0
+CANBK|2024|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+CHOLAFIN|2013|OPM_MISMATCH|formula discrepancy|computed=26.77, source=472.0
+CHOLAFIN|2013|ROCE_SOURCE_VARIANCE|version difference|computed=4.10, source_display=10.4
+CHOLAFIN|2013|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+CHOLAFIN|2014|OPM_MISMATCH|formula discrepancy|computed=28.42, source=578.0
+CHOLAFIN|2014|ROCE_SOURCE_VARIANCE|version difference|computed=4.67, source_display=10.4
+CHOLAFIN|2014|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+CHOLAFIN|2015|OPM_MISMATCH|formula discrepancy|computed=28.56, source=696.0
+CHOLAFIN|2015|ROCE_SOURCE_VARIANCE|version difference|computed=4.77, source_display=10.4
+CHOLAFIN|2015|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+CHOLAFIN|2016|OPM_MISMATCH|formula discrepancy|computed=30.04, source=899.0
+CHOLAFIN|2016|ROCE_SOURCE_VARIANCE|version difference|computed=4.91, source_display=10.4
+CHOLAFIN|2016|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+CHOLAFIN|2017|OPM_MISMATCH|formula discrepancy|computed=28.16, source=1143.0
+CHOLAFIN|2017|ROCE_SOURCE_VARIANCE|version difference|computed=4.74, source_display=10.4
+CHOLAFIN|2017|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+CHOLAFIN|2018|OPM_MISMATCH|formula discrepancy|computed=26.10, source=1451.0
+CHOLAFIN|2018|ROCE_SOURCE_VARIANCE|version difference|computed=3.40, source_display=10.4
+CHOLAFIN|2018|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+CHOLAFIN|2019|OPM_MISMATCH|formula discrepancy|computed=22.96, source=1888.0
+CHOLAFIN|2019|ROCE_SOURCE_VARIANCE|version difference|computed=2.92, source_display=10.4
+CHOLAFIN|2019|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+CHOLAFIN|2020|OPM_MISMATCH|formula discrepancy|computed=27.79, source=1699.0
+CHOLAFIN|2020|ROE_SOURCE_VARIANCE|data source issue|computed=12.85, source_display=20.2
+CHOLAFIN|2020|ROCE_SOURCE_VARIANCE|version difference|computed=3.86, source_display=10.4
+CHOLAFIN|2020|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+CHOLAFIN|2021|OPM_MISMATCH|formula discrepancy|computed=30.40, source=2094.0
+CHOLAFIN|2021|ROCE_SOURCE_VARIANCE|version difference|computed=4.00, source_display=10.4
+CHOLAFIN|2021|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+CHOLAFIN|2022|OPM_MISMATCH|formula discrepancy|computed=28.83, source=2924.0
+CHOLAFIN|2022|ROCE_SOURCE_VARIANCE|version difference|computed=3.65, source_display=10.4
+CHOLAFIN|2022|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+CHOLAFIN|2023|OPM_MISMATCH|formula discrepancy|computed=28.10, source=3515.0
+CHOLAFIN|2023|ROCE_SOURCE_VARIANCE|version difference|computed=3.27, source_display=10.4
+CHOLAFIN|2023|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+CHOLAFIN|2024|OPM_MISMATCH|formula discrepancy|computed=28.10, source=4548.0
+CHOLAFIN|2024|ROCE_SOURCE_VARIANCE|version difference|computed=3.51, source_display=10.4
+CHOLAFIN|2024|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+CIPLA|2013|OPM_MISMATCH|formula discrepancy|computed=73.26, source=2214.0
+CIPLA|2013|ROCE_SOURCE_VARIANCE|version difference|computed=61.01, source_display=22.8
+CIPLA|2014|OPM_MISMATCH|formula discrepancy|computed=78.90, source=2147.0
+CIPLA|2014|ROCE_SOURCE_VARIANCE|version difference|computed=71.22, source_display=22.8
+CIPLA|2015|OPM_MISMATCH|formula discrepancy|computed=80.94, source=2163.0
+CIPLA|2015|ROE_SOURCE_VARIANCE|data source issue|computed=11.38, source_display=16.8
+CIPLA|2015|ROCE_SOURCE_VARIANCE|version difference|computed=73.59, source_display=22.8
+CIPLA|2016|OPM_MISMATCH|formula discrepancy|computed=82.02, source=2480.0
+CIPLA|2016|ROCE_SOURCE_VARIANCE|version difference|computed=67.76, source_display=22.8
+CIPLA|2017|OPM_MISMATCH|formula discrepancy|computed=82.66, source=2496.0
+CIPLA|2017|ROE_SOURCE_VARIANCE|data source issue|computed=8.25, source_display=16.8
+CIPLA|2017|ROCE_SOURCE_VARIANCE|version difference|computed=71.53, source_display=22.8
+CIPLA|2018|OPM_MISMATCH|formula discrepancy|computed=81.35, source=2826.0
+CIPLA|2018|ROE_SOURCE_VARIANCE|data source issue|computed=9.96, source_display=16.8
+CIPLA|2018|ROCE_SOURCE_VARIANCE|version difference|computed=67.38, source_display=22.8
+CIPLA|2019|OPM_MISMATCH|formula discrepancy|computed=81.07, source=3097.0
+CIPLA|2019|ROE_SOURCE_VARIANCE|data source issue|computed=9.94, source_display=16.8
+CIPLA|2019|ROCE_SOURCE_VARIANCE|version difference|computed=68.73, source_display=22.8
+CIPLA|2020|OPM_MISMATCH|formula discrepancy|computed=81.29, source=3206.0
+CIPLA|2020|ROE_SOURCE_VARIANCE|data source issue|computed=9.52, source_display=16.8
+CIPLA|2020|ROCE_SOURCE_VARIANCE|version difference|computed=75.06, source_display=22.8
+CIPLA|2021|OPM_MISMATCH|formula discrepancy|computed=77.80, source=4252.0
+CIPLA|2021|ROCE_SOURCE_VARIANCE|version difference|computed=73.40, source_display=22.8
+CIPLA|2022|OPM_MISMATCH|formula discrepancy|computed=79.08, source=4553.0
+CIPLA|2022|ROCE_SOURCE_VARIANCE|version difference|computed=78.70, source_display=22.8
+CIPLA|2023|OPM_MISMATCH|formula discrepancy|computed=77.91, source=5027.0
+CIPLA|2023|ROCE_SOURCE_VARIANCE|version difference|computed=73.31, source_display=22.8
+CIPLA|2024|OPM_MISMATCH|formula discrepancy|computed=75.59, source=6291.0
+CIPLA|2024|ROCE_SOURCE_VARIANCE|version difference|computed=71.55, source_display=22.8
+COALINDIA|2013|OPM_MISMATCH|formula discrepancy|computed=73.52, source=18087.0
+COALINDIA|2013|ROE_SOURCE_VARIANCE|data source issue|computed=35.81, source_display=52.0
+COALINDIA|2013|ROCE_SOURCE_VARIANCE|version difference|computed=100.93, source_display=63.6
+COALINDIA|2014|OPM_MISMATCH|formula discrepancy|computed=74.84, source=17766.0
+COALINDIA|2014|ROE_SOURCE_VARIANCE|data source issue|computed=35.64, source_display=52.0
+COALINDIA|2014|ROCE_SOURCE_VARIANCE|version difference|computed=124.15, source_display=63.6
+COALINDIA|2015|OPM_MISMATCH|formula discrepancy|computed=76.60, source=17343.0
+COALINDIA|2015|ROE_SOURCE_VARIANCE|data source issue|computed=34.02, source_display=52.0
+COALINDIA|2015|ROCE_SOURCE_VARIANCE|version difference|computed=139.35, source_display=63.6
+COALINDIA|2016|OPM_MISMATCH|formula discrepancy|computed=75.96, source=18714.0
+COALINDIA|2016|ROE_SOURCE_VARIANCE|data source issue|computed=40.96, source_display=52.0
+COALINDIA|2016|ROCE_SOURCE_VARIANCE|version difference|computed=164.22, source_display=63.6
+COALINDIA|2017|OPM_MISMATCH|formula discrepancy|computed=84.07, source=12448.0
+COALINDIA|2017|ROE_SOURCE_VARIANCE|data source issue|computed=37.85, source_display=52.0
+COALINDIA|2017|ROCE_SOURCE_VARIANCE|version difference|computed=238.75, source_display=63.6
+COALINDIA|2018|OPM_MISMATCH|formula discrepancy|computed=89.10, source=9288.0
+COALINDIA|2018|ROE_SOURCE_VARIANCE|data source issue|computed=34.88, source_display=52.0
+COALINDIA|2018|ROCE_SOURCE_VARIANCE|version difference|computed=349.82, source_display=63.6
+COALINDIA|2019|OPM_MISMATCH|formula discrepancy|computed=74.89, source=25007.0
+COALINDIA|2019|ROE_SOURCE_VARIANCE|data source issue|computed=66.01, source_display=52.0
+COALINDIA|2019|ROCE_SOURCE_VARIANCE|version difference|computed=260.26, source_display=63.6
+COALINDIA|2020|OPM_MISMATCH|formula discrepancy|computed=77.54, source=21581.0
+COALINDIA|2020|ROCE_SOURCE_VARIANCE|version difference|computed=193.11, source_display=63.6
+COALINDIA|2021|OPM_MISMATCH|formula discrepancy|computed=79.31, source=18628.0
+COALINDIA|2021|ROE_SOURCE_VARIANCE|data source issue|computed=34.78, source_display=52.0
+COALINDIA|2021|ROCE_SOURCE_VARIANCE|version difference|computed=168.43, source_display=63.6
+COALINDIA|2022|OPM_MISMATCH|formula discrepancy|computed=77.47, source=24721.0
+COALINDIA|2022|ROE_SOURCE_VARIANCE|data source issue|computed=40.28, source_display=52.0
+COALINDIA|2022|ROCE_SOURCE_VARIANCE|version difference|computed=182.22, source_display=63.6
+COALINDIA|2023|OPM_MISMATCH|formula discrepancy|computed=68.01, source=44232.0
+COALINDIA|2023|ROCE_SOURCE_VARIANCE|version difference|computed=144.31, source_display=63.6
+COALINDIA|2024|OPM_MISMATCH|formula discrepancy|computed=66.29, source=47971.0
+COALINDIA|2024|ROE_SOURCE_VARIANCE|data source issue|computed=45.17, source_display=52.0
+COALINDIA|2024|ROCE_SOURCE_VARIANCE|version difference|computed=105.75, source_display=63.6
+DABUR|2013|ROE_SOURCE_VARIANCE|data source issue|computed=36.56, source_display=19.2
+DABUR|2013|ROCE_SOURCE_VARIANCE|version difference|computed=33.64, source_display=22.3
+DABUR|2014|ROE_SOURCE_VARIANCE|data source issue|computed=34.49, source_display=19.2
+DABUR|2014|ROCE_SOURCE_VARIANCE|version difference|computed=38.29, source_display=22.3
+DABUR|2015|ROE_SOURCE_VARIANCE|data source issue|computed=31.84, source_display=19.2
+DABUR|2015|ROCE_SOURCE_VARIANCE|version difference|computed=36.06, source_display=22.3
+DABUR|2016|ROE_SOURCE_VARIANCE|data source issue|computed=30.06, source_display=19.2
+DABUR|2016|ROCE_SOURCE_VARIANCE|version difference|computed=34.87, source_display=22.3
+DABUR|2017|ROE_SOURCE_VARIANCE|data source issue|computed=26.41, source_display=19.2
+DABUR|2017|ROCE_SOURCE_VARIANCE|version difference|computed=31.05, source_display=22.3
+DABUR|2018|ROCE_SOURCE_VARIANCE|version difference|computed=28.72, source_display=22.3
+DABUR|2019|ROE_SOURCE_VARIANCE|data source issue|computed=25.67, source_display=19.2
+DABUR|2019|ROCE_SOURCE_VARIANCE|version difference|computed=30.99, source_display=22.3
+DABUR|2020|ROCE_SOURCE_VARIANCE|version difference|computed=28.02, source_display=22.3
+DABUR|2021|ROCE_SOURCE_VARIANCE|version difference|computed=28.47, source_display=22.3
+DIVISLAB|2013|ROE_SOURCE_VARIANCE|data source issue|computed=24.07, source_display=12.2
+DIVISLAB|2013|ROCE_SOURCE_VARIANCE|version difference|computed=33.98, source_display=16.5
+DIVISLAB|2014|ROE_SOURCE_VARIANCE|data source issue|computed=26.08, source_display=12.2
+DIVISLAB|2014|ROCE_SOURCE_VARIANCE|version difference|computed=36.42, source_display=16.5
+DIVISLAB|2015|ROE_SOURCE_VARIANCE|data source issue|computed=24.37, source_display=12.2
+DIVISLAB|2015|ROCE_SOURCE_VARIANCE|version difference|computed=34.37, source_display=16.5
+DIVISLAB|2016|ROE_SOURCE_VARIANCE|data source issue|computed=26.23, source_display=12.2
+DIVISLAB|2016|ROCE_SOURCE_VARIANCE|version difference|computed=34.97, source_display=16.5
+DIVISLAB|2017|ROE_SOURCE_VARIANCE|data source issue|computed=19.79, source_display=12.2
+DIVISLAB|2017|ROCE_SOURCE_VARIANCE|version difference|computed=28.22, source_display=16.5
+DIVISLAB|2018|ROCE_SOURCE_VARIANCE|version difference|computed=22.98, source_display=16.5
+DIVISLAB|2019|ROE_SOURCE_VARIANCE|data source issue|computed=19.45, source_display=12.2
+DIVISLAB|2019|ROCE_SOURCE_VARIANCE|version difference|computed=28.71, source_display=16.5
+DIVISLAB|2020|ROE_SOURCE_VARIANCE|data source issue|computed=18.84, source_display=12.2
+DIVISLAB|2020|ROCE_SOURCE_VARIANCE|version difference|computed=27.38, source_display=16.5
+DIVISLAB|2021|ROE_SOURCE_VARIANCE|data source issue|computed=21.34, source_display=12.2
+DIVISLAB|2021|ROCE_SOURCE_VARIANCE|version difference|computed=31.44, source_display=16.5
+DIVISLAB|2022|ROE_SOURCE_VARIANCE|data source issue|computed=25.24, source_display=12.2
+DIVISLAB|2022|ROCE_SOURCE_VARIANCE|version difference|computed=34.07, source_display=16.5
+DLF|2015|ROE_SOURCE_VARIANCE|data source issue|computed=1.85, source_display=6.95
+DLF|2016|ROE_SOURCE_VARIANCE|data source issue|computed=1.27, source_display=6.95
+DLF|2018|ROE_SOURCE_VARIANCE|data source issue|computed=12.68, source_display=6.95
+DLF|2018|ROCE_SOURCE_VARIANCE|version difference|computed=22.92, source_display=5.74
+DLF|2020|ROE_SOURCE_VARIANCE|data source issue|computed=-1.71, source_display=6.95
+DMART|2016|ROE_SOURCE_VARIANCE|data source issue|computed=21.04, source_display=14.5
+DMART|2016|ROCE_SOURCE_VARIANCE|version difference|computed=25.10, source_display=19.4
+DMART|2018|ROCE_SOURCE_VARIANCE|version difference|computed=28.21, source_display=19.4
+DMART|2019|ROCE_SOURCE_VARIANCE|version difference|computed=26.74, source_display=19.4
+DMART|2021|ROE_SOURCE_VARIANCE|data source issue|computed=9.02, source_display=14.5
+DRREDDY|2017|ROE_SOURCE_VARIANCE|data source issue|computed=10.54, source_display=21.4
+DRREDDY|2017|ROCE_SOURCE_VARIANCE|version difference|computed=15.39, source_display=26.5
+DRREDDY|2018|ROE_SOURCE_VARIANCE|data source issue|computed=7.53, source_display=21.4
+DRREDDY|2018|ROCE_SOURCE_VARIANCE|version difference|computed=14.20, source_display=26.5
+DRREDDY|2019|ROE_SOURCE_VARIANCE|data source issue|computed=13.90, source_display=21.4
+DRREDDY|2019|ROCE_SOURCE_VARIANCE|version difference|computed=19.92, source_display=26.5
+DRREDDY|2020|ROE_SOURCE_VARIANCE|data source issue|computed=12.99, source_display=21.4
+DRREDDY|2020|ROCE_SOURCE_VARIANCE|version difference|computed=17.67, source_display=26.5
+DRREDDY|2021|ROE_SOURCE_VARIANCE|data source issue|computed=11.07, source_display=21.4
+DRREDDY|2021|ROCE_SOURCE_VARIANCE|version difference|computed=20.36, source_display=26.5
+DRREDDY|2022|ROE_SOURCE_VARIANCE|data source issue|computed=11.36, source_display=21.4
+DRREDDY|2022|ROCE_SOURCE_VARIANCE|version difference|computed=19.13, source_display=26.5
+EICHERMOT|2012|ROCE_SOURCE_VARIANCE|version difference|computed=38.58, source_display=31.1
+EICHERMOT|2013|ROCE_SOURCE_VARIANCE|version difference|computed=37.77, source_display=31.1
+EICHERMOT|2014|ROCE_SOURCE_VARIANCE|version difference|computed=47.51, source_display=31.1
+EICHERMOT|2016|ROE_SOURCE_VARIANCE|data source issue|computed=36.63, source_display=24.2
+EICHERMOT|2016|ROCE_SOURCE_VARIANCE|version difference|computed=54.84, source_display=31.1
+EICHERMOT|2017|ROE_SOURCE_VARIANCE|data source issue|computed=31.19, source_display=24.2
+EICHERMOT|2017|ROCE_SOURCE_VARIANCE|version difference|computed=47.46, source_display=31.1
+EICHERMOT|2018|ROCE_SOURCE_VARIANCE|version difference|computed=46.58, source_display=31.1
+EICHERMOT|2019|ROCE_SOURCE_VARIANCE|version difference|computed=39.59, source_display=31.1
+EICHERMOT|2020|ROE_SOURCE_VARIANCE|data source issue|computed=18.30, source_display=24.2
+EICHERMOT|2021|ROE_SOURCE_VARIANCE|data source issue|computed=11.78, source_display=24.2
+EICHERMOT|2021|ROCE_SOURCE_VARIANCE|version difference|computed=19.43, source_display=31.1
+EICHERMOT|2022|ROE_SOURCE_VARIANCE|data source issue|computed=13.30, source_display=24.2
+EICHERMOT|2022|ROCE_SOURCE_VARIANCE|version difference|computed=21.03, source_display=31.1
+GAIL|2016|ROE_SOURCE_VARIANCE|data source issue|computed=5.15, source_display=14.0
+GAIL|2017|ROE_SOURCE_VARIANCE|data source issue|computed=8.58, source_display=14.0
+GAIL|2019|ROCE_SOURCE_VARIANCE|version difference|computed=24.17, source_display=14.7
+GAIL|2020|ROE_SOURCE_VARIANCE|data source issue|computed=19.31, source_display=14.0
+GAIL|2020|ROCE_SOURCE_VARIANCE|version difference|computed=22.82, source_display=14.7
+GAIL|2022|ROE_SOURCE_VARIANCE|data source issue|computed=19.19, source_display=14.0
+GAIL|2022|ROCE_SOURCE_VARIANCE|version difference|computed=24.66, source_display=14.7
+GAIL|2023|ROE_SOURCE_VARIANCE|data source issue|computed=8.62, source_display=14.0
+GODREJCP|2013|ROE_SOURCE_VARIANCE|data source issue|computed=25.51, source_display=6.77
+GODREJCP|2013|ROCE_SOURCE_VARIANCE|version difference|computed=20.61, source_display=26.49
+GODREJCP|2014|ROE_SOURCE_VARIANCE|data source issue|computed=21.70, source_display=6.77
+GODREJCP|2014|ROCE_SOURCE_VARIANCE|version difference|computed=20.02, source_display=26.49
+GODREJCP|2015|ROE_SOURCE_VARIANCE|data source issue|computed=22.64, source_display=6.77
+GODREJCP|2015|ROCE_SOURCE_VARIANCE|version difference|computed=20.66, source_display=26.49
+GODREJCP|2016|ROE_SOURCE_VARIANCE|data source issue|computed=19.48, source_display=6.77
+GODREJCP|2016|ROCE_SOURCE_VARIANCE|version difference|computed=19.49, source_display=26.49
+GODREJCP|2017|ROE_SOURCE_VARIANCE|data source issue|computed=24.67, source_display=6.77
+GODREJCP|2017|ROCE_SOURCE_VARIANCE|version difference|computed=21.32, source_display=26.49
+GODREJCP|2018|ROE_SOURCE_VARIANCE|data source issue|computed=26.11, source_display=6.77
+GODREJCP|2019|ROE_SOURCE_VARIANCE|data source issue|computed=32.23, source_display=6.77
+GODREJCP|2020|ROE_SOURCE_VARIANCE|data source issue|computed=18.95, source_display=6.77
+GODREJCP|2020|ROCE_SOURCE_VARIANCE|version difference|computed=19.05, source_display=26.49
+GODREJCP|2021|ROE_SOURCE_VARIANCE|data source issue|computed=18.23, source_display=6.77
+GODREJCP|2021|ROCE_SOURCE_VARIANCE|version difference|computed=21.43, source_display=26.49
+GODREJCP|2022|ROE_SOURCE_VARIANCE|data source issue|computed=15.43, source_display=6.77
+GODREJCP|2022|ROCE_SOURCE_VARIANCE|version difference|computed=18.76, source_display=26.49
+GODREJCP|2023|ROE_SOURCE_VARIANCE|data source issue|computed=12.34, source_display=6.77
+GODREJCP|2023|ROCE_SOURCE_VARIANCE|version difference|computed=17.13, source_display=26.49
+GODREJCP|2024|ROE_SOURCE_VARIANCE|data source issue|computed=-4.45, source_display=6.77
+GODREJCP|2024|ROCE_SOURCE_VARIANCE|version difference|computed=4.73, source_display=26.49
+GRASIM|2013|ROE_SOURCE_VARIANCE|data source issue|computed=19.22, source_display=6.9
+GRASIM|2013|ROCE_SOURCE_VARIANCE|version difference|computed=23.10, source_display=9.3
+GRASIM|2014|ROE_SOURCE_VARIANCE|data source issue|computed=13.67, source_display=6.9
+GRASIM|2014|ROCE_SOURCE_VARIANCE|version difference|computed=17.55, source_display=9.3
+GRASIM|2015|ROCE_SOURCE_VARIANCE|version difference|computed=16.18, source_display=9.3
+GRASIM|2016|ROE_SOURCE_VARIANCE|data source issue|computed=12.60, source_display=6.9
+GRASIM|2016|ROCE_SOURCE_VARIANCE|version difference|computed=18.11, source_display=9.3
+GRASIM|2017|ROE_SOURCE_VARIANCE|data source issue|computed=13.53, source_display=6.9
+GRASIM|2017|ROCE_SOURCE_VARIANCE|version difference|computed=20.84, source_display=9.3
+GRASIM|2022|ROE_SOURCE_VARIANCE|data source issue|computed=14.80, source_display=6.9
+GRASIM|2022|ROCE_SOURCE_VARIANCE|version difference|computed=14.68, source_display=9.3
+GRASIM|2023|ROE_SOURCE_VARIANCE|data source issue|computed=14.07, source_display=6.9
+HAL|2017|ROE_SOURCE_VARIANCE|data source issue|computed=1966.92, source_display=28.9
+HAL|2017|ROCE_SOURCE_VARIANCE|version difference|computed=3170.37, source_display=38.9
+HAL|2018|ROE_SOURCE_VARIANCE|data source issue|computed=1528.46, source_display=28.9
+HAL|2018|ROCE_SOURCE_VARIANCE|version difference|computed=3173.68, source_display=38.9
+HAL|2019|ROE_SOURCE_VARIANCE|data source issue|computed=1763.91, source_display=28.9
+HAL|2019|ROCE_SOURCE_VARIANCE|version difference|computed=3507.09, source_display=38.9
+HAL|2020|ROE_SOURCE_VARIANCE|data source issue|computed=2059.42, source_display=28.9
+HAL|2020|ROCE_SOURCE_VARIANCE|version difference|computed=3782.14, source_display=38.9
+HAL|2021|ROE_SOURCE_VARIANCE|data source issue|computed=2249.31, source_display=28.9
+HAL|2021|ROCE_SOURCE_VARIANCE|version difference|computed=3800.67, source_display=38.9
+HAL|2022|ROE_SOURCE_VARIANCE|data source issue|computed=3324.18, source_display=28.9
+HAL|2022|ROCE_SOURCE_VARIANCE|version difference|computed=3882.42, source_display=38.9
+HAL|2023|ROE_SOURCE_VARIANCE|data source issue|computed=3283.05, source_display=28.9
+HAL|2023|ROCE_SOURCE_VARIANCE|version difference|computed=3723.66, source_display=38.9
+HAL|2024|ROE_SOURCE_VARIANCE|data source issue|computed=3816.58, source_display=28.9
+HAL|2024|ROCE_SOURCE_VARIANCE|version difference|computed=3617.39, source_display=38.9
+HAVELLS|2013|ROE_SOURCE_VARIANCE|data source issue|computed=40.29, source_display=18.0
+HAVELLS|2013|ROCE_SOURCE_VARIANCE|version difference|computed=36.96, source_display=24.4
+HAVELLS|2014|ROE_SOURCE_VARIANCE|data source issue|computed=26.77, source_display=18.0
+HAVELLS|2014|ROCE_SOURCE_VARIANCE|version difference|computed=29.85, source_display=24.4
+HAVELLS|2015|ROCE_SOURCE_VARIANCE|version difference|computed=35.82, source_display=24.4
+HAVELLS|2016|ROE_SOURCE_VARIANCE|data source issue|computed=42.95, source_display=18.0
+HAVELLS|2016|ROCE_SOURCE_VARIANCE|version difference|computed=55.20, source_display=24.4
+HAVELLS|2019|ROCE_SOURCE_VARIANCE|version difference|computed=30.59, source_display=24.4
+HAVELLS|2021|ROCE_SOURCE_VARIANCE|version difference|computed=31.17, source_display=24.4
+HCLTECH|2013|ROE_SOURCE_VARIANCE|data source issue|computed=30.69, source_display=23.3
+HCLTECH|2013|ROCE_SOURCE_VARIANCE|version difference|computed=42.31, source_display=29.6
+HCLTECH|2014|ROE_SOURCE_VARIANCE|data source issue|computed=33.39, source_display=23.3
+HCLTECH|2014|ROCE_SOURCE_VARIANCE|version difference|computed=42.36, source_display=29.6
+HCLTECH|2015|ROE_SOURCE_VARIANCE|data source issue|computed=30.31, source_display=23.3
+HCLTECH|2015|ROCE_SOURCE_VARIANCE|version difference|computed=38.65, source_display=29.6
+HCLTECH|2024|ROCE_SOURCE_VARIANCE|version difference|computed=34.71, source_display=29.6
+HDFCBANK|2013|OPM_MISMATCH|formula discrepancy|computed=35.22, source=3534.0
+HDFCBANK|2013|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+HDFCBANK|2014|OPM_MISMATCH|formula discrepancy|computed=31.74, source=5602.0
+HDFCBANK|2014|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+HDFCBANK|2015|OPM_MISMATCH|formula discrepancy|computed=31.90, source=7214.0
+HDFCBANK|2015|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+HDFCBANK|2016|OPM_MISMATCH|formula discrepancy|computed=31.75, source=9037.0
+HDFCBANK|2016|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+HDFCBANK|2017|OPM_MISMATCH|formula discrepancy|computed=32.56, source=11374.0
+HDFCBANK|2017|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+HDFCBANK|2018|OPM_MISMATCH|formula discrepancy|computed=34.63, source=13374.0
+HDFCBANK|2018|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+HDFCBANK|2019|OPM_MISMATCH|formula discrepancy|computed=33.15, source=16592.0
+HDFCBANK|2019|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+HDFCBANK|2020|OPM_MISMATCH|formula discrepancy|computed=37.20, source=14593.0
+HDFCBANK|2020|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+HDFCBANK|2021|OPM_MISMATCH|formula discrepancy|computed=40.81, source=16848.0
+HDFCBANK|2021|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+HDFCBANK|2022|OPM_MISMATCH|formula discrepancy|computed=41.61, source=20795.0
+HDFCBANK|2022|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+HDFCBANK|2023|OPM_MISMATCH|formula discrepancy|computed=36.92, source=29932.0
+HDFCBANK|2023|ROCE_SOURCE_VARIANCE|version difference|computed=2.60, source_display=7.67
+HDFCBANK|2023|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+HDFCBANK|2024|OPM_MISMATCH|formula discrepancy|computed=61.41, source=-44685.0
+HDFCBANK|2024|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+HDFCLIFE|2013|OPM_MISMATCH|formula discrepancy|computed=96.27, source=525.0
+HDFCLIFE|2013|ROE_SOURCE_VARIANCE|data source issue|computed=33.43, source_display=11.4
+HDFCLIFE|2013|ROCE_SOURCE_VARIANCE|version difference|computed=1012.64, source_display=6.61
+HDFCLIFE|2014|OPM_MISMATCH|formula discrepancy|computed=96.48, source=605.0
+HDFCLIFE|2014|ROE_SOURCE_VARIANCE|data source issue|computed=37.60, source_display=11.4
+HDFCLIFE|2014|ROCE_SOURCE_VARIANCE|version difference|computed=859.18, source_display=6.61
+HDFCLIFE|2015|OPM_MISMATCH|formula discrepancy|computed=96.79, source=874.0
+HDFCLIFE|2015|ROE_SOURCE_VARIANCE|data source issue|computed=30.93, source_display=11.4
+HDFCLIFE|2015|ROCE_SOURCE_VARIANCE|version difference|computed=1036.76, source_display=6.61
+HDFCLIFE|2016|OPM_MISMATCH|formula discrepancy|computed=94.74, source=953.0
+HDFCLIFE|2016|ROE_SOURCE_VARIANCE|data source issue|computed=26.33, source_display=11.4
+HDFCLIFE|2016|ROCE_SOURCE_VARIANCE|version difference|computed=554.04, source_display=6.61
+HDFCLIFE|2017|OPM_MISMATCH|formula discrepancy|computed=96.83, source=972.0
+HDFCLIFE|2017|ROE_SOURCE_VARIANCE|data source issue|computed=23.18, source_display=11.4
+HDFCLIFE|2017|ROCE_SOURCE_VARIANCE|version difference|computed=775.67, source_display=6.61
+HDFCLIFE|2018|OPM_MISMATCH|formula discrepancy|computed=96.67, source=1074.0
+HDFCLIFE|2018|ROE_SOURCE_VARIANCE|data source issue|computed=23.53, source_display=11.4
+HDFCLIFE|2018|ROCE_SOURCE_VARIANCE|version difference|computed=662.89, source_display=6.61
+HDFCLIFE|2019|OPM_MISMATCH|formula discrepancy|computed=96.87, source=1215.0
+HDFCLIFE|2019|ROE_SOURCE_VARIANCE|data source issue|computed=22.65, source_display=11.4
+HDFCLIFE|2019|ROCE_SOURCE_VARIANCE|version difference|computed=667.19, source_display=6.61
+HDFCLIFE|2020|OPM_MISMATCH|formula discrepancy|computed=96.12, source=1141.0
+HDFCLIFE|2020|ROE_SOURCE_VARIANCE|data source issue|computed=19.05, source_display=11.4
+HDFCLIFE|2020|ROCE_SOURCE_VARIANCE|version difference|computed=414.91, source_display=6.61
+HDFCLIFE|2021|OPM_MISMATCH|formula discrepancy|computed=98.27, source=1235.0
+HDFCLIFE|2021|ROCE_SOURCE_VARIANCE|version difference|computed=760.78, source_display=6.61
+HDFCLIFE|2022|OPM_MISMATCH|formula discrepancy|computed=98.84, source=778.0
+HDFCLIFE|2022|ROCE_SOURCE_VARIANCE|version difference|computed=409.21, source_display=6.61
+HDFCLIFE|2023|OPM_MISMATCH|formula discrepancy|computed=99.89, source=80.0
+HDFCLIFE|2023|ROCE_SOURCE_VARIANCE|version difference|computed=502.95, source_display=6.61
+HDFCLIFE|2024|OPM_MISMATCH|formula discrepancy|computed=99.48, source=531.0
+HDFCLIFE|2024|ROCE_SOURCE_VARIANCE|version difference|computed=646.47, source_display=6.61
+HEROMOTOCO|2014|OPM_MISMATCH|formula discrepancy|computed=85.94, source=3553.0
+HEROMOTOCO|2014|ROE_SOURCE_VARIANCE|data source issue|computed=37.38, source_display=22.0
+HEROMOTOCO|2014|ROCE_SOURCE_VARIANCE|version difference|computed=367.97, source_display=29.1
+HEROMOTOCO|2015|OPM_MISMATCH|formula discrepancy|computed=87.22, source=3520.0
+HEROMOTOCO|2015|ROE_SOURCE_VARIANCE|data source issue|computed=36.15, source_display=22.0
+HEROMOTOCO|2015|ROCE_SOURCE_VARIANCE|version difference|computed=361.91, source_display=29.1
+HEROMOTOCO|2016|OPM_MISMATCH|formula discrepancy|computed=84.45, source=4424.0
+HEROMOTOCO|2016|ROE_SOURCE_VARIANCE|data source issue|computed=35.23, source_display=22.0
+HEROMOTOCO|2016|ROCE_SOURCE_VARIANCE|version difference|computed=265.27, source_display=29.1
+HEROMOTOCO|2017|OPM_MISMATCH|formula discrepancy|computed=83.97, source=4585.0
+HEROMOTOCO|2017|ROE_SOURCE_VARIANCE|data source issue|computed=34.37, source_display=22.0
+HEROMOTOCO|2017|ROCE_SOURCE_VARIANCE|version difference|computed=227.30, source_display=29.1
+HEROMOTOCO|2018|OPM_MISMATCH|formula discrepancy|computed=83.57, source=5334.0
+HEROMOTOCO|2018|ROE_SOURCE_VARIANCE|data source issue|computed=31.09, source_display=22.0
+HEROMOTOCO|2018|ROCE_SOURCE_VARIANCE|version difference|computed=222.46, source_display=29.1
+HEROMOTOCO|2019|OPM_MISMATCH|formula discrepancy|computed=85.21, source=5025.0
+HEROMOTOCO|2019|ROCE_SOURCE_VARIANCE|version difference|computed=215.61, source_display=29.1
+HEROMOTOCO|2020|OPM_MISMATCH|formula discrepancy|computed=86.09, source=4070.0
+HEROMOTOCO|2020|ROCE_SOURCE_VARIANCE|version difference|computed=169.58, source_display=29.1
+HEROMOTOCO|2021|OPM_MISMATCH|formula discrepancy|computed=86.90, source=4058.0
+HEROMOTOCO|2021|ROCE_SOURCE_VARIANCE|version difference|computed=168.22, source_display=29.1
+HEROMOTOCO|2022|OPM_MISMATCH|formula discrepancy|computed=88.98, source=3256.0
+HEROMOTOCO|2022|ROE_SOURCE_VARIANCE|data source issue|computed=14.70, source_display=22.0
+HEROMOTOCO|2022|ROCE_SOURCE_VARIANCE|version difference|computed=159.90, source_display=29.1
+HEROMOTOCO|2023|OPM_MISMATCH|formula discrepancy|computed=88.00, source=4099.0
+HEROMOTOCO|2023|ROE_SOURCE_VARIANCE|data source issue|computed=16.81, source_display=22.0
+HEROMOTOCO|2023|ROCE_SOURCE_VARIANCE|version difference|computed=174.59, source_display=29.1
+HEROMOTOCO|2024|OPM_MISMATCH|formula discrepancy|computed=86.15, source=5235.0
+HEROMOTOCO|2024|ROCE_SOURCE_VARIANCE|version difference|computed=177.92, source_display=29.1
+HINDALCO|2013|OPM_MISMATCH|formula discrepancy|computed=90.40, source=7699.0
+HINDALCO|2013|ROCE_SOURCE_VARIANCE|version difference|computed=78.57, source_display=11.3
+HINDALCO|2014|OPM_MISMATCH|formula discrepancy|computed=90.85, source=8024.0
+HINDALCO|2014|ROCE_SOURCE_VARIANCE|version difference|computed=75.63, source_display=11.3
+HINDALCO|2015|OPM_MISMATCH|formula discrepancy|computed=91.52, source=8844.0
+HINDALCO|2015|ROE_SOURCE_VARIANCE|data source issue|computed=0.68, source_display=10.2
+HINDALCO|2015|ROCE_SOURCE_VARIANCE|version difference|computed=89.37, source_display=11.3
+HINDALCO|2016|OPM_MISMATCH|formula discrepancy|computed=92.12, source=7778.0
+HINDALCO|2016|ROE_SOURCE_VARIANCE|data source issue|computed=-1.73, source_display=10.2
+HINDALCO|2016|ROCE_SOURCE_VARIANCE|version difference|computed=84.12, source_display=11.3
+HINDALCO|2017|OPM_MISMATCH|formula discrepancy|computed=87.71, source=12317.0
+HINDALCO|2017|ROE_SOURCE_VARIANCE|data source issue|computed=4.09, source_display=10.2
+HINDALCO|2017|ROCE_SOURCE_VARIANCE|version difference|computed=79.98, source_display=11.3
+HINDALCO|2018|OPM_MISMATCH|formula discrepancy|computed=88.11, source=13695.0
+HINDALCO|2018|ROCE_SOURCE_VARIANCE|version difference|computed=94.93, source_display=11.3
+HINDALCO|2019|OPM_MISMATCH|formula discrepancy|computed=88.12, source=15511.0
+HINDALCO|2019|ROCE_SOURCE_VARIANCE|version difference|computed=104.66, source_display=11.3
+HINDALCO|2020|OPM_MISMATCH|formula discrepancy|computed=87.89, source=14306.0
+HINDALCO|2020|ROCE_SOURCE_VARIANCE|version difference|computed=81.95, source_display=11.3
+HINDALCO|2021|OPM_MISMATCH|formula discrepancy|computed=86.70, source=17559.0
+HINDALCO|2021|ROCE_SOURCE_VARIANCE|version difference|computed=85.59, source_display=11.3
+HINDALCO|2022|OPM_MISMATCH|formula discrepancy|computed=85.47, source=28347.0
+HINDALCO|2022|ROE_SOURCE_VARIANCE|data source issue|computed=17.56, source_display=10.2
+HINDALCO|2022|ROCE_SOURCE_VARIANCE|version difference|computed=116.86, source_display=11.3
+HINDALCO|2023|OPM_MISMATCH|formula discrepancy|computed=89.85, source=22666.0
+HINDALCO|2023|ROCE_SOURCE_VARIANCE|version difference|computed=129.30, source_display=11.3
+HINDALCO|2024|OPM_MISMATCH|formula discrepancy|computed=88.95, source=23872.0
+HINDALCO|2024|ROCE_SOURCE_VARIANCE|version difference|computed=118.21, source_display=11.3
+HINDUNILVR|2013|OPM_MISMATCH|formula discrepancy|computed=84.37, source=4220.0
+HINDUNILVR|2013|ROE_SOURCE_VARIANCE|data source issue|computed=134.00, source_display=20.2
+HINDUNILVR|2013|ROCE_SOURCE_VARIANCE|version difference|computed=788.93, source_display=27.2
+HINDUNILVR|2014|OPM_MISMATCH|formula discrepancy|computed=83.72, source=4759.0
+HINDUNILVR|2014|ROE_SOURCE_VARIANCE|data source issue|computed=111.85, source_display=20.2
+HINDUNILVR|2014|ROCE_SOURCE_VARIANCE|version difference|computed=683.53, source_display=27.2
+HINDUNILVR|2015|OPM_MISMATCH|formula discrepancy|computed=83.07, source=5412.0
+HINDUNILVR|2015|ROE_SOURCE_VARIANCE|data source issue|computed=108.67, source_display=20.2
+HINDUNILVR|2015|ROCE_SOURCE_VARIANCE|version difference|computed=653.00, source_display=27.2
+HINDUNILVR|2016|OPM_MISMATCH|formula discrepancy|computed=81.64, source=5910.0
+HINDUNILVR|2016|ROE_SOURCE_VARIANCE|data source issue|computed=63.15, source_display=20.2
+HINDUNILVR|2016|ROCE_SOURCE_VARIANCE|version difference|computed=389.54, source_display=27.2
+HINDUNILVR|2017|OPM_MISMATCH|formula discrepancy|computed=80.92, source=6328.0
+HINDUNILVR|2017|ROE_SOURCE_VARIANCE|data source issue|computed=66.58, source_display=20.2
+HINDUNILVR|2017|ROCE_SOURCE_VARIANCE|version difference|computed=382.47, source_display=27.2
+HINDUNILVR|2018|OPM_MISMATCH|formula discrepancy|computed=78.90, source=7499.0
+HINDUNILVR|2018|ROE_SOURCE_VARIANCE|data source issue|computed=71.79, source_display=20.2
+HINDUNILVR|2018|ROCE_SOURCE_VARIANCE|version difference|computed=385.48, source_display=27.2
+HINDUNILVR|2019|OPM_MISMATCH|formula discrepancy|computed=77.41, source=8880.0
+HINDUNILVR|2019|ROE_SOURCE_VARIANCE|data source issue|computed=77.03, source_display=20.2
+HINDUNILVR|2019|ROCE_SOURCE_VARIANCE|version difference|computed=382.29, source_display=27.2
+HINDUNILVR|2020|OPM_MISMATCH|formula discrepancy|computed=75.21, source=9861.0
+HINDUNILVR|2020|ROE_SOURCE_VARIANCE|data source issue|computed=82.10, source_display=20.2
+HINDUNILVR|2020|ROCE_SOURCE_VARIANCE|version difference|computed=363.92, source_display=27.2
+HINDUNILVR|2021|OPM_MISMATCH|formula discrepancy|computed=75.28, source=11626.0
+HINDUNILVR|2021|ROCE_SOURCE_VARIANCE|version difference|computed=74.31, source_display=27.2
+HINDUNILVR|2022|OPM_MISMATCH|formula discrepancy|computed=75.49, source=12857.0
+HINDUNILVR|2022|ROCE_SOURCE_VARIANCE|version difference|computed=79.06, source_display=27.2
+HINDUNILVR|2023|OPM_MISMATCH|formula discrepancy|computed=76.65, source=14147.0
+HINDUNILVR|2023|ROCE_SOURCE_VARIANCE|version difference|computed=90.17, source_display=27.2
+HINDUNILVR|2024|OPM_MISMATCH|formula discrepancy|computed=76.32, source=14659.0
+HINDUNILVR|2024|ROCE_SOURCE_VARIANCE|version difference|computed=89.68, source_display=27.2
+ICICIBANK|2013|OPM_MISMATCH|formula discrepancy|computed=70.59, source=-15085.0
+ICICIBANK|2013|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+ICICIBANK|2014|OPM_MISMATCH|formula discrepancy|computed=66.40, source=-13084.0
+ICICIBANK|2014|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+ICICIBANK|2015|OPM_MISMATCH|formula discrepancy|computed=70.53, source=-16120.0
+ICICIBANK|2015|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+ICICIBANK|2016|OPM_MISMATCH|formula discrepancy|computed=88.12, source=-26955.0
+ICICIBANK|2016|ROE_SOURCE_VARIANCE|data source issue|computed=11.61, source_display=18.8
+ICICIBANK|2016|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+ICICIBANK|2017|OPM_MISMATCH|formula discrepancy|computed=104.76, source=-37737.0
+ICICIBANK|2017|ROE_SOURCE_VARIANCE|data source issue|computed=10.84, source_display=18.8
+ICICIBANK|2017|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+ICICIBANK|2018|OPM_MISMATCH|formula discrepancy|computed=117.12, source=-44906.0
+ICICIBANK|2018|ROE_SOURCE_VARIANCE|data source issue|computed=8.23, source_display=18.8
+ICICIBANK|2018|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+ICICIBANK|2019|OPM_MISMATCH|formula discrepancy|computed=116.38, source=-50971.0
+ICICIBANK|2019|ROE_SOURCE_VARIANCE|data source issue|computed=4.98, source_display=18.8
+ICICIBANK|2019|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+ICICIBANK|2020|OPM_MISMATCH|formula discrepancy|computed=100.62, source=-45190.0
+ICICIBANK|2020|ROE_SOURCE_VARIANCE|data source issue|computed=9.13, source_display=18.8
+ICICIBANK|2020|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+ICICIBANK|2021|OPM_MISMATCH|formula discrepancy|computed=102.41, source=-44805.0
+ICICIBANK|2021|ROE_SOURCE_VARIANCE|data source issue|computed=12.92, source_display=18.8
+ICICIBANK|2021|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+ICICIBANK|2022|OPM_MISMATCH|formula discrepancy|computed=84.69, source=-26558.0
+ICICIBANK|2022|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+ICICIBANK|2023|OPM_MISMATCH|formula discrepancy|computed=72.57, source=-17341.0
+ICICIBANK|2023|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+ICICIBANK|2024|OPM_MISMATCH|formula discrepancy|computed=62.41, source=-14152.0
+ICICIBANK|2024|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+ICICIGI|2013|OPM_MISMATCH|formula discrepancy|computed=104.46, source=-178.0
+ICICIGI|2013|ROCE_SOURCE_VARIANCE|version difference|computed=223.90, source_display=22.5
+ICICIGI|2014|OPM_MISMATCH|formula discrepancy|computed=105.19, source=-225.0
+ICICIGI|2014|ROCE_SOURCE_VARIANCE|version difference|computed=191.02, source_display=22.5
+ICICIGI|2015|OPM_MISMATCH|formula discrepancy|computed=105.24, source=-221.0
+ICICIGI|2015|ROCE_SOURCE_VARIANCE|version difference|computed=154.23, source_display=22.5
+ICICIGI|2016|OPM_MISMATCH|formula discrepancy|computed=87.34, source=764.0
+ICICIGI|2016|ROCE_SOURCE_VARIANCE|version difference|computed=163.18, source_display=22.5
+ICICIGI|2017|OPM_MISMATCH|formula discrepancy|computed=87.78, source=919.0
+ICICIGI|2017|ROCE_SOURCE_VARIANCE|version difference|computed=150.78, source_display=22.5
+ICICIGI|2018|OPM_MISMATCH|formula discrepancy|computed=103.79, source=-262.0
+ICICIGI|2018|ROCE_SOURCE_VARIANCE|version difference|computed=142.66, source_display=22.5
+ICICIGI|2019|OPM_MISMATCH|formula discrepancy|computed=85.05, source=1669.0
+ICICIGI|2019|ROCE_SOURCE_VARIANCE|version difference|computed=161.58, source_display=22.5
+ICICIGI|2020|OPM_MISMATCH|formula discrepancy|computed=84.61, source=1772.0
+ICICIGI|2020|ROCE_SOURCE_VARIANCE|version difference|computed=147.45, source_display=22.5
+ICICIGI|2021|OPM_MISMATCH|formula discrepancy|computed=82.97, source=2072.0
+ICICIGI|2021|ROCE_SOURCE_VARIANCE|version difference|computed=125.02, source_display=22.5
+ICICIGI|2022|OPM_MISMATCH|formula discrepancy|computed=93.66, source=1016.0
+ICICIGI|2022|ROCE_SOURCE_VARIANCE|version difference|computed=158.93, source_display=22.5
+ICICIGI|2023|OPM_MISMATCH|formula discrepancy|computed=92.93, source=1264.0
+ICICIGI|2023|ROCE_SOURCE_VARIANCE|version difference|computed=158.59, source_display=22.5
+ICICIGI|2024|OPM_MISMATCH|formula discrepancy|computed=87.42, source=2577.0
+ICICIGI|2024|ROCE_SOURCE_VARIANCE|version difference|computed=146.43, source_display=22.5
+ICICIPRULI|2013|OPM_MISMATCH|formula discrepancy|computed=96.28, source=745.0
+ICICIPRULI|2013|ROE_SOURCE_VARIANCE|data source issue|computed=38.25, source_display=8.07
+ICICIPRULI|2013|ROCE_SOURCE_VARIANCE|version difference|computed=486.85, source_display=8.75
+ICICIPRULI|2014|OPM_MISMATCH|formula discrepancy|computed=93.13, source=1504.0
+ICICIPRULI|2014|ROE_SOURCE_VARIANCE|data source issue|computed=35.61, source_display=8.07
+ICICIPRULI|2014|ROCE_SOURCE_VARIANCE|version difference|computed=465.23, source_display=8.75
+ICICIPRULI|2015|OPM_MISMATCH|formula discrepancy|computed=95.20, source=1655.0
+ICICIPRULI|2015|ROE_SOURCE_VARIANCE|data source issue|computed=31.15, source_display=8.07
+ICICIPRULI|2015|ROCE_SOURCE_VARIANCE|version difference|computed=623.04, source_display=8.75
+ICICIPRULI|2016|OPM_MISMATCH|formula discrepancy|computed=91.17, source=1842.0
+ICICIPRULI|2016|ROE_SOURCE_VARIANCE|data source issue|computed=31.00, source_display=8.07
+ICICIPRULI|2016|ROCE_SOURCE_VARIANCE|version difference|computed=299.39, source_display=8.75
+ICICIPRULI|2017|OPM_MISMATCH|formula discrepancy|computed=95.22, source=1806.0
+ICICIPRULI|2017|ROE_SOURCE_VARIANCE|data source issue|computed=26.26, source_display=8.07
+ICICIPRULI|2017|ROCE_SOURCE_VARIANCE|version difference|computed=562.21, source_display=8.75
+ICICIPRULI|2018|OPM_MISMATCH|formula discrepancy|computed=95.44, source=1771.0
+ICICIPRULI|2018|ROE_SOURCE_VARIANCE|data source issue|computed=24.63, source_display=8.07
+ICICIPRULI|2018|ROCE_SOURCE_VARIANCE|version difference|computed=563.84, source_display=8.75
+ICICIPRULI|2019|OPM_MISMATCH|formula discrepancy|computed=98.70, source=541.0
+ICICIPRULI|2019|ROE_SOURCE_VARIANCE|data source issue|computed=16.58, source_display=8.07
+ICICIPRULI|2019|ROCE_SOURCE_VARIANCE|version difference|computed=595.59, source_display=8.75
+ICICIPRULI|2020|OPM_MISMATCH|formula discrepancy|computed=101.52, source=-319.0
+ICICIPRULI|2020|ROE_SOURCE_VARIANCE|data source issue|computed=14.79, source_display=8.07
+ICICIPRULI|2020|ROCE_SOURCE_VARIANCE|version difference|computed=295.88, source_display=8.75
+ICICIPRULI|2021|OPM_MISMATCH|formula discrepancy|computed=100.47, source=-390.0
+ICICIPRULI|2021|ROCE_SOURCE_VARIANCE|version difference|computed=810.67, source_display=8.75
+ICICIPRULI|2022|OPM_MISMATCH|formula discrepancy|computed=103.40, source=-2163.0
+ICICIPRULI|2022|ROCE_SOURCE_VARIANCE|version difference|computed=634.53, source_display=8.75
+ICICIPRULI|2023|OPM_MISMATCH|formula discrepancy|computed=103.48, source=-1757.0
+ICICIPRULI|2023|ROCE_SOURCE_VARIANCE|version difference|computed=462.64, source_display=8.75
+ICICIPRULI|2024|OPM_MISMATCH|formula discrepancy|computed=102.03, source=-1829.0
+ICICIPRULI|2024|ROCE_SOURCE_VARIANCE|version difference|computed=754.89, source_display=8.75
+INDUSINDBK|2013|OPM_MISMATCH|formula discrepancy|computed=27.88, source=286.0
+INDUSINDBK|2013|ROCE_SOURCE_VARIANCE|version difference|computed=2.74, source_display=7.93
+INDUSINDBK|2013|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+INDUSINDBK|2014|OPM_MISMATCH|formula discrepancy|computed=30.95, source=335.0
+INDUSINDBK|2014|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+INDUSINDBK|2015|OPM_MISMATCH|formula discrepancy|computed=32.33, source=288.0
+INDUSINDBK|2015|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+INDUSINDBK|2016|OPM_MISMATCH|formula discrepancy|computed=35.28, source=329.0
+INDUSINDBK|2016|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+INDUSINDBK|2017|OPM_MISMATCH|formula discrepancy|computed=39.46, source=379.0
+INDUSINDBK|2017|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+INDUSINDBK|2018|OPM_MISMATCH|formula discrepancy|computed=37.93, source=942.0
+INDUSINDBK|2018|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+INDUSINDBK|2019|OPM_MISMATCH|formula discrepancy|computed=41.70, source=-437.0
+INDUSINDBK|2019|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+INDUSINDBK|2020|OPM_MISMATCH|formula discrepancy|computed=43.81, source=-553.0
+INDUSINDBK|2020|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+INDUSINDBK|2021|OPM_MISMATCH|formula discrepancy|computed=55.16, source=-2469.0
+INDUSINDBK|2021|ROE_SOURCE_VARIANCE|data source issue|computed=6.54, source_display=15.2
+INDUSINDBK|2021|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+INDUSINDBK|2022|OPM_MISMATCH|formula discrepancy|computed=51.39, source=-839.0
+INDUSINDBK|2022|ROE_SOURCE_VARIANCE|data source issue|computed=9.67, source_display=15.2
+INDUSINDBK|2022|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+INDUSINDBK|2023|OPM_MISMATCH|formula discrepancy|computed=42.69, source=2067.0
+INDUSINDBK|2023|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+INDUSINDBK|2024|OPM_MISMATCH|formula discrepancy|computed=38.55, source=2978.0
+INDUSINDBK|2024|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+INFY|2013|ROE_SOURCE_VARIANCE|data source issue|computed=24.82, source_display=31.8
+INFY|2014|ROE_SOURCE_VARIANCE|data source issue|computed=23.93, source_display=31.8
+INFY|2015|ROE_SOURCE_VARIANCE|data source issue|computed=24.39, source_display=31.8
+INFY|2016|ROE_SOURCE_VARIANCE|data source issue|computed=21.85, source_display=31.8
+INFY|2016|ROCE_SOURCE_VARIANCE|version difference|computed=32.71, source_display=40.0
+INFY|2017|ROE_SOURCE_VARIANCE|data source issue|computed=20.81, source_display=31.8
+INFY|2017|ROCE_SOURCE_VARIANCE|version difference|computed=31.39, source_display=40.0
+INFY|2018|ROE_SOURCE_VARIANCE|data source issue|computed=24.69, source_display=31.8
+INFY|2018|ROCE_SOURCE_VARIANCE|version difference|computed=34.09, source_display=40.0
+INFY|2019|ROE_SOURCE_VARIANCE|data source issue|computed=23.73, source_display=31.8
+INFY|2020|ROE_SOURCE_VARIANCE|data source issue|computed=25.42, source_display=31.8
+INFY|2021|ROE_SOURCE_VARIANCE|data source issue|computed=25.44, source_display=31.8
+INFY|2023|ROCE_SOURCE_VARIANCE|version difference|computed=45.20, source_display=40.0
+IOC|2013|ROE_SOURCE_VARIANCE|data source issue|computed=5.75, source_display=25.44
+IOC|2013|ROCE_SOURCE_VARIANCE|version difference|computed=11.37, source_display=21.31
+IOC|2014|ROE_SOURCE_VARIANCE|data source issue|computed=10.26, source_display=25.44
+IOC|2014|ROCE_SOURCE_VARIANCE|version difference|computed=13.69, source_display=21.31
+IOC|2015|ROE_SOURCE_VARIANCE|data source issue|computed=7.08, source_display=25.44
+IOC|2015|ROCE_SOURCE_VARIANCE|version difference|computed=12.29, source_display=21.31
+IOC|2016|ROE_SOURCE_VARIANCE|data source issue|computed=13.80, source_display=25.44
+IOC|2017|ROE_SOURCE_VARIANCE|data source issue|computed=19.97, source_display=25.44
+IOC|2018|ROE_SOURCE_VARIANCE|data source issue|computed=19.87, source_display=25.44
+IOC|2019|ROE_SOURCE_VARIANCE|data source issue|computed=15.36, source_display=25.44
+IOC|2020|ROE_SOURCE_VARIANCE|data source issue|computed=-1.97, source_display=25.44
+IOC|2020|ROCE_SOURCE_VARIANCE|version difference|computed=3.95, source_display=21.31
+IOC|2021|ROE_SOURCE_VARIANCE|data source issue|computed=19.46, source_display=25.44
+IOC|2022|ROE_SOURCE_VARIANCE|data source issue|computed=19.27, source_display=25.44
+IOC|2023|ROE_SOURCE_VARIANCE|data source issue|computed=8.38, source_display=25.44
+IOC|2023|ROCE_SOURCE_VARIANCE|version difference|computed=12.40, source_display=21.31
+IRCTC|2015|ROE_SOURCE_VARIANCE|data source issue|computed=29.50, source_display=40.4
+IRCTC|2016|ROE_SOURCE_VARIANCE|data source issue|computed=34.87, source_display=40.4
+IRCTC|2016|ROCE_SOURCE_VARIANCE|version difference|computed=60.70, source_display=53.8
+IRCTC|2017|ROE_SOURCE_VARIANCE|data source issue|computed=29.10, source_display=40.4
+IRCTC|2017|ROCE_SOURCE_VARIANCE|version difference|computed=48.41, source_display=53.8
+IRCTC|2018|ROE_SOURCE_VARIANCE|data source issue|computed=23.14, source_display=40.4
+IRCTC|2018|ROCE_SOURCE_VARIANCE|version difference|computed=39.06, source_display=53.8
+IRCTC|2019|ROE_SOURCE_VARIANCE|data source issue|computed=28.85, source_display=40.4
+IRCTC|2019|ROCE_SOURCE_VARIANCE|version difference|computed=47.53, source_display=53.8
+IRCTC|2020|ROCE_SOURCE_VARIANCE|version difference|computed=59.36, source_display=53.8
+IRCTC|2021|ROE_SOURCE_VARIANCE|data source issue|computed=12.84, source_display=40.4
+IRCTC|2021|ROCE_SOURCE_VARIANCE|version difference|computed=20.33, source_display=53.8
+IRCTC|2022|ROE_SOURCE_VARIANCE|data source issue|computed=35.29, source_display=40.4
+IRCTC|2022|ROCE_SOURCE_VARIANCE|version difference|computed=47.90, source_display=53.8
+IRCTC|2024|ROE_SOURCE_VARIANCE|data source issue|computed=34.40, source_display=40.4
+IRCTC|2024|ROCE_SOURCE_VARIANCE|version difference|computed=47.78, source_display=53.8
+IRFC|2016|ROE_SOURCE_VARIANCE|data source issue|computed=7.37, source_display=13.7
+IRFC|2016|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+IRFC|2017|ROE_SOURCE_VARIANCE|data source issue|computed=7.78, source_display=13.7
+IRFC|2017|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+IRFC|2018|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+IRFC|2019|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+IRFC|2020|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+IRFC|2021|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+IRFC|2022|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+IRFC|2023|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+IRFC|2024|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+ITC|2013|ROCE_SOURCE_VARIANCE|version difference|computed=51.90, source_display=34.76
+ITC|2014|ROCE_SOURCE_VARIANCE|version difference|computed=51.12, source_display=34.76
+ITC|2015|ROCE_SOURCE_VARIANCE|version difference|computed=48.37, source_display=34.76
+ITC|2016|ROE_SOURCE_VARIANCE|data source issue|computed=22.26, source_display=29.47
+ITC|2017|ROE_SOURCE_VARIANCE|data source issue|computed=22.57, source_display=29.47
+ITC|2018|ROE_SOURCE_VARIANCE|data source issue|computed=21.89, source_display=29.47
+ITC|2019|ROE_SOURCE_VARIANCE|data source issue|computed=21.70, source_display=29.47
+ITC|2020|ROE_SOURCE_VARIANCE|data source issue|computed=23.89, source_display=29.47
+ITC|2021|ROE_SOURCE_VARIANCE|data source issue|computed=22.18, source_display=29.47
+ITC|2023|ROCE_SOURCE_VARIANCE|version difference|computed=40.03, source_display=34.76
+JINDALSTEL|2014|ROE_SOURCE_VARIANCE|data source issue|computed=8.39, source_display=14.1
+JINDALSTEL|2015|ROE_SOURCE_VARIANCE|data source issue|computed=-6.90, source_display=14.1
+JINDALSTEL|2015|ROCE_SOURCE_VARIANCE|version difference|computed=6.11, source_display=13.2
+JINDALSTEL|2016|ROE_SOURCE_VARIANCE|data source issue|computed=-9.52, source_display=14.1
+JINDALSTEL|2016|ROCE_SOURCE_VARIANCE|version difference|computed=4.24, source_display=13.2
+JINDALSTEL|2017|ROE_SOURCE_VARIANCE|data source issue|computed=-8.45, source_display=14.1
+JINDALSTEL|2017|ROCE_SOURCE_VARIANCE|version difference|computed=5.73, source_display=13.2
+JINDALSTEL|2018|ROE_SOURCE_VARIANCE|data source issue|computed=-5.32, source_display=14.1
+JINDALSTEL|2018|ROCE_SOURCE_VARIANCE|version difference|computed=8.02, source_display=13.2
+JINDALSTEL|2019|ROE_SOURCE_VARIANCE|data source issue|computed=-7.52, source_display=14.1
+JINDALSTEL|2020|ROE_SOURCE_VARIANCE|data source issue|computed=-1.24, source_display=14.1
+JINDALSTEL|2021|ROCE_SOURCE_VARIANCE|version difference|computed=18.22, source_display=13.2
+JINDALSTEL|2022|ROCE_SOURCE_VARIANCE|version difference|computed=27.84, source_display=13.2
+JIOFIN|2023|OPM_MISMATCH|formula discrepancy|computed=86.67, source=88.0
+JSWENERGY|2013|ROE_SOURCE_VARIANCE|data source issue|computed=14.52, source_display=8.4
+JSWENERGY|2013|ROCE_SOURCE_VARIANCE|version difference|computed=16.95, source_display=8.59
+JSWENERGY|2014|ROCE_SOURCE_VARIANCE|version difference|computed=18.44, source_display=8.59
+JSWENERGY|2015|ROE_SOURCE_VARIANCE|data source issue|computed=18.06, source_display=8.4
+JSWENERGY|2015|ROCE_SOURCE_VARIANCE|version difference|computed=22.72, source_display=8.59
+JSWENERGY|2016|ROE_SOURCE_VARIANCE|data source issue|computed=15.05, source_display=8.4
+JSWENERGY|2016|ROCE_SOURCE_VARIANCE|version difference|computed=17.78, source_display=8.59
+JSWENERGY|2017|ROCE_SOURCE_VARIANCE|version difference|computed=14.34, source_display=8.59
+JSWENERGY|2018|ROE_SOURCE_VARIANCE|data source issue|computed=0.77, source_display=8.4
+JSWENERGY|2019|ROCE_SOURCE_VARIANCE|version difference|computed=14.54, source_display=8.59
+JSWENERGY|2020|ROCE_SOURCE_VARIANCE|version difference|computed=15.51, source_display=8.59
+JSWENERGY|2021|ROCE_SOURCE_VARIANCE|version difference|computed=13.82, source_display=8.59
+JSWENERGY|2022|ROCE_SOURCE_VARIANCE|version difference|computed=15.73, source_display=8.59
+JSWSTEEL|2013|ROE_SOURCE_VARIANCE|data source issue|computed=5.44, source_display=11.66
+JSWSTEEL|2014|ROE_SOURCE_VARIANCE|data source issue|computed=1.90, source_display=11.66
+JSWSTEEL|2016|ROE_SOURCE_VARIANCE|data source issue|computed=-2.54, source_display=11.66
+JSWSTEEL|2016|ROCE_SOURCE_VARIANCE|version difference|computed=7.28, source_display=13.36
+JSWSTEEL|2017|ROCE_SOURCE_VARIANCE|version difference|computed=18.68, source_display=13.36
+JSWSTEEL|2018|ROE_SOURCE_VARIANCE|data source issue|computed=21.83, source_display=11.66
+JSWSTEEL|2018|ROCE_SOURCE_VARIANCE|version difference|computed=21.87, source_display=13.36
+JSWSTEEL|2019|ROE_SOURCE_VARIANCE|data source issue|computed=21.62, source_display=11.66
+JSWSTEEL|2019|ROCE_SOURCE_VARIANCE|version difference|computed=23.27, source_display=13.36
+JSWSTEEL|2021|ROE_SOURCE_VARIANCE|data source issue|computed=16.84, source_display=11.66
+JSWSTEEL|2021|ROCE_SOURCE_VARIANCE|version difference|computed=18.92, source_display=13.36
+JSWSTEEL|2022|ROE_SOURCE_VARIANCE|data source issue|computed=31.11, source_display=11.66
+JSWSTEEL|2022|ROCE_SOURCE_VARIANCE|version difference|computed=29.18, source_display=13.36
+JSWSTEEL|2023|ROE_SOURCE_VARIANCE|data source issue|computed=6.30, source_display=11.66
+KOTAKBANK|2013|OPM_MISMATCH|formula discrepancy|computed=60.92, source=-1789.0
+KOTAKBANK|2013|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+KOTAKBANK|2014|OPM_MISMATCH|formula discrepancy|computed=58.84, source=-1379.0
+KOTAKBANK|2015|OPM_MISMATCH|formula discrepancy|computed=72.96, source=-3366.0
+KOTAKBANK|2016|OPM_MISMATCH|formula discrepancy|computed=56.57, source=-2263.0
+KOTAKBANK|2016|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+KOTAKBANK|2017|OPM_MISMATCH|formula discrepancy|computed=66.44, source=-3965.0
+KOTAKBANK|2017|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+KOTAKBANK|2018|OPM_MISMATCH|formula discrepancy|computed=66.87, source=-4141.0
+KOTAKBANK|2019|OPM_MISMATCH|formula discrepancy|computed=66.23, source=-5114.0
+KOTAKBANK|2019|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+KOTAKBANK|2020|OPM_MISMATCH|formula discrepancy|computed=67.45, source=-5005.0
+KOTAKBANK|2021|OPM_MISMATCH|formula discrepancy|computed=90.83, source=-9958.0
+KOTAKBANK|2022|OPM_MISMATCH|formula discrepancy|computed=90.98, source=-8512.0
+KOTAKBANK|2023|OPM_MISMATCH|formula discrepancy|computed=79.44, source=-5746.0
+KOTAKBANK|2024|OPM_MISMATCH|formula discrepancy|computed=83.67, source=-13382.0
+LICI|2019|ROE_SOURCE_VARIANCE|data source issue|computed=324.32, source_display=63.61
+LICI|2019|ROCE_SOURCE_VARIANCE|version difference|computed=3.16, source_display=63.79
+LICI|2019|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+LICI|2020|ROE_SOURCE_VARIANCE|data source issue|computed=270.46, source_display=63.61
+LICI|2020|ROCE_SOURCE_VARIANCE|version difference|computed=5.47, source_display=63.79
+LICI|2020|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+LICI|2021|ROE_SOURCE_VARIANCE|data source issue|computed=43.20, source_display=63.61
+LICI|2021|ROCE_SOURCE_VARIANCE|version difference|computed=182.46, source_display=63.79
+LICI|2022|ROE_SOURCE_VARIANCE|data source issue|computed=36.38, source_display=63.61
+LICI|2022|ROCE_SOURCE_VARIANCE|version difference|computed=110.89, source_display=63.79
+LICI|2023|ROE_SOURCE_VARIANCE|data source issue|computed=77.86, source_display=63.61
+LICI|2023|ROCE_SOURCE_VARIANCE|version difference|computed=90.86, source_display=63.79
+LICI|2024|ROE_SOURCE_VARIANCE|data source issue|computed=49.45, source_display=63.61
+LICI|2024|ROCE_SOURCE_VARIANCE|version difference|computed=57.53, source_display=63.79
+LODHA|2016|ROE_SOURCE_VARIANCE|data source issue|computed=17.69, source_display=10.7
+LODHA|2019|ROE_SOURCE_VARIANCE|data source issue|computed=42.80, source_display=10.7
+LODHA|2020|ROE_SOURCE_VARIANCE|data source issue|computed=16.30, source_display=10.7
+LODHA|2021|ROE_SOURCE_VARIANCE|data source issue|computed=1.04, source_display=10.7
+LODHA|2021|ROCE_SOURCE_VARIANCE|version difference|computed=5.45, source_display=11.1
+LODHA|2023|ROE_SOURCE_VARIANCE|data source issue|computed=3.87, source_display=10.7
+LODHA|2023|ROCE_SOURCE_VARIANCE|version difference|computed=4.73, source_display=11.1
+LT|2013|ROE_SOURCE_VARIANCE|data source issue|computed=395.15, source_display=10.49
+LT|2013|ROCE_SOURCE_VARIANCE|version difference|computed=884.74, source_display=17.18
+LT|2014|ROE_SOURCE_VARIANCE|data source issue|computed=303.42, source_display=10.49
+LT|2014|ROCE_SOURCE_VARIANCE|version difference|computed=896.69, source_display=17.18
+LT|2015|ROE_SOURCE_VARIANCE|data source issue|computed=245.11, source_display=10.49
+LT|2015|ROCE_SOURCE_VARIANCE|version difference|computed=762.30, source_display=17.18
+LT|2016|ROE_SOURCE_VARIANCE|data source issue|computed=216.09, source_display=10.49
+LT|2016|ROCE_SOURCE_VARIANCE|version difference|computed=766.28, source_display=17.18
+LT|2017|ROE_SOURCE_VARIANCE|data source issue|computed=206.30, source_display=10.49
+LT|2017|ROCE_SOURCE_VARIANCE|version difference|computed=575.25, source_display=17.18
+LT|2018|ROE_SOURCE_VARIANCE|data source issue|computed=207.36, source_display=10.49
+LT|2018|ROCE_SOURCE_VARIANCE|version difference|computed=558.96, source_display=17.18
+LT|2019|ROE_SOURCE_VARIANCE|data source issue|computed=208.81, source_display=10.49
+LT|2019|ROCE_SOURCE_VARIANCE|version difference|computed=522.52, source_display=17.18
+LT|2020|ROE_SOURCE_VARIANCE|data source issue|computed=201.59, source_display=10.49
+LT|2020|ROCE_SOURCE_VARIANCE|version difference|computed=436.48, source_display=17.18
+LT|2021|ROE_SOURCE_VARIANCE|data source issue|computed=176.90, source_display=10.49
+LT|2021|ROCE_SOURCE_VARIANCE|version difference|computed=389.67, source_display=17.18
+LT|2022|ROE_SOURCE_VARIANCE|data source issue|computed=72.92, source_display=10.49
+LT|2022|ROCE_SOURCE_VARIANCE|version difference|computed=183.40, source_display=17.18
+LT|2023|ROE_SOURCE_VARIANCE|data source issue|computed=75.52, source_display=10.49
+LT|2023|ROCE_SOURCE_VARIANCE|version difference|computed=165.76, source_display=17.18
+LT|2024|ROE_SOURCE_VARIANCE|data source issue|computed=77.67, source_display=10.49
+LT|2024|ROCE_SOURCE_VARIANCE|version difference|computed=152.62, source_display=17.18
+LTIM|2013|ROE_SOURCE_VARIANCE|data source issue|computed=41.97, source_display=26.04
+LTIM|2013|ROCE_SOURCE_VARIANCE|version difference|computed=56.71, source_display=34.1
+LTIM|2014|ROE_SOURCE_VARIANCE|data source issue|computed=61.86, source_display=26.04
+LTIM|2014|ROCE_SOURCE_VARIANCE|version difference|computed=79.30, source_display=34.1
+LTIM|2015|ROE_SOURCE_VARIANCE|data source issue|computed=37.96, source_display=26.04
+LTIM|2015|ROCE_SOURCE_VARIANCE|version difference|computed=49.20, source_display=34.1
+LTIM|2016|ROE_SOURCE_VARIANCE|data source issue|computed=39.34, source_display=26.04
+LTIM|2016|ROCE_SOURCE_VARIANCE|version difference|computed=55.73, source_display=34.1
+LTIM|2017|ROCE_SOURCE_VARIANCE|version difference|computed=45.07, source_display=34.1
+LTIM|2018|ROCE_SOURCE_VARIANCE|version difference|computed=41.79, source_display=34.1
+LTIM|2019|ROCE_SOURCE_VARIANCE|version difference|computed=44.66, source_display=34.1
+LTIM|2022|ROCE_SOURCE_VARIANCE|version difference|computed=41.35, source_display=34.1
+M&M|2013|ROCE_SOURCE_VARIANCE|version difference|computed=20.46, source_display=26.98
+M&M|2014|ROCE_SOURCE_VARIANCE|version difference|computed=18.71, source_display=26.98
+M&M|2015|ROCE_SOURCE_VARIANCE|version difference|computed=15.04, source_display=26.98
+M&M|2016|ROCE_SOURCE_VARIANCE|version difference|computed=16.87, source_display=26.98
+M&M|2017|ROCE_SOURCE_VARIANCE|version difference|computed=16.31, source_display=26.98
+M&M|2018|ROCE_SOURCE_VARIANCE|version difference|computed=18.98, source_display=26.98
+M&M|2019|ROCE_SOURCE_VARIANCE|version difference|computed=16.14, source_display=26.98
+M&M|2020|ROE_SOURCE_VARIANCE|data source issue|computed=-0.80, source_display=17.99
+M&M|2020|ROCE_SOURCE_VARIANCE|version difference|computed=9.05, source_display=26.98
+M&M|2021|ROE_SOURCE_VARIANCE|data source issue|computed=3.64, source_display=17.99
+M&M|2021|ROCE_SOURCE_VARIANCE|version difference|computed=10.34, source_display=26.98
+M&M|2022|ROCE_SOURCE_VARIANCE|version difference|computed=14.34, source_display=26.98
+M&M|2023|ROCE_SOURCE_VARIANCE|version difference|computed=16.31, source_display=26.98
+M&M|2024|ROCE_SOURCE_VARIANCE|version difference|computed=16.12, source_display=26.98
+MARUTI|2015|ROCE_SOURCE_VARIANCE|version difference|computed=30.86, source_display=23.67
+MARUTI|2016|ROCE_SOURCE_VARIANCE|version difference|computed=34.00, source_display=23.67
+MARUTI|2017|ROCE_SOURCE_VARIANCE|version difference|computed=34.13, source_display=23.67
+MARUTI|2018|ROCE_SOURCE_VARIANCE|version difference|computed=33.44, source_display=23.67
+MARUTI|2019|ROCE_SOURCE_VARIANCE|version difference|computed=29.04, source_display=23.67
+MARUTI|2021|ROE_SOURCE_VARIANCE|data source issue|computed=8.36, source_display=15.75
+MARUTI|2021|ROCE_SOURCE_VARIANCE|version difference|computed=15.94, source_display=23.67
+MARUTI|2022|ROE_SOURCE_VARIANCE|data source issue|computed=7.01, source_display=15.75
+MARUTI|2022|ROCE_SOURCE_VARIANCE|version difference|computed=13.65, source_display=23.67
+MOTHERSON|2013|ROE_SOURCE_VARIANCE|data source issue|computed=19.75, source_display=11.8
+MOTHERSON|2013|ROCE_SOURCE_VARIANCE|version difference|computed=25.00, source_display=13.7
+MOTHERSON|2014|ROE_SOURCE_VARIANCE|data source issue|computed=37.07, source_display=11.8
+MOTHERSON|2014|ROCE_SOURCE_VARIANCE|version difference|computed=34.72, source_display=13.7
+MOTHERSON|2015|ROE_SOURCE_VARIANCE|data source issue|computed=38.87, source_display=11.8
+MOTHERSON|2015|ROCE_SOURCE_VARIANCE|version difference|computed=36.14, source_display=13.7
+MOTHERSON|2016|ROE_SOURCE_VARIANCE|data source issue|computed=40.35, source_display=11.8
+MOTHERSON|2016|ROCE_SOURCE_VARIANCE|version difference|computed=35.59, source_display=13.7
+MOTHERSON|2017|ROE_SOURCE_VARIANCE|data source issue|computed=26.26, source_display=11.8
+MOTHERSON|2017|ROCE_SOURCE_VARIANCE|version difference|computed=24.26, source_display=13.7
+MOTHERSON|2018|ROE_SOURCE_VARIANCE|data source issue|computed=22.87, source_display=11.8
+MOTHERSON|2018|ROCE_SOURCE_VARIANCE|version difference|computed=25.93, source_display=13.7
+MOTHERSON|2019|ROE_SOURCE_VARIANCE|data source issue|computed=19.14, source_display=11.8
+MOTHERSON|2019|ROCE_SOURCE_VARIANCE|version difference|computed=25.25, source_display=13.7
+MOTHERSON|2020|ROCE_SOURCE_VARIANCE|version difference|computed=21.71, source_display=13.7
+MOTHERSON|2021|ROCE_SOURCE_VARIANCE|version difference|computed=20.16, source_display=13.7
+MOTHERSON|2022|ROE_SOURCE_VARIANCE|data source issue|computed=5.74, source_display=11.8
+MOTHERSON|2024|ROCE_SOURCE_VARIANCE|version difference|computed=20.54, source_display=13.7
+NAUKRI|2013|ROE_SOURCE_VARIANCE|data source issue|computed=12.50, source_display=2.44
+NAUKRI|2013|ROCE_SOURCE_VARIANCE|version difference|computed=23.81, source_display=3.65
+NAUKRI|2014|ROE_SOURCE_VARIANCE|data source issue|computed=8.93, source_display=2.44
+NAUKRI|2014|ROCE_SOURCE_VARIANCE|version difference|computed=21.55, source_display=3.65
+NAUKRI|2016|ROE_SOURCE_VARIANCE|data source issue|computed=7.65, source_display=2.44
+NAUKRI|2016|ROCE_SOURCE_VARIANCE|version difference|computed=13.08, source_display=3.65
+NAUKRI|2017|ROE_SOURCE_VARIANCE|data source issue|computed=-2.70, source_display=2.44
+NAUKRI|2018|ROE_SOURCE_VARIANCE|data source issue|computed=24.50, source_display=2.44
+NAUKRI|2018|ROCE_SOURCE_VARIANCE|version difference|computed=30.30, source_display=3.65
+NAUKRI|2019|ROE_SOURCE_VARIANCE|data source issue|computed=23.28, source_display=2.44
+NAUKRI|2019|ROCE_SOURCE_VARIANCE|version difference|computed=29.32, source_display=3.65
+NAUKRI|2020|ROE_SOURCE_VARIANCE|data source issue|computed=-11.21, source_display=2.44
+NAUKRI|2020|ROCE_SOURCE_VARIANCE|version difference|computed=-2.82, source_display=3.65
+NAUKRI|2021|ROE_SOURCE_VARIANCE|data source issue|computed=26.28, source_display=2.44
+NAUKRI|2021|ROCE_SOURCE_VARIANCE|version difference|computed=30.36, source_display=3.65
+NAUKRI|2022|ROE_SOURCE_VARIANCE|data source issue|computed=74.71, source_display=2.44
+NAUKRI|2022|ROCE_SOURCE_VARIANCE|version difference|computed=82.38, source_display=3.65
+NESTLEIND|2013|ROE_SOURCE_VARIANCE|data source issue|computed=47.17, source_display=135.61
+NESTLEIND|2013|ROCE_SOURCE_VARIANCE|version difference|computed=57.49, source_display=185.43
+NESTLEIND|2014|ROE_SOURCE_VARIANCE|data source issue|computed=41.77, source_display=135.61
+NESTLEIND|2014|ROCE_SOURCE_VARIANCE|version difference|computed=74.41, source_display=185.43
+NESTLEIND|2015|ROE_SOURCE_VARIANCE|data source issue|computed=19.99, source_display=135.61
+NESTLEIND|2015|ROCE_SOURCE_VARIANCE|version difference|computed=41.06, source_display=185.43
+NESTLEIND|2016|ROE_SOURCE_VARIANCE|data source issue|computed=30.50, source_display=135.61
+NESTLEIND|2016|ROCE_SOURCE_VARIANCE|version difference|computed=60.03, source_display=185.43
+NESTLEIND|2017|ROE_SOURCE_VARIANCE|data source issue|computed=35.82, source_display=135.61
+NESTLEIND|2017|ROCE_SOURCE_VARIANCE|version difference|computed=65.82, source_display=185.43
+NESTLEIND|2018|ROE_SOURCE_VARIANCE|data source issue|computed=43.75, source_display=135.61
+NESTLEIND|2018|ROCE_SOURCE_VARIANCE|version difference|computed=77.59, source_display=185.43
+NESTLEIND|2019|ROE_SOURCE_VARIANCE|data source issue|computed=102.61, source_display=135.61
+NESTLEIND|2019|ROCE_SOURCE_VARIANCE|version difference|computed=150.59, source_display=185.43
+NESTLEIND|2020|ROE_SOURCE_VARIANCE|data source issue|computed=103.12, source_display=135.61
+NESTLEIND|2020|ROCE_SOURCE_VARIANCE|version difference|computed=154.57, source_display=185.43
+NESTLEIND|2021|ROE_SOURCE_VARIANCE|data source issue|computed=108.84, source_display=135.61
+NESTLEIND|2021|ROCE_SOURCE_VARIANCE|version difference|computed=155.97, source_display=185.43
+NESTLEIND|2022|ROE_SOURCE_VARIANCE|data source issue|computed=97.23, source_display=135.61
+NESTLEIND|2022|ROCE_SOURCE_VARIANCE|version difference|computed=139.67, source_display=185.43
+NESTLEIND|2023|ROE_SOURCE_VARIANCE|data source issue|computed=121.96, source_display=135.61
+NESTLEIND|2023|ROCE_SOURCE_VARIANCE|version difference|computed=168.02, source_display=185.43
+NESTLEIND|2024|ROE_SOURCE_VARIANCE|data source issue|computed=117.75, source_display=135.61
+NESTLEIND|2024|ROCE_SOURCE_VARIANCE|version difference|computed=162.06, source_display=185.43
+NHPC|2015|ROCE_SOURCE_VARIANCE|version difference|computed=13.11, source_display=7.67
+NHPC|2017|ROCE_SOURCE_VARIANCE|version difference|computed=14.78, source_display=7.67
+NHPC|2019|ROCE_SOURCE_VARIANCE|version difference|computed=13.46, source_display=7.67
+ONGC|2013|ROCE_SOURCE_VARIANCE|version difference|computed=28.28, source_display=19.71
+ONGC|2014|ROCE_SOURCE_VARIANCE|version difference|computed=25.44, source_display=19.71
+ONGC|2016|ROE_SOURCE_VARIANCE|data source issue|computed=6.62, source_display=14.32
+ONGC|2019|ROCE_SOURCE_VARIANCE|version difference|computed=25.99, source_display=19.71
+ONGC|2020|ROE_SOURCE_VARIANCE|data source issue|computed=5.59, source_display=14.32
+PFC|2013|ROCE_SOURCE_VARIANCE|version difference|computed=3.68, source_display=9.96
+PFC|2013|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+PFC|2014|ROCE_SOURCE_VARIANCE|version difference|computed=4.09, source_display=9.96
+PFC|2014|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+PFC|2015|ROCE_SOURCE_VARIANCE|version difference|computed=3.84, source_display=9.96
+PFC|2015|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+PFC|2016|ROCE_SOURCE_VARIANCE|version difference|computed=3.88, source_display=9.96
+PFC|2016|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+PFC|2017|ROE_SOURCE_VARIANCE|data source issue|computed=6.07, source_display=19.49
+PFC|2017|ROCE_SOURCE_VARIANCE|version difference|computed=2.21, source_display=9.96
+PFC|2017|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+PFC|2018|ROCE_SOURCE_VARIANCE|version difference|computed=2.45, source_display=9.96
+PFC|2018|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+PFC|2019|ROE_SOURCE_VARIANCE|data source issue|computed=26.82, source_display=19.49
+PFC|2019|ROCE_SOURCE_VARIANCE|version difference|computed=3.05, source_display=9.96
+PFC|2019|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+PFC|2020|ROCE_SOURCE_VARIANCE|version difference|computed=2.19, source_display=9.96
+PFC|2020|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+PFC|2021|ROE_SOURCE_VARIANCE|data source issue|computed=25.86, source_display=19.49
+PFC|2021|ROCE_SOURCE_VARIANCE|version difference|computed=2.76, source_display=9.96
+PFC|2021|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+PFC|2022|ROE_SOURCE_VARIANCE|data source issue|computed=26.18, source_display=19.49
+PFC|2022|ROCE_SOURCE_VARIANCE|version difference|computed=3.20, source_display=9.96
+PFC|2022|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+PFC|2023|ROE_SOURCE_VARIANCE|data source issue|computed=25.17, source_display=19.49
+PFC|2023|ROCE_SOURCE_VARIANCE|version difference|computed=3.18, source_display=9.96
+PFC|2023|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+PFC|2024|ROE_SOURCE_VARIANCE|data source issue|computed=26.16, source_display=19.49
+PFC|2024|ROCE_SOURCE_VARIANCE|version difference|computed=3.49, source_display=9.96
+PFC|2024|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+PIDILITIND|2013|ROCE_SOURCE_VARIANCE|version difference|computed=37.74, source_display=29.7
+PIDILITIND|2014|ROCE_SOURCE_VARIANCE|version difference|computed=35.54, source_display=29.7
+PIDILITIND|2015|ROCE_SOURCE_VARIANCE|version difference|computed=34.84, source_display=29.7
+PIDILITIND|2016|ROE_SOURCE_VARIANCE|data source issue|computed=30.59, source_display=22.8
+PIDILITIND|2016|ROCE_SOURCE_VARIANCE|version difference|computed=46.14, source_display=29.7
+PIDILITIND|2017|ROCE_SOURCE_VARIANCE|version difference|computed=38.58, source_display=29.7
+PIDILITIND|2018|ROCE_SOURCE_VARIANCE|version difference|computed=40.39, source_display=29.7
+PIDILITIND|2019|ROCE_SOURCE_VARIANCE|version difference|computed=35.23, source_display=29.7
+PIDILITIND|2020|ROCE_SOURCE_VARIANCE|version difference|computed=35.27, source_display=29.7
+PNB|2013|ROE_SOURCE_VARIANCE|data source issue|computed=812.30, source_display=8.7
+PNB|2013|ROCE_SOURCE_VARIANCE|version difference|computed=58.94, source_display=1.63
+PNB|2013|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+PNB|2013|ROE_SOURCE_VARIANCE|data source issue|computed=812.30, source_display=8.7
+PNB|2013|ROCE_SOURCE_VARIANCE|version difference|computed=58.94, source_display=1.63
+PNB|2013|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+PNB|2013|ROE_SOURCE_VARIANCE|data source issue|computed=812.30, source_display=8.7
+PNB|2013|ROCE_SOURCE_VARIANCE|version difference|computed=58.94, source_display=1.63
+PNB|2013|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+PNB|2013|ROE_SOURCE_VARIANCE|data source issue|computed=812.30, source_display=8.7
+PNB|2013|ROCE_SOURCE_VARIANCE|version difference|computed=58.94, source_display=1.63
+PNB|2013|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+PNB|2013|ROE_SOURCE_VARIANCE|data source issue|computed=812.30, source_display=8.7
+PNB|2013|ROCE_SOURCE_VARIANCE|version difference|computed=58.94, source_display=1.63
+PNB|2013|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+PNB|2014|ROE_SOURCE_VARIANCE|data source issue|computed=393.36, source_display=8.7
+PNB|2014|ROCE_SOURCE_VARIANCE|version difference|computed=42.66, source_display=1.63
+PNB|2014|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+PNB|2014|ROE_SOURCE_VARIANCE|data source issue|computed=393.36, source_display=8.7
+PNB|2014|ROCE_SOURCE_VARIANCE|version difference|computed=42.66, source_display=1.63
+PNB|2014|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+PNB|2014|ROE_SOURCE_VARIANCE|data source issue|computed=393.36, source_display=8.7
+PNB|2014|ROCE_SOURCE_VARIANCE|version difference|computed=42.66, source_display=1.63
+PNB|2014|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+PNB|2014|ROE_SOURCE_VARIANCE|data source issue|computed=393.36, source_display=8.7
+PNB|2014|ROCE_SOURCE_VARIANCE|version difference|computed=42.66, source_display=1.63
+PNB|2014|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+PNB|2014|ROE_SOURCE_VARIANCE|data source issue|computed=393.36, source_display=8.7
+PNB|2014|ROCE_SOURCE_VARIANCE|version difference|computed=42.66, source_display=1.63
+PNB|2014|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+PNB|2015|ROE_SOURCE_VARIANCE|data source issue|computed=223.24, source_display=8.7
+PNB|2015|ROCE_SOURCE_VARIANCE|version difference|computed=34.19, source_display=1.63
+PNB|2015|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+PNB|2015|ROE_SOURCE_VARIANCE|data source issue|computed=223.24, source_display=8.7
+PNB|2015|ROCE_SOURCE_VARIANCE|version difference|computed=34.19, source_display=1.63
+PNB|2015|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+PNB|2015|ROE_SOURCE_VARIANCE|data source issue|computed=223.24, source_display=8.7
+PNB|2015|ROCE_SOURCE_VARIANCE|version difference|computed=34.19, source_display=1.63
+PNB|2015|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+PNB|2015|ROE_SOURCE_VARIANCE|data source issue|computed=223.24, source_display=8.7
+PNB|2015|ROCE_SOURCE_VARIANCE|version difference|computed=34.19, source_display=1.63
+PNB|2015|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+PNB|2015|ROE_SOURCE_VARIANCE|data source issue|computed=223.24, source_display=8.7
+PNB|2015|ROCE_SOURCE_VARIANCE|version difference|computed=34.19, source_display=1.63
+PNB|2015|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+PNB|2016|ROE_SOURCE_VARIANCE|data source issue|computed=-163.56, source_display=8.7
+PNB|2016|ROCE_SOURCE_VARIANCE|version difference|computed=21.66, source_display=1.63
+PNB|2016|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+PNB|2016|ROE_SOURCE_VARIANCE|data source issue|computed=-163.56, source_display=8.7
+PNB|2016|ROCE_SOURCE_VARIANCE|version difference|computed=21.66, source_display=1.63
+PNB|2016|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+PNB|2016|ROE_SOURCE_VARIANCE|data source issue|computed=-163.56, source_display=8.7
+PNB|2016|ROCE_SOURCE_VARIANCE|version difference|computed=21.66, source_display=1.63
+PNB|2016|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+PNB|2016|ROE_SOURCE_VARIANCE|data source issue|computed=-163.56, source_display=8.7
+PNB|2016|ROCE_SOURCE_VARIANCE|version difference|computed=21.66, source_display=1.63
+PNB|2016|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+PNB|2016|ROE_SOURCE_VARIANCE|data source issue|computed=-163.56, source_display=8.7
+PNB|2016|ROCE_SOURCE_VARIANCE|version difference|computed=21.66, source_display=1.63
+PNB|2016|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+PNB|2017|ROE_SOURCE_VARIANCE|data source issue|computed=22.21, source_display=8.7
+PNB|2017|ROCE_SOURCE_VARIANCE|version difference|computed=22.32, source_display=1.63
+PNB|2017|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+PNB|2017|ROE_SOURCE_VARIANCE|data source issue|computed=22.21, source_display=8.7
+PNB|2017|ROCE_SOURCE_VARIANCE|version difference|computed=22.32, source_display=1.63
+PNB|2017|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+PNB|2017|ROE_SOURCE_VARIANCE|data source issue|computed=22.21, source_display=8.7
+PNB|2017|ROCE_SOURCE_VARIANCE|version difference|computed=22.32, source_display=1.63
+PNB|2017|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+PNB|2017|ROE_SOURCE_VARIANCE|data source issue|computed=22.21, source_display=8.7
+PNB|2017|ROCE_SOURCE_VARIANCE|version difference|computed=22.32, source_display=1.63
+PNB|2017|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+PNB|2017|ROE_SOURCE_VARIANCE|data source issue|computed=22.21, source_display=8.7
+PNB|2017|ROCE_SOURCE_VARIANCE|version difference|computed=22.32, source_display=1.63
+PNB|2017|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+PNB|2018|ROE_SOURCE_VARIANCE|data source issue|computed=-184.37, source_display=8.7
+PNB|2018|ROCE_SOURCE_VARIANCE|version difference|computed=14.72, source_display=1.63
+PNB|2018|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+PNB|2018|ROE_SOURCE_VARIANCE|data source issue|computed=-184.37, source_display=8.7
+PNB|2018|ROCE_SOURCE_VARIANCE|version difference|computed=14.72, source_display=1.63
+PNB|2018|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+PNB|2018|ROE_SOURCE_VARIANCE|data source issue|computed=-184.37, source_display=8.7
+PNB|2018|ROCE_SOURCE_VARIANCE|version difference|computed=14.72, source_display=1.63
+PNB|2018|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+PNB|2018|ROE_SOURCE_VARIANCE|data source issue|computed=-184.37, source_display=8.7
+PNB|2018|ROCE_SOURCE_VARIANCE|version difference|computed=14.72, source_display=1.63
+PNB|2018|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+PNB|2018|ROE_SOURCE_VARIANCE|data source issue|computed=-184.37, source_display=8.7
+PNB|2018|ROCE_SOURCE_VARIANCE|version difference|computed=14.72, source_display=1.63
+PNB|2018|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+PNB|2019|ROE_SOURCE_VARIANCE|data source issue|computed=-128.45, source_display=8.7
+PNB|2019|ROCE_SOURCE_VARIANCE|version difference|computed=9.29, source_display=1.63
+PNB|2019|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+PNB|2019|ROE_SOURCE_VARIANCE|data source issue|computed=-128.45, source_display=8.7
+PNB|2019|ROCE_SOURCE_VARIANCE|version difference|computed=9.29, source_display=1.63
+PNB|2019|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+PNB|2019|ROE_SOURCE_VARIANCE|data source issue|computed=-128.45, source_display=8.7
+PNB|2019|ROCE_SOURCE_VARIANCE|version difference|computed=9.29, source_display=1.63
+PNB|2019|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+PNB|2019|ROE_SOURCE_VARIANCE|data source issue|computed=-128.45, source_display=8.7
+PNB|2019|ROCE_SOURCE_VARIANCE|version difference|computed=9.29, source_display=1.63
+PNB|2019|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+PNB|2019|ROE_SOURCE_VARIANCE|data source issue|computed=-128.45, source_display=8.7
+PNB|2019|ROCE_SOURCE_VARIANCE|version difference|computed=9.29, source_display=1.63
+PNB|2019|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+PNB|2020|ROCE_SOURCE_VARIANCE|version difference|computed=12.40, source_display=1.63
+PNB|2020|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+PNB|2020|ROCE_SOURCE_VARIANCE|version difference|computed=12.40, source_display=1.63
+PNB|2020|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+PNB|2020|ROCE_SOURCE_VARIANCE|version difference|computed=12.40, source_display=1.63
+PNB|2020|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+PNB|2020|ROCE_SOURCE_VARIANCE|version difference|computed=12.40, source_display=1.63
+PNB|2020|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+PNB|2020|ROCE_SOURCE_VARIANCE|version difference|computed=12.40, source_display=1.63
+PNB|2020|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+PNB|2021|ROE_SOURCE_VARIANCE|data source issue|computed=30.39, source_display=8.7
+PNB|2021|ROCE_SOURCE_VARIANCE|version difference|computed=18.72, source_display=1.63
+PNB|2021|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+PNB|2021|ROE_SOURCE_VARIANCE|data source issue|computed=30.39, source_display=8.7
+PNB|2021|ROCE_SOURCE_VARIANCE|version difference|computed=18.72, source_display=1.63
+PNB|2021|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+PNB|2021|ROE_SOURCE_VARIANCE|data source issue|computed=30.39, source_display=8.7
+PNB|2021|ROCE_SOURCE_VARIANCE|version difference|computed=18.72, source_display=1.63
+PNB|2021|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+PNB|2021|ROE_SOURCE_VARIANCE|data source issue|computed=30.39, source_display=8.7
+PNB|2021|ROCE_SOURCE_VARIANCE|version difference|computed=18.72, source_display=1.63
+PNB|2021|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+PNB|2021|ROE_SOURCE_VARIANCE|data source issue|computed=30.39, source_display=8.7
+PNB|2021|ROCE_SOURCE_VARIANCE|version difference|computed=18.72, source_display=1.63
+PNB|2021|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+PNB|2022|ROE_SOURCE_VARIANCE|data source issue|computed=39.87, source_display=8.7
+PNB|2022|ROCE_SOURCE_VARIANCE|version difference|computed=19.64, source_display=1.63
+PNB|2022|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+PNB|2022|ROE_SOURCE_VARIANCE|data source issue|computed=39.87, source_display=8.7
+PNB|2022|ROCE_SOURCE_VARIANCE|version difference|computed=19.64, source_display=1.63
+PNB|2022|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+PNB|2022|ROE_SOURCE_VARIANCE|data source issue|computed=39.87, source_display=8.7
+PNB|2022|ROCE_SOURCE_VARIANCE|version difference|computed=19.64, source_display=1.63
+PNB|2022|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+PNB|2022|ROE_SOURCE_VARIANCE|data source issue|computed=39.87, source_display=8.7
+PNB|2022|ROCE_SOURCE_VARIANCE|version difference|computed=19.64, source_display=1.63
+PNB|2022|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+PNB|2022|ROE_SOURCE_VARIANCE|data source issue|computed=39.87, source_display=8.7
+PNB|2022|ROCE_SOURCE_VARIANCE|version difference|computed=19.64, source_display=1.63
+PNB|2022|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+PNB|2023|ROE_SOURCE_VARIANCE|data source issue|computed=30.67, source_display=8.7
+PNB|2023|ROCE_SOURCE_VARIANCE|version difference|computed=19.40, source_display=1.63
+PNB|2023|ROE_SOURCE_VARIANCE|data source issue|computed=30.67, source_display=8.7
+PNB|2023|ROCE_SOURCE_VARIANCE|version difference|computed=19.40, source_display=1.63
+PNB|2023|ROE_SOURCE_VARIANCE|data source issue|computed=30.67, source_display=8.7
+PNB|2023|ROCE_SOURCE_VARIANCE|version difference|computed=19.40, source_display=1.63
+PNB|2023|ROE_SOURCE_VARIANCE|data source issue|computed=30.67, source_display=8.7
+PNB|2023|ROCE_SOURCE_VARIANCE|version difference|computed=19.40, source_display=1.63
+PNB|2023|ROE_SOURCE_VARIANCE|data source issue|computed=30.67, source_display=8.7
+PNB|2023|ROCE_SOURCE_VARIANCE|version difference|computed=19.40, source_display=1.63
+PNB|2024|ROE_SOURCE_VARIANCE|data source issue|computed=61.32, source_display=8.7
+PNB|2024|ROCE_SOURCE_VARIANCE|version difference|computed=20.24, source_display=1.63
+PNB|2024|ROE_SOURCE_VARIANCE|data source issue|computed=61.32, source_display=8.7
+PNB|2024|ROCE_SOURCE_VARIANCE|version difference|computed=20.24, source_display=1.63
+PNB|2024|ROE_SOURCE_VARIANCE|data source issue|computed=61.32, source_display=8.7
+PNB|2024|ROCE_SOURCE_VARIANCE|version difference|computed=20.24, source_display=1.63
+PNB|2024|ROE_SOURCE_VARIANCE|data source issue|computed=61.32, source_display=8.7
+PNB|2024|ROCE_SOURCE_VARIANCE|version difference|computed=20.24, source_display=1.63
+PNB|2024|ROE_SOURCE_VARIANCE|data source issue|computed=61.32, source_display=8.7
+PNB|2024|ROCE_SOURCE_VARIANCE|version difference|computed=20.24, source_display=1.63
+POWERGRID|2014|ROE_SOURCE_VARIANCE|data source issue|computed=13.11, source_display=19.0
+POWERGRID|2014|ROE_SOURCE_VARIANCE|data source issue|computed=13.11, source_display=19.0
+POWERGRID|2015|ROE_SOURCE_VARIANCE|data source issue|computed=13.13, source_display=19.0
+POWERGRID|2015|ROE_SOURCE_VARIANCE|data source issue|computed=13.13, source_display=19.0
+POWERGRID|2016|ROE_SOURCE_VARIANCE|data source issue|computed=13.55, source_display=19.0
+POWERGRID|2016|ROE_SOURCE_VARIANCE|data source issue|computed=13.55, source_display=19.0
+POWERGRID|2022|ROCE_SOURCE_VARIANCE|version difference|computed=19.21, source_display=13.2
+POWERGRID|2022|ROCE_SOURCE_VARIANCE|version difference|computed=19.21, source_display=13.2
+POWERGRID|2023|ROCE_SOURCE_VARIANCE|version difference|computed=19.22, source_display=13.2
+POWERGRID|2023|ROCE_SOURCE_VARIANCE|version difference|computed=19.22, source_display=13.2
+POWERGRID|2024|ROCE_SOURCE_VARIANCE|version difference|computed=19.17, source_display=13.2
+POWERGRID|2024|ROCE_SOURCE_VARIANCE|version difference|computed=19.17, source_display=13.2
+RECLTD|2013|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+RECLTD|2014|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+RECLTD|2015|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+RECLTD|2016|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+RECLTD|2018|ROE_SOURCE_VARIANCE|data source issue|computed=13.66, source_display=22.2
+RECLTD|2018|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+RECLTD|2019|ROE_SOURCE_VARIANCE|data source issue|computed=16.62, source_display=22.2
+RECLTD|2019|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+RECLTD|2020|ROE_SOURCE_VARIANCE|data source issue|computed=14.05, source_display=22.2
+RECLTD|2020|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+RECLTD|2021|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+RECLTD|2022|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+RECLTD|2023|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+RECLTD|2024|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+SBILIFE|2013|ROE_SOURCE_VARIANCE|data source issue|computed=23.03, source_display=12.0
+SBILIFE|2013|ROCE_SOURCE_VARIANCE|version difference|computed=26.28, source_display=13.2
+SBILIFE|2014|ROE_SOURCE_VARIANCE|data source issue|computed=21.69, source_display=12.0
+SBILIFE|2014|ROCE_SOURCE_VARIANCE|version difference|computed=25.48, source_display=13.2
+SBILIFE|2015|ROE_SOURCE_VARIANCE|data source issue|computed=20.09, source_display=12.0
+SBILIFE|2015|ROCE_SOURCE_VARIANCE|version difference|computed=24.09, source_display=13.2
+SBILIFE|2016|ROE_SOURCE_VARIANCE|data source issue|computed=17.83, source_display=12.0
+SBILIFE|2016|ROCE_SOURCE_VARIANCE|version difference|computed=22.16, source_display=13.2
+SBILIFE|2017|ROE_SOURCE_VARIANCE|data source issue|computed=17.20, source_display=12.0
+SBILIFE|2017|ROCE_SOURCE_VARIANCE|version difference|computed=21.74, source_display=13.2
+SBILIFE|2018|ROE_SOURCE_VARIANCE|data source issue|computed=17.62, source_display=12.0
+SBILIFE|2018|ROCE_SOURCE_VARIANCE|version difference|computed=22.79, source_display=13.2
+SBILIFE|2019|ROE_SOURCE_VARIANCE|data source issue|computed=17.52, source_display=12.0
+SBILIFE|2019|ROCE_SOURCE_VARIANCE|version difference|computed=22.97, source_display=13.2
+SBILIFE|2020|ROCE_SOURCE_VARIANCE|version difference|computed=21.50, source_display=13.2
+SHREECEM|2013|ROE_SOURCE_VARIANCE|data source issue|computed=26.12, source_display=12.2
+SHREECEM|2013|ROCE_SOURCE_VARIANCE|version difference|computed=34.06, source_display=14.8
+SHREECEM|2014|ROCE_SOURCE_VARIANCE|version difference|computed=25.27, source_display=14.8
+SHREECEM|2015|ROCE_SOURCE_VARIANCE|version difference|computed=23.35, source_display=14.8
+SHREECEM|2017|ROE_SOURCE_VARIANCE|data source issue|computed=17.39, source_display=12.2
+SHREECEM|2017|ROCE_SOURCE_VARIANCE|version difference|computed=31.98, source_display=14.8
+SHREECEM|2018|ROCE_SOURCE_VARIANCE|version difference|computed=23.27, source_display=14.8
+SHREECEM|2019|ROCE_SOURCE_VARIANCE|version difference|computed=22.98, source_display=14.8
+SHREECEM|2020|ROCE_SOURCE_VARIANCE|version difference|computed=24.73, source_display=14.8
+SHREECEM|2021|ROCE_SOURCE_VARIANCE|version difference|computed=25.63, source_display=14.8
+SHREECEM|2022|ROCE_SOURCE_VARIANCE|version difference|computed=21.72, source_display=14.8
+SHREECEM|2024|ROCE_SOURCE_VARIANCE|version difference|computed=22.88, source_display=14.8
+SHRIRAMFIN|2013|ROCE_SOURCE_VARIANCE|version difference|computed=5.37, source_display=11.3
+SHRIRAMFIN|2014|ROCE_SOURCE_VARIANCE|version difference|computed=4.25, source_display=11.3
+SHRIRAMFIN|2015|ROCE_SOURCE_VARIANCE|version difference|computed=3.03, source_display=11.3
+SHRIRAMFIN|2015|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+SHRIRAMFIN|2016|ROCE_SOURCE_VARIANCE|version difference|computed=3.05, source_display=11.3
+SHRIRAMFIN|2017|ROCE_SOURCE_VARIANCE|version difference|computed=3.06, source_display=11.3
+SHRIRAMFIN|2018|ROCE_SOURCE_VARIANCE|version difference|computed=4.10, source_display=11.3
+SHRIRAMFIN|2018|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+SHRIRAMFIN|2019|ROCE_SOURCE_VARIANCE|version difference|computed=3.68, source_display=11.3
+SHRIRAMFIN|2019|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+SHRIRAMFIN|2020|ROCE_SOURCE_VARIANCE|version difference|computed=3.17, source_display=11.3
+SHRIRAMFIN|2020|FINANCIALS_LEVERAGE_SUPPRESSED|formula decision|D/E warning suppressed for Financials sector
+SHRIRAMFIN|2021|ROCE_SOURCE_VARIANCE|version difference|computed=2.66, source_display=11.3
+SHRIRAMFIN|2022|ROE_SOURCE_VARIANCE|data source issue|computed=10.43, source_display=15.9
+SHRIRAMFIN|2022|ROCE_SOURCE_VARIANCE|version difference|computed=2.61, source_display=11.3
+SHRIRAMFIN|2023|ROCE_SOURCE_VARIANCE|version difference|computed=4.24, source_display=11.3
+SHRIRAMFIN|2024|ROCE_SOURCE_VARIANCE|version difference|computed=4.32, source_display=11.3
+SIEMENS|2011|ROCE_SOURCE_VARIANCE|version difference|computed=38.52, source_display=25.6
+SIEMENS|2014|ROE_SOURCE_VARIANCE|data source issue|computed=13.78, source_display=19.1
+SIEMENS|2015|ROCE_SOURCE_VARIANCE|version difference|computed=37.75, source_display=25.6
+SIEMENS|2016|ROE_SOURCE_VARIANCE|data source issue|computed=42.83, source_display=19.1
+SIEMENS|2016|ROCE_SOURCE_VARIANCE|version difference|computed=61.17, source_display=25.6
+SIEMENS|2018|ROE_SOURCE_VARIANCE|data source issue|computed=10.86, source_display=19.1
+SIEMENS|2018|ROCE_SOURCE_VARIANCE|version difference|computed=19.36, source_display=25.6
+SIEMENS|2019|ROE_SOURCE_VARIANCE|data source issue|computed=12.14, source_display=19.1
+SIEMENS|2020|ROE_SOURCE_VARIANCE|data source issue|computed=8.10, source_display=19.1
+SIEMENS|2020|ROCE_SOURCE_VARIANCE|version difference|computed=13.89, source_display=25.6
+SIEMENS|2021|ROE_SOURCE_VARIANCE|data source issue|computed=10.52, source_display=19.1
+SIEMENS|2021|ROCE_SOURCE_VARIANCE|version difference|computed=17.13, source_display=25.6
+SIEMENS|2022|ROE_SOURCE_VARIANCE|data source issue|computed=13.29, source_display=19.1
+SIEMENS|2022|ROCE_SOURCE_VARIANCE|version difference|computed=19.90, source_display=25.6
+SUNPHARMA|2013|ROE_SOURCE_VARIANCE|data source issue|computed=23.14, source_display=16.7
+SUNPHARMA|2013|ROCE_SOURCE_VARIANCE|version difference|computed=30.78, source_display=17.3
+SUNPHARMA|2014|ROCE_SOURCE_VARIANCE|version difference|computed=23.88, source_display=17.3
+SUNPHARMA|2015|ROCE_SOURCE_VARIANCE|version difference|computed=23.61, source_display=17.3
+SUNPHARMA|2017|ROCE_SOURCE_VARIANCE|version difference|computed=23.05, source_display=17.3
+SUNPHARMA|2018|ROE_SOURCE_VARIANCE|data source issue|computed=6.63, source_display=16.7
+SUNPHARMA|2018|ROCE_SOURCE_VARIANCE|version difference|computed=11.29, source_display=17.3
+SUNPHARMA|2019|ROE_SOURCE_VARIANCE|data source issue|computed=7.75, source_display=16.7
+SUNPHARMA|2019|ROCE_SOURCE_VARIANCE|version difference|computed=11.78, source_display=17.3
+SUNPHARMA|2020|ROE_SOURCE_VARIANCE|data source issue|computed=9.22, source_display=16.7
+SUNPHARMA|2021|ROE_SOURCE_VARIANCE|data source issue|computed=4.89, source_display=16.7
+SUNPHARMA|2021|ROCE_SOURCE_VARIANCE|version difference|computed=9.98, source_display=17.3
+SUNPHARMA|2022|ROE_SOURCE_VARIANCE|data source issue|computed=7.06, source_display=16.7
+SUNPHARMA|2024|OPM_MISMATCH|formula discrepancy|computed=26.84, source=28.0
+TATACONSUM|2016|ROE_SOURCE_VARIANCE|data source issue|computed=-0.59, source_display=8.32
+TATACONSUM|2016|ROCE_SOURCE_VARIANCE|version difference|computed=5.32, source_display=10.6
+TATAMOTORS|2013|ROE_SOURCE_VARIANCE|data source issue|computed=26.51, source_display=49.4
+TATAMOTORS|2013|ROCE_SOURCE_VARIANCE|version difference|computed=27.16, source_display=20.1
+TATAMOTORS|2014|ROE_SOURCE_VARIANCE|data source issue|computed=21.42, source_display=49.4
+TATAMOTORS|2014|ROCE_SOURCE_VARIANCE|version difference|computed=27.48, source_display=20.1
+TATAMOTORS|2015|ROE_SOURCE_VARIANCE|data source issue|computed=25.01, source_display=49.4
+TATAMOTORS|2015|ROCE_SOURCE_VARIANCE|version difference|computed=30.76, source_display=20.1
+TATAMOTORS|2016|ROE_SOURCE_VARIANCE|data source issue|computed=14.79, source_display=49.4
+TATAMOTORS|2017|ROE_SOURCE_VARIANCE|data source issue|computed=13.02, source_display=49.4
+TATAMOTORS|2018|ROE_SOURCE_VARIANCE|data source issue|computed=9.53, source_display=49.4
+TATAMOTORS|2019|ROE_SOURCE_VARIANCE|data source issue|computed=-47.73, source_display=49.4
+TATAMOTORS|2019|ROCE_SOURCE_VARIANCE|version difference|computed=-1.22, source_display=20.1
+TATAMOTORS|2020|ROE_SOURCE_VARIANCE|data source issue|computed=-18.98, source_display=49.4
+TATAMOTORS|2020|ROCE_SOURCE_VARIANCE|version difference|computed=9.63, source_display=20.1
+TATAMOTORS|2021|ROE_SOURCE_VARIANCE|data source issue|computed=-24.25, source_display=49.4
+TATAMOTORS|2021|ROCE_SOURCE_VARIANCE|version difference|computed=10.73, source_display=20.1
+TATAMOTORS|2022|ROE_SOURCE_VARIANCE|data source issue|computed=-25.38, source_display=49.4
+TATAMOTORS|2022|ROCE_SOURCE_VARIANCE|version difference|computed=14.21, source_display=20.1
+TATAMOTORS|2023|ROE_SOURCE_VARIANCE|data source issue|computed=5.94, source_display=49.4
+TATAMOTORS|2024|ROE_SOURCE_VARIANCE|data source issue|computed=37.46, source_display=49.4
+TATAMOTORS|2024|ROCE_SOURCE_VARIANCE|version difference|computed=33.93, source_display=20.1
+TATAPOWER|2013|ROE_SOURCE_VARIANCE|data source issue|computed=1.00, source_display=11.3
+TATAPOWER|2014|ROE_SOURCE_VARIANCE|data source issue|computed=0.10, source_display=11.3
+TATAPOWER|2015|ROE_SOURCE_VARIANCE|data source issue|computed=3.19, source_display=11.3
+TATAPOWER|2023|ROCE_SOURCE_VARIANCE|version difference|computed=16.24, source_display=11.1
+TATAPOWER|2024|ROCE_SOURCE_VARIANCE|version difference|computed=16.45, source_display=11.1
+TATASTEEL|2013|ROE_SOURCE_VARIANCE|data source issue|computed=-21.28, source_display=6.55
+TATASTEEL|2014|ROCE_SOURCE_VARIANCE|version difference|computed=13.83, source_display=7.02
+TATASTEEL|2015|ROE_SOURCE_VARIANCE|data source issue|computed=-12.56, source_display=6.55
+TATASTEEL|2016|ROE_SOURCE_VARIANCE|data source issue|computed=-1.14, source_display=6.55
+TATASTEEL|2017|ROE_SOURCE_VARIANCE|data source issue|computed=-11.02, source_display=6.55
+TATASTEEL|2018|ROE_SOURCE_VARIANCE|data source issue|computed=29.15, source_display=6.55
+TATASTEEL|2018|ROCE_SOURCE_VARIANCE|version difference|computed=21.13, source_display=7.02
+TATASTEEL|2019|ROE_SOURCE_VARIANCE|data source issue|computed=13.23, source_display=6.55
+TATASTEEL|2019|ROCE_SOURCE_VARIANCE|version difference|computed=18.17, source_display=7.02
+TATASTEEL|2021|ROCE_SOURCE_VARIANCE|version difference|computed=18.85, source_display=7.02
+TATASTEEL|2022|ROE_SOURCE_VARIANCE|data source issue|computed=36.48, source_display=6.55
+TATASTEEL|2022|ROCE_SOURCE_VARIANCE|version difference|computed=34.10, source_display=7.02
+TATASTEEL|2023|ROCE_SOURCE_VARIANCE|version difference|computed=18.02, source_display=7.02
+TATASTEEL|2024|ROE_SOURCE_VARIANCE|data source issue|computed=-5.33, source_display=6.55
+TCS|2013|ROE_SOURCE_VARIANCE|data source issue|computed=36.52, source_display=0.52
+TCS|2013|ROCE_SOURCE_VARIANCE|version difference|computed=49.43, source_display=64.3
+TCS|2014|ROE_SOURCE_VARIANCE|data source issue|computed=39.30, source_display=0.52
+TCS|2014|ROCE_SOURCE_VARIANCE|version difference|computed=54.13, source_display=64.3
+TCS|2015|ROE_SOURCE_VARIANCE|data source issue|computed=39.62, source_display=0.52
+TCS|2015|ROCE_SOURCE_VARIANCE|version difference|computed=55.31, source_display=64.3
+TCS|2016|ROE_SOURCE_VARIANCE|data source issue|computed=34.24, source_display=0.52
+TCS|2016|ROCE_SOURCE_VARIANCE|version difference|computed=47.34, source_display=64.3
+TCS|2017|ROE_SOURCE_VARIANCE|data source issue|computed=30.57, source_display=0.52
+TCS|2017|ROCE_SOURCE_VARIANCE|version difference|computed=42.23, source_display=64.3
+TCS|2018|ROE_SOURCE_VARIANCE|data source issue|computed=30.40, source_display=0.52
+TCS|2018|ROCE_SOURCE_VARIANCE|version difference|computed=42.35, source_display=64.3
+TCS|2019|ROE_SOURCE_VARIANCE|data source issue|computed=35.29, source_display=0.52
+TCS|2019|ROCE_SOURCE_VARIANCE|version difference|computed=48.95, source_display=64.3
+TCS|2020|ROE_SOURCE_VARIANCE|data source issue|computed=38.57, source_display=0.52
+TCS|2020|ROCE_SOURCE_VARIANCE|version difference|computed=50.60, source_display=64.3
+TCS|2021|ROE_SOURCE_VARIANCE|data source issue|computed=37.67, source_display=0.52
+TCS|2021|ROCE_SOURCE_VARIANCE|version difference|computed=51.43, source_display=64.3
+TCS|2022|ROE_SOURCE_VARIANCE|data source issue|computed=43.13, source_display=0.52
+TCS|2022|ROCE_SOURCE_VARIANCE|version difference|computed=58.87, source_display=64.3
+TCS|2023|ROE_SOURCE_VARIANCE|data source issue|computed=46.78, source_display=0.52
+TCS|2024|ROE_SOURCE_VARIANCE|data source issue|computed=50.94, source_display=0.52
+TECHM|2013|ROE_SOURCE_VARIANCE|data source issue|computed=24.09, source_display=8.63
+TECHM|2013|ROCE_SOURCE_VARIANCE|version difference|computed=18.82, source_display=11.9
+TECHM|2013|ROE_SOURCE_VARIANCE|data source issue|computed=24.09, source_display=8.63
+TECHM|2013|ROCE_SOURCE_VARIANCE|version difference|computed=18.82, source_display=11.9
+TECHM|2014|ROE_SOURCE_VARIANCE|data source issue|computed=33.35, source_display=8.63
+TECHM|2014|ROCE_SOURCE_VARIANCE|version difference|computed=46.27, source_display=11.9
+TECHM|2014|ROE_SOURCE_VARIANCE|data source issue|computed=33.35, source_display=8.63
+TECHM|2014|ROCE_SOURCE_VARIANCE|version difference|computed=46.27, source_display=11.9
+TECHM|2015|ROE_SOURCE_VARIANCE|data source issue|computed=21.71, source_display=8.63
+TECHM|2015|ROCE_SOURCE_VARIANCE|version difference|computed=33.20, source_display=11.9
+TECHM|2015|ROE_SOURCE_VARIANCE|data source issue|computed=21.71, source_display=8.63
+TECHM|2015|ROCE_SOURCE_VARIANCE|version difference|computed=33.20, source_display=11.9
+TECHM|2016|ROE_SOURCE_VARIANCE|data source issue|computed=20.75, source_display=8.63
+TECHM|2016|ROCE_SOURCE_VARIANCE|version difference|computed=30.05, source_display=11.9
+TECHM|2016|ROE_SOURCE_VARIANCE|data source issue|computed=20.75, source_display=8.63
+TECHM|2016|ROCE_SOURCE_VARIANCE|version difference|computed=30.05, source_display=11.9
+TECHM|2017|ROE_SOURCE_VARIANCE|data source issue|computed=17.35, source_display=8.63
+TECHM|2017|ROCE_SOURCE_VARIANCE|version difference|computed=27.85, source_display=11.9
+TECHM|2017|ROE_SOURCE_VARIANCE|data source issue|computed=17.35, source_display=8.63
+TECHM|2017|ROCE_SOURCE_VARIANCE|version difference|computed=27.85, source_display=11.9
+TECHM|2018|ROE_SOURCE_VARIANCE|data source issue|computed=20.09, source_display=8.63
+TECHM|2018|ROCE_SOURCE_VARIANCE|version difference|computed=28.85, source_display=11.9
+TECHM|2018|ROE_SOURCE_VARIANCE|data source issue|computed=20.09, source_display=8.63
+TECHM|2018|ROCE_SOURCE_VARIANCE|version difference|computed=28.85, source_display=11.9
+TECHM|2019|ROE_SOURCE_VARIANCE|data source issue|computed=21.14, source_display=8.63
+TECHM|2019|ROCE_SOURCE_VARIANCE|version difference|computed=30.54, source_display=11.9
+TECHM|2019|ROE_SOURCE_VARIANCE|data source issue|computed=21.14, source_display=8.63
+TECHM|2019|ROCE_SOURCE_VARIANCE|version difference|computed=30.54, source_display=11.9
+TECHM|2020|ROE_SOURCE_VARIANCE|data source issue|computed=17.87, source_display=8.63
+TECHM|2020|ROCE_SOURCE_VARIANCE|version difference|computed=26.27, source_display=11.9
+TECHM|2020|ROE_SOURCE_VARIANCE|data source issue|computed=17.87, source_display=8.63
+TECHM|2020|ROCE_SOURCE_VARIANCE|version difference|computed=26.27, source_display=11.9
+TECHM|2021|ROE_SOURCE_VARIANCE|data source issue|computed=17.51, source_display=8.63
+TECHM|2021|ROCE_SOURCE_VARIANCE|version difference|computed=27.31, source_display=11.9
+TECHM|2021|ROE_SOURCE_VARIANCE|data source issue|computed=17.51, source_display=8.63
+TECHM|2021|ROCE_SOURCE_VARIANCE|version difference|computed=27.31, source_display=11.9
+TECHM|2022|ROE_SOURCE_VARIANCE|data source issue|computed=20.94, source_display=8.63
+TECHM|2022|ROCE_SOURCE_VARIANCE|version difference|computed=30.96, source_display=11.9
+TECHM|2022|ROE_SOURCE_VARIANCE|data source issue|computed=20.94, source_display=8.63
+TECHM|2022|ROCE_SOURCE_VARIANCE|version difference|computed=30.96, source_display=11.9
+TECHM|2023|ROE_SOURCE_VARIANCE|data source issue|computed=17.39, source_display=8.63
+TECHM|2023|ROCE_SOURCE_VARIANCE|version difference|computed=28.46, source_display=11.9
+TECHM|2023|ROE_SOURCE_VARIANCE|data source issue|computed=17.39, source_display=8.63
+TECHM|2023|ROCE_SOURCE_VARIANCE|version difference|computed=28.46, source_display=11.9
+TECHM|2024|ROCE_SOURCE_VARIANCE|version difference|computed=18.60, source_display=11.9
+TECHM|2024|ROCE_SOURCE_VARIANCE|version difference|computed=18.60, source_display=11.9
+TITAN|2013|ROCE_SOURCE_VARIANCE|version difference|computed=56.50, source_display=22.7
+TITAN|2014|ROCE_SOURCE_VARIANCE|version difference|computed=34.95, source_display=22.7
+TITAN|2015|ROE_SOURCE_VARIANCE|data source issue|computed=26.46, source_display=32.9
+TITAN|2015|ROCE_SOURCE_VARIANCE|version difference|computed=38.32, source_display=22.7
+TITAN|2016|ROE_SOURCE_VARIANCE|data source issue|computed=19.25, source_display=32.9
+TITAN|2016|ROCE_SOURCE_VARIANCE|version difference|computed=27.85, source_display=22.7
+TITAN|2017|ROE_SOURCE_VARIANCE|data source issue|computed=16.47, source_display=32.9
+TITAN|2018|ROE_SOURCE_VARIANCE|data source issue|computed=21.65, source_display=32.9
+TITAN|2019|ROE_SOURCE_VARIANCE|data source issue|computed=22.88, source_display=32.9
+TITAN|2020|ROE_SOURCE_VARIANCE|data source issue|computed=22.39, source_display=32.9
+TITAN|2021|ROE_SOURCE_VARIANCE|data source issue|computed=12.99, source_display=32.9
+TITAN|2021|ROCE_SOURCE_VARIANCE|version difference|computed=14.50, source_display=22.7
+TITAN|2022|ROE_SOURCE_VARIANCE|data source issue|computed=23.63, source_display=32.9
+TITAN|2023|ROE_SOURCE_VARIANCE|data source issue|computed=27.63, source_display=32.9
+TORNTPHARM|2013|ROE_SOURCE_VARIANCE|data source issue|computed=30.59, source_display=24.2
+TORNTPHARM|2013|ROCE_SOURCE_VARIANCE|version difference|computed=33.00, source_display=23.2
+TORNTPHARM|2014|ROE_SOURCE_VARIANCE|data source issue|computed=34.89, source_display=24.2
+TORNTPHARM|2014|ROCE_SOURCE_VARIANCE|version difference|computed=32.59, source_display=23.2
+TORNTPHARM|2015|ROE_SOURCE_VARIANCE|data source issue|computed=30.15, source_display=24.2
+TORNTPHARM|2016|ROE_SOURCE_VARIANCE|data source issue|computed=49.60, source_display=24.2
+TORNTPHARM|2016|ROCE_SOURCE_VARIANCE|version difference|computed=47.30, source_display=23.2
+TORNTPHARM|2018|ROE_SOURCE_VARIANCE|data source issue|computed=14.67, source_display=24.2
+TORNTPHARM|2018|ROCE_SOURCE_VARIANCE|version difference|computed=14.87, source_display=23.2
+TORNTPHARM|2019|ROE_SOURCE_VARIANCE|data source issue|computed=9.23, source_display=24.2
+TORNTPHARM|2019|ROCE_SOURCE_VARIANCE|version difference|computed=15.64, source_display=23.2
+TORNTPHARM|2022|ROE_SOURCE_VARIANCE|data source issue|computed=13.05, source_display=24.2
+TORNTPHARM|2024|ROCE_SOURCE_VARIANCE|version difference|computed=32.30, source_display=23.2
+TRENT|2013|ROE_SOURCE_VARIANCE|data source issue|computed=-2.19, source_display=27.2
+TRENT|2013|ROCE_SOURCE_VARIANCE|version difference|computed=4.00, source_display=23.8
+TRENT|2014|ROE_SOURCE_VARIANCE|data source issue|computed=-1.92, source_display=27.2
+TRENT|2014|ROCE_SOURCE_VARIANCE|version difference|computed=6.12, source_display=23.8
+TRENT|2015|ROE_SOURCE_VARIANCE|data source issue|computed=9.07, source_display=27.2
+TRENT|2015|ROCE_SOURCE_VARIANCE|version difference|computed=17.53, source_display=23.8
+TRENT|2016|ROE_SOURCE_VARIANCE|data source issue|computed=3.76, source_display=27.2
+TRENT|2016|ROCE_SOURCE_VARIANCE|version difference|computed=9.44, source_display=23.8
+TRENT|2017|ROE_SOURCE_VARIANCE|data source issue|computed=5.49, source_display=27.2
+TRENT|2017|ROCE_SOURCE_VARIANCE|version difference|computed=11.09, source_display=23.8
+TRENT|2018|ROE_SOURCE_VARIANCE|data source issue|computed=5.45, source_display=27.2
+TRENT|2018|ROCE_SOURCE_VARIANCE|version difference|computed=11.83, source_display=23.8
+TRENT|2019|ROE_SOURCE_VARIANCE|data source issue|computed=5.77, source_display=27.2
+TRENT|2019|ROCE_SOURCE_VARIANCE|version difference|computed=12.66, source_display=23.8
+TRENT|2020|ROE_SOURCE_VARIANCE|data source issue|computed=4.44, source_display=27.2
+TRENT|2021|ROE_SOURCE_VARIANCE|data source issue|computed=-7.83, source_display=27.2
+TRENT|2021|ROCE_SOURCE_VARIANCE|version difference|computed=11.98, source_display=23.8
+TRENT|2022|ROE_SOURCE_VARIANCE|data source issue|computed=1.48, source_display=27.2
+TRENT|2022|ROCE_SOURCE_VARIANCE|version difference|computed=10.54, source_display=23.8
+TRENT|2023|ROE_SOURCE_VARIANCE|data source issue|computed=15.18, source_display=27.2
+TRENT|2024|ROE_SOURCE_VARIANCE|data source issue|computed=36.31, source_display=27.2
+TRENT|2024|ROCE_SOURCE_VARIANCE|version difference|computed=50.85, source_display=23.8
+INDIGO|2013|OPM_MISMATCH|formula discrepancy|computed=90.71, source=855.0
+INDIGO|2013|ROCE_SOURCE_VARIANCE|version difference|computed=54266.23, source_display=24.5
+INDIGO|2014|OPM_MISMATCH|formula discrepancy|computed=96.11, source=433.0
+INDIGO|2014|ROCE_SOURCE_VARIANCE|version difference|computed=58086.96, source_display=24.5
+INDIGO|2015|OPM_MISMATCH|formula discrepancy|computed=86.33, source=1904.0
+INDIGO|2015|ROCE_SOURCE_VARIANCE|version difference|computed=39592.11, source_display=24.5
+INDIGO|2016|OPM_MISMATCH|formula discrepancy|computed=80.40, source=3164.0
+INDIGO|2016|ROCE_SOURCE_VARIANCE|version difference|computed=9458.52, source_display=24.5
+INDIGO|2017|OPM_MISMATCH|formula discrepancy|computed=88.06, source=2219.0
+INDIGO|2017|ROCE_SOURCE_VARIANCE|version difference|computed=10916.00, source_display=24.5
+INDIGO|2018|OPM_MISMATCH|formula discrepancy|computed=86.84, source=3030.0
+INDIGO|2018|ROCE_SOURCE_VARIANCE|version difference|computed=12989.61, source_display=24.5
+INDIGO|2019|OPM_MISMATCH|formula discrepancy|computed=100.53, source=-151.0
+INDIGO|2019|ROCE_SOURCE_VARIANCE|version difference|computed=13201.38, source_display=24.5
+INDIGO|2020|OPM_MISMATCH|formula discrepancy|computed=88.62, source=4069.0
+INDIGO|2020|ROCE_SOURCE_VARIANCE|version difference|computed=12479.53, source_display=24.5
+INDIGO|2021|OPM_MISMATCH|formula discrepancy|computed=99.98, source=2.0
+INDIGO|2021|ROCE_SOURCE_VARIANCE|version difference|computed=2554.62, source_display=24.5
+INDIGO|2022|OPM_MISMATCH|formula discrepancy|computed=97.85, source=558.0
+INDIGO|2022|ROCE_SOURCE_VARIANCE|version difference|computed=3833.08, source_display=24.5
+INDIGO|2023|OPM_MISMATCH|formula discrepancy|computed=88.02, source=6521.0
+INDIGO|2023|ROCE_SOURCE_VARIANCE|version difference|computed=6075.79, source_display=24.5
+INDIGO|2024|OPM_MISMATCH|formula discrepancy|computed=76.30, source=16331.0
+INDIGO|2024|ROCE_SOURCE_VARIANCE|version difference|computed=5643.45, source_display=24.5

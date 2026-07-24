@@ -1,0 +1,8 @@
+rule_id,severity,table,failure_count,description,sql
+DQ-05,WARNING,profitandloss,265,Operating profit should match sales minus expenses within 1%,"SELECT COUNT(*) FROM profitandloss WHERE sales IS NOT NULL AND expenses IS NOT NULL AND operating_profit IS NOT NULL AND ABS((sales-expenses)-operating_profit) > MAX(1, ABS(sales)*0.01)"
+DQ-06,WARNING,profitandloss,1,Sales should be positive,SELECT COUNT(*) FROM profitandloss WHERE sales <= 0
+DQ-07,WARNING,cashflow,1,Net cash flow should equal operating + investing + financing within 1 crore,SELECT COUNT(*) FROM cashflow WHERE net_cash_flow IS NOT NULL AND ABS((operating_activity+investing_activity+financing_activity)-net_cash_flow) > 1
+DQ-08,WARNING,documents,298,Available annual report URLs should be HTTP(S) PDF links,SELECT COUNT(*) FROM documents WHERE annual_report IS NOT NULL AND (annual_report NOT LIKE 'http%' OR lower(annual_report) NOT LIKE '%.pdf%')
+DQ-11,WARNING,profitandloss,26,Dividend payout should be between 0 and 200,SELECT COUNT(*) FROM profitandloss WHERE dividend_payout < 0 OR dividend_payout > 200
+DQ-15,WARNING,profitandloss,3,EPS sign should generally match net profit sign,SELECT COUNT(*) FROM profitandloss WHERE eps IS NOT NULL AND net_profit IS NOT NULL AND ((eps < 0 AND net_profit > 0) OR (eps > 0 AND net_profit < 0))
+DQ-16,WARNING,companies,1,"Companies should have at least five years across P&L, balance sheet, or cash flow",SELECT COUNT(*) FROM companies c WHERE (SELECT COUNT(DISTINCT fiscal_year) FROM profitandloss p WHERE p.company_id=c.id) < 5 AND (SELECT COUNT(DISTINCT fiscal_year) FROM balancesheet b WHERE b.company_id=c.id) < 5 AND (SELECT COUNT(DISTINCT fiscal_year) FROM cashflow cf WHERE cf.company_id=c.id) < 5

@@ -1,0 +1,6 @@
+company_id,company_name,broad_sector,pl_years,bs_years,cf_years,stock_price_rows,review_status
+ABB,Abbott India Ltd,Industrials,12,12,12,60,correct
+HDFCBANK,HDFC Bank Ltd,Financials,12,12,12,60,correct
+INFY,Infosys Ltd,Information Technology,12,12,12,60,correct
+RELIANCE,Reliance Industries Ltd,Energy,12,12,12,60,correct
+TCS,Tata Consultancy Services Ltd,Information Technology,12,12,12,60,correct

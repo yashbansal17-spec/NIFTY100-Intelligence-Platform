@@ -1,0 +1,6 @@
+ticker,pdf_file,size_bytes,page_count,status,notes
+TCS,C:\Users\hp\Desktop\NIFTY100\reports\tearsheets\TCS_tearsheet.pdf,219898,2,PASS,Spot-check selected for layout review: no blank pages expected; tables use wrapped text cells
+HDFCBANK,C:\Users\hp\Desktop\NIFTY100\reports\tearsheets\HDFCBANK_tearsheet.pdf,221303,2,PASS,Spot-check selected for layout review: no blank pages expected; tables use wrapped text cells
+RELIANCE,C:\Users\hp\Desktop\NIFTY100\reports\tearsheets\RELIANCE_tearsheet.pdf,226645,2,PASS,Spot-check selected for layout review: no blank pages expected; tables use wrapped text cells
+SUNPHARMA,C:\Users\hp\Desktop\NIFTY100\reports\tearsheets\SUNPHARMA_tearsheet.pdf,228109,2,PASS,Spot-check selected for layout review: no blank pages expected; tables use wrapped text cells
+TATASTEEL,C:\Users\hp\Desktop\NIFTY100\reports\tearsheets\TATASTEEL_tearsheet.pdf,234383,2,PASS,Spot-check selected for layout review: no blank pages expected; tables use wrapped text cells

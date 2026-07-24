@@ -1,0 +1,6 @@
+company_id,fiscal_year,net_profit_margin_pct,operating_profit_margin_pct,return_on_equity_pct,return_on_capital_employed_pct,debt_to_equity,interest_coverage,icr_label,asset_turnover,free_cash_flow_cr,revenue_cagr_5yr,revenue_cagr_5yr_flag,composite_quality_score
+ABB,2024,20.53,24.84,32.47,44.98,0.02,141.75,,1.13,797.0,9.72,OK,55.9
+HDFCBANK,2024,23.07,61.41,14.34,4.89,6.81,1.4,,0.07,35669.0,21.95,OK,18.76
+INFY,2024,17.08,23.7,29.79,42.64,0.09,87.52,,1.13,20117.0,13.2,OK,52.52
+RELIANCE,2024,8.79,18.07,9.96,14.27,0.58,7.73,,0.51,45207.0,9.61,OK,53.99
+TCS,2024,19.14,26.69,50.94,68.78,0.09,87.1,,1.66,50429.0,10.46,OK,58.88

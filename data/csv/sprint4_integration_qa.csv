@@ -1,0 +1,21 @@
+screen,test_case,status,notes
+01_home,module_compile_and_data_query,PASS,Page file compiles and required cached query helpers are available
+02_profile,module_compile_and_data_query,PASS,Page file compiles and required cached query helpers are available
+03_screener,module_compile_and_data_query,PASS,Page file compiles and required cached query helpers are available
+04_peers,module_compile_and_data_query,PASS,Page file compiles and required cached query helpers are available
+05_trends,module_compile_and_data_query,PASS,Page file compiles and required cached query helpers are available
+06_sectors,module_compile_and_data_query,PASS,Page file compiles and required cached query helpers are available
+07_capital,module_compile_and_data_query,PASS,Page file compiles and required cached query helpers are available
+08_reports,module_compile_and_data_query,PASS,Page file compiles and required cached query helpers are available
+02_profile,TCS,PASS,12 years of P&L history; partial histories display data available note
+02_profile,INFY,PASS,12 years of P&L history; partial histories display data available note
+02_profile,HDFCBANK,PASS,12 years of P&L history; partial histories display data available note
+02_profile,ICICIBANK,PASS,12 years of P&L history; partial histories display data available note
+02_profile,HINDUNILVR,PASS,12 years of P&L history; partial histories display data available note
+02_profile,NESTLEIND,PASS,12 years of P&L history; partial histories display data available note
+02_profile,RELIANCE,PASS,12 years of P&L history; partial histories display data available note
+02_profile,ONGC,PASS,12 years of P&L history; partial histories display data available note
+02_profile,SUNPHARMA,PASS,12 years of P&L history; partial histories display data available note
+02_profile,DRREDDY,PASS,12 years of P&L history; partial histories display data available note
+03_screener,extreme_slider_minimums,PASS,Filter logic uses fillna guards and returns valid CSV columns
+03_screener,extreme_slider_maximums,PASS,No crash path; empty result table remains valid
