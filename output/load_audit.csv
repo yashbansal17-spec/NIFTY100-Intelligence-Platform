@@ -1,13 +1,13 @@
 file,table,source_rows,loaded_rows,rejected_rows,critical_rejections,warning_rejections,sample_rejection
-companies.xlsx,companies,92,92,0,0,0,
-profitandloss.xlsx,profitandloss,1276,1177,99,0,99,Unknown company_id excluded before FK insert: ULTRACEMCO
-balancesheet.xlsx,balancesheet,1312,1227,85,0,85,Unknown company_id excluded before FK insert: ZYDUSLIFE
-cashflow.xlsx,cashflow,1187,1091,96,0,96,Unknown company_id excluded before FK insert: AGTL
-analysis.xlsx,analysis,20,16,4,0,4,Unknown company_id excluded before FK insert: WIPRO
-documents.xlsx,documents,1585,1457,128,0,128,Unknown company_id excluded before FK insert: ULTRACEMCO
-prosandcons.xlsx,prosandcons,16,14,2,0,2,Unknown company_id excluded before FK insert: WIPRO
-sectors.xlsx,sectors,92,92,0,0,0,
-financial_ratios.xlsx,financial_ratios,1184,1160,24,0,24,Unknown company_id excluded before FK insert: ULTRACEMCO
-market_cap.xlsx,market_cap,552,552,0,0,0,
-peer_groups.xlsx,peer_groups,56,56,0,0,0,
-stock_prices.xlsx,stock_prices,5520,5520,0,0,0,
+companies.xlsx,companies,100,100,0,0,0,
+profitandloss.xlsx,profitandloss,1167,1167,0,0,0,
+balancesheet.xlsx,balancesheet,1214,1214,0,0,0,
+cashflow.xlsx,cashflow,1096,1096,0,0,0,
+analysis.xlsx,analysis,115,115,0,0,0,
+documents.xlsx,documents,1416,1416,0,0,0,
+prosandcons.xlsx,prosandcons,111,111,0,0,0,
+sectors.xlsx,sectors,100,100,0,0,0,
+financial_ratios.xlsx,financial_ratios,1135,1135,0,0,0,
+market_cap.xlsx,market_cap,577,577,0,0,0,
+peer_groups.xlsx,peer_groups,100,100,0,0,0,
+stock_prices.xlsx,stock_prices,5977,5977,0,0,0,

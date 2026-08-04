@@ -6,12 +6,12 @@ from pathlib import Path
 
 import streamlit as st
 
-
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 PAGES_DIR = PROJECT_ROOT / "pages"
 sys.path.insert(0, str(PROJECT_ROOT / "src"))
 
 from dashboard.utils import theme as theme_mod
+from dashboard.utils import live_data
 
 PAGES = {
     "Home": "01_home.py",
@@ -25,14 +25,14 @@ PAGES = {
 }
 
 NAV_ICONS = {
-    "Home": "Overview",
-    "Company Profile": "Company Profile",
-    "Screener": "Screener",
-    "Peers": "Peer Groups",
-    "Trends": "Trend Analysis",
-    "Sectors": "Sector Analysis",
-    "Capital Allocation": "Capital Allocation",
-    "Reports": "Annual Reports",
+    "Home": "📊 Overview & Live Stats",
+    "Company Profile": "🏢 Company Profile",
+    "Screener": "🔍 Metric Screener",
+    "Peers": "👥 Peer Groups",
+    "Trends": "📈 Trend Analysis",
+    "Sectors": "🏭 Sector Analysis",
+    "Capital Allocation": "💼 Capital Allocation",
+    "Reports": "📄 Annual Reports",
 }
 
 
@@ -47,29 +47,42 @@ def load_page(path: Path):
 
 def main() -> None:
     st.set_page_config(
-        page_title="NIFTY 100 Analytics",
+        page_title="NIFTY 100 Intelligence Platform",
+        page_icon="📈",
         layout="wide",
         initial_sidebar_state="expanded",
     )
     theme_mod.inject_theme()
+    theme_mod.inject_motion_fx()
+
     st.sidebar.markdown(
         """
         <div class="brand-block">
           <div class="brand-title">NIFTY <span>100</span></div>
-          <div class="brand-title">Analytics</div>
-          <div class="brand-subtitle"><span class="live-dot"></span>&nbsp; Live &middot; Intelligence Platform</div>
+          <div class="brand-subtitle"><span class="live-dot"></span>&nbsp; Live &middot; Monthly Auto-Sync</div>
         </div>
         """,
         unsafe_allow_html=True,
     )
+
     selected_label = st.sidebar.radio(
         "Navigation",
         [NAV_ICONS[name] for name in PAGES.keys()],
         label_visibility="collapsed",
     )
     selected = dict(zip(NAV_ICONS.values(), NAV_ICONS.keys()))[selected_label]
+
+    # Manual Live Market Sync Button
+    st.sidebar.markdown('<div style="margin-top: 0.5rem;"></div>', unsafe_allow_html=True)
+    if st.sidebar.button("🔄 Sync Live Market Data", use_container_width=True):
+        with st.spinner("Syncing latest market stats..."):
+            live_data.get_cached_live_market(force_refresh=True)
+            st.cache_data.clear()
+            st.toast("Updated recent stats & 52W Highs/Lows!", icon="✅")
+
     page = load_page(PAGES_DIR / PAGES[selected])
     page.render()
+
     st.sidebar.markdown('<div class="sidebar-footer">By - Yash Vardhan Bansal</div>', unsafe_allow_html=True)
 
 

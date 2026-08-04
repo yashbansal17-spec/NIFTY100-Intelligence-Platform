@@ -20,3 +20,4 @@ streamlit
 requests
 tabulate
 pillow
+yfinance

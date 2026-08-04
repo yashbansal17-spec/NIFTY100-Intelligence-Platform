@@ -1,7 +1,7 @@
 PYTHON ?= python
 DATA_DIR ?= data/excel
 
-.PHONY: load validate ratios sprint3 valuation sprint5 sprint6 test report dashboard api clean
+.PHONY: load validate ratios sprint3 valuation sprint5 sprint6 test report dashboard api clean sync-market
 
 load:
 	$(PYTHON) src/etl/loader.py --data-dir "$(DATA_DIR)" --db output/nifty100.db --audit output/load_audit.csv
@@ -50,6 +50,9 @@ dashboard:
 
 api:
 	uvicorn src.api.main:app --port 8000
+
+sync-market:
+	$(PYTHON) src/analytics/live_market.py
 
 clean:
 	$(PYTHON) -c "import pathlib; [p.unlink() for p in pathlib.Path('output').glob('*') if p.is_file()]"

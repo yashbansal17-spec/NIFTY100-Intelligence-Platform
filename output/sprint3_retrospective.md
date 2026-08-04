@@ -10,9 +10,9 @@
 
 ## Exit Review
 
-- Preset count range 5-50: PASS.
-- Peer comparison sheets: 11.
-- Radar charts: 90.
+- Preset count range 5-50: REVIEW.
+- Peer comparison sheets: 28.
+- Radar charts: 100.
 - Peer spot checks: PASS.
 
 ## Notes

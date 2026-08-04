@@ -1,21 +1,21 @@
 gate,result,status
-AC-01 companies count,92,PASS
-AC-02 90 percent history coverage,84/92,PASS
+AC-01 companies count,100,FAIL
+AC-02 90 percent history coverage,77/92,FAIL
 AC-03 foreign key check,0,PASS
-AC-04 financial ratios row count,1160,PASS
+AC-04 financial ratios row count,1135,PASS
 AC-05 revenue CAGR spot-check,3,PASS
 AC-06 ROE source tolerance sample,documented in ratio_edge_cases.log,PASS
-AC-07 quality screener count,22,PASS
+AC-07 quality screener count,17,PASS
 AC-08 profile load under 3s,5,PASS
 AC-09 screener CSV valid,screener output exists,PASS
 AC-10 tearsheet visual sample,5,PASS
 AC-11 API health,implemented,PASS
 AC-12 TCS ratios 10+ years,12,PASS
 AC-13 API screener vs workbook,endpoint and workbook present,PASS
-AC-14 peer percentiles 11 groups,11,PASS
-AC-15 clusters assigned,92,PASS
-AC-16 pros and cons coverage,92/92,PASS
-AC-17 tearsheets count and size,"92 PDFs, 0 small",PASS
+AC-14 peer percentiles 11 groups,28,PASS
+AC-15 clusters assigned,100,FAIL
+AC-16 pros and cons coverage,100/100,FAIL
+AC-17 tearsheets count and size,"115 PDFs, 0 small",FAIL
 AC-18 pytest 60+ zero failures,see reports/pytest_report.html,PASS
 AC-19 validation failures columns,"company_id,field,issue,severity,rule_id,table,failure_count,description,sql",PASS
 AC-20 analyst guide 10+ pages,generated,PASS

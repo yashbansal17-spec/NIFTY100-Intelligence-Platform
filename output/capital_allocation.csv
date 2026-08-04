@@ -231,18 +231,6 @@ BHARTIARTL,Mar 2021,+,-,-,Reinvestor
 BHARTIARTL,Mar 2022,+,-,-,Shareholder Returns
 BHARTIARTL,Mar 2023,+,-,-,Shareholder Returns
 BHARTIARTL,Mar 2024,+,-,-,Shareholder Returns
-BHEL,Mar 2013,+,-,+,Mixed
-BHEL,Mar 2014,+,-,+,Mixed
-BHEL,Mar 2015,+,+,-,Liquidating Assets
-BHEL,Mar 2016,+,+,-,Liquidating Assets
-BHEL,Mar 2017,+,-,-,Shareholder Returns
-BHEL,Mar 2018,+,+,-,Liquidating Assets
-BHEL,Mar 2019,-,+,-,Mixed
-BHEL,Mar 2020,-,+,+,Distress Signal
-BHEL,Mar 2021,+,-,-,Reinvestor
-BHEL,Mar 2022,+,-,-,Shareholder Returns
-BHEL,Mar 2023,-,+,+,Distress Signal
-BHEL,Mar 2024,-,+,+,Distress Signal
 BOSCHLTD,Dec 2012,+,-,-,Reinvestor
 BOSCHLTD,Dec 2013,+,-,-,Shareholder Returns
 BOSCHLTD,Mar 2015,+,-,-,Shareholder Returns
@@ -327,18 +315,6 @@ COALINDIA,Mar 2021,+,+,-,Liquidating Assets
 COALINDIA,Mar 2022,+,-,-,Shareholder Returns
 COALINDIA,Mar 2023,+,-,-,Shareholder Returns
 COALINDIA,Mar 2024,+,-,-,Reinvestor
-DABUR,Mar 2013,+,-,-,Shareholder Returns
-DABUR,Mar 2014,+,-,-,Shareholder Returns
-DABUR,Mar 2015,+,-,-,Reinvestor
-DABUR,Mar 2016,+,-,-,Reinvestor
-DABUR,Mar 2017,+,-,-,Reinvestor
-DABUR,Mar 2018,+,-,-,Reinvestor
-DABUR,Mar 2019,+,+,-,Liquidating Assets
-DABUR,Mar 2020,+,-,-,Shareholder Returns
-DABUR,Mar 2021,+,-,-,Shareholder Returns
-DABUR,Mar 2022,+,-,-,Shareholder Returns
-DABUR,Mar 2023,+,-,-,Reinvestor
-DABUR,Mar 2024,+,-,-,Shareholder Returns
 DIVISLAB,Mar 2013,+,-,-,Reinvestor
 DIVISLAB,Mar 2014,+,-,-,Reinvestor
 DIVISLAB,Mar 2015,+,-,-,Reinvestor
@@ -443,18 +419,6 @@ HAL,Mar 2021,+,-,-,Shareholder Returns
 HAL,Mar 2022,+,-,-,Shareholder Returns
 HAL,Mar 2023,+,-,-,Shareholder Returns
 HAL,Mar 2024,+,-,-,Shareholder Returns
-HAVELLS,Mar 2013,+,-,-,Shareholder Returns
-HAVELLS,Mar 2014,+,-,-,Shareholder Returns
-HAVELLS,Mar 2015,+,-,-,Shareholder Returns
-HAVELLS,Mar 2016,+,-,-,Reinvestor
-HAVELLS,Mar 2017,+,-,-,Shareholder Returns
-HAVELLS,Mar 2018,+,-,-,Shareholder Returns
-HAVELLS,Mar 2019,+,+,-,Liquidating Assets
-HAVELLS,Mar 2020,+,-,-,Shareholder Returns
-HAVELLS,Mar 2021,+,-,+,Mixed
-HAVELLS,Mar 2022,+,-,-,Shareholder Returns
-HAVELLS,Mar 2023,+,+,-,Liquidating Assets
-HAVELLS,Mar 2024,+,-,-,Shareholder Returns
 HCLTECH,Jun 2013,+,-,-,Shareholder Returns
 HCLTECH,Jun 2014,+,-,-,Reinvestor
 HCLTECH,Jun 2015,+,-,-,Reinvestor
@@ -491,17 +455,6 @@ HDFCLIFE,Mar 2021,+,-,+,Mixed
 HDFCLIFE,Mar 2022,+,-,-,Shareholder Returns
 HDFCLIFE,Mar 2023,+,-,+,Mixed
 HDFCLIFE,Mar 2024,+,-,-,Shareholder Returns
-HEROMOTOCO,Mar 2014,+,-,-,Shareholder Returns
-HEROMOTOCO,Mar 2015,+,+,-,Liquidating Assets
-HEROMOTOCO,Mar 2016,+,-,-,Shareholder Returns
-HEROMOTOCO,Mar 2017,+,-,-,Shareholder Returns
-HEROMOTOCO,Mar 2018,+,-,-,Shareholder Returns
-HEROMOTOCO,Mar 2019,+,+,-,Liquidating Assets
-HEROMOTOCO,Mar 2020,+,-,-,Shareholder Returns
-HEROMOTOCO,Mar 2021,+,-,-,Shareholder Returns
-HEROMOTOCO,Mar 2022,+,-,-,Reinvestor
-HEROMOTOCO,Mar 2023,+,-,-,Reinvestor
-HEROMOTOCO,Mar 2024,+,-,-,Shareholder Returns
 HINDALCO,Mar 2013,+,-,+,Mixed
 HINDALCO,Mar 2014,+,-,+,Mixed
 HINDALCO,Mar 2015,+,-,-,Shareholder Returns
@@ -538,30 +491,6 @@ ICICIBANK,Mar 2021,+,-,-,Shareholder Returns
 ICICIBANK,Mar 2022,+,-,+,Mixed
 ICICIBANK,Mar 2023,-,-,+,Growth Funded by Debt
 ICICIBANK,Mar 2024,+,-,+,Mixed
-ICICIGI,Mar 2013,+,-,+,Mixed
-ICICIGI,Mar 2014,+,-,+,Mixed
-ICICIGI,Mar 2015,-,+,-,Mixed
-ICICIGI,Mar 2016,+,-,-,Shareholder Returns
-ICICIGI,Mar 2017,+,-,+,Mixed
-ICICIGI,Mar 2018,+,-,-,Shareholder Returns
-ICICIGI,Mar 2019,+,-,-,Shareholder Returns
-ICICIGI,Mar 2020,+,-,-,Shareholder Returns
-ICICIGI,Mar 2021,+,-,-,Shareholder Returns
-ICICIGI,Mar 2022,+,+,-,Liquidating Assets
-ICICIGI,Mar 2023,+,-,-,Shareholder Returns
-ICICIGI,Mar 2024,+,-,-,Shareholder Returns
-ICICIPRULI,Mar 2013,-,+,-,Mixed
-ICICIPRULI,Mar 2014,-,+,-,Mixed
-ICICIPRULI,Mar 2015,+,-,-,Reinvestor
-ICICIPRULI,Mar 2016,+,+,-,Liquidating Assets
-ICICIPRULI,Mar 2017,+,-,-,Shareholder Returns
-ICICIPRULI,Mar 2018,+,-,-,Shareholder Returns
-ICICIPRULI,Mar 2019,+,-,-,Shareholder Returns
-ICICIPRULI,Mar 2020,+,-,-,Shareholder Returns
-ICICIPRULI,Mar 2021,+,-,+,Mixed
-ICICIPRULI,Mar 2022,+,-,-,Shareholder Returns
-ICICIPRULI,Mar 2023,+,-,-,Reinvestor
-ICICIPRULI,Mar 2024,-,+,-,Mixed
 INDIGO,Mar 2013,+,-,+,Mixed
 INDIGO,Mar 2014,+,-,+,Mixed
 INDIGO,Mar 2015,+,-,-,Shareholder Returns
@@ -574,18 +503,6 @@ INDIGO,Mar 2021,-,+,-,Mixed
 INDIGO,Mar 2022,+,+,-,Liquidating Assets
 INDIGO,Mar 2023,+,-,-,Reinvestor
 INDIGO,Mar 2024,+,-,-,Shareholder Returns
-INDUSINDBK,Mar 2013,-,-,+,Growth Funded by Debt
-INDUSINDBK,Mar 2014,-,-,+,Growth Funded by Debt
-INDUSINDBK,Mar 2015,-,-,+,Growth Funded by Debt
-INDUSINDBK,Mar 2016,-,-,+,Growth Funded by Debt
-INDUSINDBK,Mar 2017,+,-,-,Shareholder Returns
-INDUSINDBK,Mar 2018,-,-,+,Growth Funded by Debt
-INDUSINDBK,Mar 2019,-,-,+,Growth Funded by Debt
-INDUSINDBK,Mar 2020,-,+,+,Distress Signal
-INDUSINDBK,Mar 2021,+,-,-,Shareholder Returns
-INDUSINDBK,Mar 2022,+,-,-,Shareholder Returns
-INDUSINDBK,Mar 2023,-,-,+,Growth Funded by Debt
-INDUSINDBK,Mar 2024,-,-,-,Pre-Revenue
 INFY,Mar 2013,+,-,-,Reinvestor
 INFY,Mar 2014,+,-,-,Reinvestor
 INFY,Mar 2015,+,+,-,Liquidating Assets
@@ -610,16 +527,6 @@ IOC,Mar 2021,+,-,-,Shareholder Returns
 IOC,Mar 2022,+,-,-,Shareholder Returns
 IOC,Mar 2023,+,-,-,Shareholder Returns
 IOC,Mar 2024,+,-,-,Shareholder Returns
-IRCTC,Mar 2015,+,-,-,Reinvestor
-IRCTC,Mar 2016,+,+,-,Liquidating Assets
-IRCTC,Mar 2017,+,+,-,Liquidating Assets
-IRCTC,Mar 2018,+,+,-,Liquidating Assets
-IRCTC,Mar 2019,+,-,-,Shareholder Returns
-IRCTC,Mar 2020,+,+,-,Liquidating Assets
-IRCTC,Mar 2021,+,-,-,Shareholder Returns
-IRCTC,Mar 2022,+,-,-,Reinvestor
-IRCTC,Mar 2023,+,-,-,Reinvestor
-IRCTC,Mar 2024,+,-,-,Reinvestor
 IRFC,Mar 2016,-,+,+,Distress Signal
 IRFC,Mar 2017,-,+,+,Distress Signal
 IRFC,Mar 2018,-,+,+,Distress Signal
@@ -655,18 +562,6 @@ JINDALSTEL,Mar 2023,+,-,-,Shareholder Returns
 JINDALSTEL,Mar 2024,+,-,+,Mixed
 JIOFIN,Mar 2023,+,-,-,Shareholder Returns
 JIOFIN,Mar 2024,-,+,-,Mixed
-JSWENERGY,Mar 2013,+,-,-,Shareholder Returns
-JSWENERGY,Mar 2014,+,-,-,Shareholder Returns
-JSWENERGY,Mar 2015,+,-,-,Shareholder Returns
-JSWENERGY,Mar 2016,+,-,-,Shareholder Returns
-JSWENERGY,Mar 2017,+,-,-,Shareholder Returns
-JSWENERGY,Mar 2018,+,-,-,Shareholder Returns
-JSWENERGY,Mar 2019,+,-,-,Shareholder Returns
-JSWENERGY,Mar 2020,+,+,-,Liquidating Assets
-JSWENERGY,Mar 2021,+,-,-,Shareholder Returns
-JSWENERGY,Mar 2022,+,-,-,Shareholder Returns
-JSWENERGY,Mar 2023,+,-,+,Mixed
-JSWENERGY,Mar 2024,+,-,+,Mixed
 JSWSTEEL,Mar 2013,+,-,-,Shareholder Returns
 JSWSTEEL,Mar 2014,+,-,+,Mixed
 JSWSTEEL,Mar 2015,+,-,-,Shareholder Returns
@@ -691,12 +586,6 @@ KOTAKBANK,Mar 2021,+,-,-,Reinvestor
 KOTAKBANK,Mar 2022,+,-,+,Mixed
 KOTAKBANK,Mar 2023,-,-,+,Growth Funded by Debt
 KOTAKBANK,Mar 2024,+,-,+,Mixed
-LICI,Mar 2019,+,+,-,Liquidating Assets
-LICI,Mar 2020,+,-,-,Shareholder Returns
-LICI,Mar 2021,+,+,-,Liquidating Assets
-LICI,Mar 2022,-,+,0,Mixed
-LICI,Mar 2023,+,-,-,Shareholder Returns
-LICI,Mar 2024,+,-,-,Reinvestor
 LODHA,Mar 2016,+,-,+,Mixed
 LODHA,Mar 2017,+,-,-,Shareholder Returns
 LODHA,Mar 2018,+,-,+,Mixed
@@ -718,18 +607,6 @@ LT,Mar 2021,+,-,-,Shareholder Returns
 LT,Mar 2022,+,-,-,Shareholder Returns
 LT,Mar 2023,+,-,-,Shareholder Returns
 LT,Mar 2024,+,+,-,Liquidating Assets
-LTIM,Mar 2013,+,-,-,Shareholder Returns
-LTIM,Mar 2014,+,+,-,Liquidating Assets
-LTIM,Mar 2015,+,-,-,Reinvestor
-LTIM,Mar 2016,+,-,-,Shareholder Returns
-LTIM,Mar 2017,+,-,-,Shareholder Returns
-LTIM,Mar 2018,+,-,-,Reinvestor
-LTIM,Mar 2019,+,-,-,Reinvestor
-LTIM,Mar 2020,+,-,-,Shareholder Returns
-LTIM,Mar 2021,+,-,-,Shareholder Returns
-LTIM,Mar 2022,+,-,-,Reinvestor
-LTIM,Mar 2023,+,-,-,Reinvestor
-LTIM,Mar 2024,+,-,-,Shareholder Returns
 M&M,Mar 2013,-,-,+,Growth Funded by Debt
 M&M,Mar 2014,-,-,+,Growth Funded by Debt
 M&M,Mar 2015,+,-,+,Mixed
@@ -766,18 +643,6 @@ MOTHERSON,Mar 2021,+,-,-,Shareholder Returns
 MOTHERSON,Mar 2022,+,-,-,Shareholder Returns
 MOTHERSON,Mar 2023,+,-,-,Shareholder Returns
 MOTHERSON,Mar 2024,+,-,+,Mixed
-NAUKRI,Mar 2013,+,-,-,Reinvestor
-NAUKRI,Mar 2014,+,-,+,Mixed
-NAUKRI,Mar 2015,+,-,+,Mixed
-NAUKRI,Mar 2016,+,-,-,Reinvestor
-NAUKRI,Mar 2017,+,-,-,Reinvestor
-NAUKRI,Mar 2018,+,-,-,Reinvestor
-NAUKRI,Mar 2019,+,-,-,Reinvestor
-NAUKRI,Mar 2020,+,+,-,Liquidating Assets
-NAUKRI,Mar 2021,+,-,+,Mixed
-NAUKRI,Mar 2022,+,-,+,Mixed
-NAUKRI,Mar 2023,+,-,+,Mixed
-NAUKRI,Mar 2024,+,-,+,Mixed
 NESTLEIND,Dec 2013,+,-,-,Shareholder Returns
 NESTLEIND,Dec 2014,+,-,-,Shareholder Returns
 NESTLEIND,Dec 2015,+,-,-,Shareholder Returns
@@ -790,18 +655,6 @@ NESTLEIND,Dec 2021,+,-,-,Shareholder Returns
 NESTLEIND,Dec 2022,+,-,-,Shareholder Returns
 NESTLEIND,Dec 2023,+,-,-,Shareholder Returns
 NESTLEIND,Mar 2024,+,-,-,Shareholder Returns
-NHPC,Mar 2013,+,-,-,Reinvestor
-NHPC,Mar 2014,+,-,-,Shareholder Returns
-NHPC,Mar 2015,+,-,-,Shareholder Returns
-NHPC,Mar 2016,+,-,-,Shareholder Returns
-NHPC,Mar 2017,+,-,-,Shareholder Returns
-NHPC,Mar 2018,+,-,-,Shareholder Returns
-NHPC,Mar 2019,+,-,-,Shareholder Returns
-NHPC,Mar 2020,+,-,+,Mixed
-NHPC,Mar 2021,+,-,-,Shareholder Returns
-NHPC,Mar 2022,+,-,-,Shareholder Returns
-NHPC,Mar 2023,+,-,-,Shareholder Returns
-NHPC,Mar 2024,+,-,-,Shareholder Returns
 NTPC,Mar 2013,+,-,+,Mixed
 NTPC,Mar 2014,+,-,-,Shareholder Returns
 NTPC,Mar 2015,+,-,-,Shareholder Returns
@@ -982,18 +835,6 @@ TATACONSUM,Mar 2021,+,-,-,Shareholder Returns
 TATACONSUM,Mar 2022,+,-,-,Shareholder Returns
 TATACONSUM,Mar 2023,+,-,-,Shareholder Returns
 TATACONSUM,Mar 2024,+,-,+,Mixed
-TATAMOTORS,Mar 2013,+,-,-,Shareholder Returns
-TATAMOTORS,Mar 2014,+,-,-,Shareholder Returns
-TATAMOTORS,Mar 2015,+,-,+,Mixed
-TATAMOTORS,Mar 2016,+,-,-,Shareholder Returns
-TATAMOTORS,Mar 2017,+,-,+,Mixed
-TATAMOTORS,Mar 2018,+,-,+,Mixed
-TATAMOTORS,Mar 2019,+,-,+,Mixed
-TATAMOTORS,Mar 2020,+,-,+,Mixed
-TATAMOTORS,Mar 2021,+,-,+,Mixed
-TATAMOTORS,Mar 2022,+,-,-,Reinvestor
-TATAMOTORS,Mar 2023,+,-,-,Shareholder Returns
-TATAMOTORS,Mar 2024,+,-,-,Shareholder Returns
 TATAPOWER,Mar 2013,+,-,-,Shareholder Returns
 TATAPOWER,Mar 2014,+,-,-,Shareholder Returns
 TATAPOWER,Mar 2015,+,-,-,Shareholder Returns
@@ -1090,3 +931,167 @@ TVSMOTOR,Mar 2021,+,-,+,Mixed
 TVSMOTOR,Mar 2022,-,-,+,Growth Funded by Debt
 TVSMOTOR,Mar 2023,-,-,+,Growth Funded by Debt
 TVSMOTOR,Mar 2024,-,-,+,Growth Funded by Debt
+ULTRACEMCO,Mar 2013,+,-,+,Mixed
+ULTRACEMCO,Mar 2014,+,-,-,Shareholder Returns
+ULTRACEMCO,Mar 2015,+,-,-,Shareholder Returns
+ULTRACEMCO,Mar 2016,+,-,-,Shareholder Returns
+ULTRACEMCO,Mar 2017,+,-,-,Shareholder Returns
+ULTRACEMCO,Mar 2018,+,+,-,Liquidating Assets
+ULTRACEMCO,Mar 2019,+,+,-,Liquidating Assets
+ULTRACEMCO,Mar 2020,+,-,-,Shareholder Returns
+ULTRACEMCO,Mar 2021,+,-,-,Shareholder Returns
+ULTRACEMCO,Mar 2022,+,+,-,Liquidating Assets
+ULTRACEMCO,Mar 2023,+,-,-,Shareholder Returns
+ULTRACEMCO,Mar 2024,+,-,-,Shareholder Returns
+UNIONBANK,Mar 2013,-,-,+,Growth Funded by Debt
+UNIONBANK,Mar 2014,+,-,+,Mixed
+UNIONBANK,Mar 2015,-,-,+,Growth Funded by Debt
+UNIONBANK,Mar 2016,+,-,-,Reinvestor
+UNIONBANK,Mar 2017,-,-,+,Growth Funded by Debt
+UNIONBANK,Mar 2018,+,-,+,Mixed
+UNIONBANK,Mar 2019,-,-,+,Growth Funded by Debt
+UNIONBANK,Mar 2020,-,-,+,Growth Funded by Debt
+UNIONBANK,Mar 2021,+,-,-,Shareholder Returns
+UNIONBANK,Mar 2022,+,-,-,Shareholder Returns
+UNIONBANK,Mar 2023,+,-,-,Reinvestor
+UNIONBANK,Mar 2024,+,-,-,Shareholder Returns
+UNITDSPR,Mar 2013,+,-,-,Reinvestor
+UNITDSPR,Mar 2014,-,-,+,Growth Funded by Debt
+UNITDSPR,Mar 2015,-,+,-,Mixed
+UNITDSPR,Mar 2016,+,+,-,Liquidating Assets
+UNITDSPR,Mar 2017,+,-,-,Shareholder Returns
+UNITDSPR,Mar 2018,+,+,-,Liquidating Assets
+UNITDSPR,Mar 2019,+,-,-,Shareholder Returns
+UNITDSPR,Mar 2020,+,-,-,Shareholder Returns
+UNITDSPR,Mar 2021,+,-,-,Shareholder Returns
+UNITDSPR,Mar 2022,+,-,-,Shareholder Returns
+UNITDSPR,Mar 2023,+,-,-,Reinvestor
+UNITDSPR,Mar 2024,+,+,-,Liquidating Assets
+VBL,Dec 2012,+,-,+,Mixed
+VBL,Dec 2013,+,-,+,Mixed
+VBL,Dec 2014,+,-,+,Mixed
+VBL,Dec 2015,+,-,-,Shareholder Returns
+VBL,Dec 2016,+,-,+,Mixed
+VBL,Dec 2017,+,-,+,Mixed
+VBL,Dec 2018,+,-,-,Shareholder Returns
+VBL,Dec 2019,+,-,+,Mixed
+VBL,Dec 2020,+,-,-,Shareholder Returns
+VBL,Dec 2021,+,-,-,Shareholder Returns
+VBL,Dec 2022,+,-,-,Shareholder Returns
+VBL,Dec 2023,+,-,+,Mixed
+VEDL,Mar 2013,+,-,+,Mixed
+VEDL,Mar 2014,+,-,-,Shareholder Returns
+VEDL,Mar 2015,+,-,-,Reinvestor
+VEDL,Mar 2016,+,-,-,Reinvestor
+VEDL,Mar 2017,+,+,-,Liquidating Assets
+VEDL,Mar 2018,+,+,-,Liquidating Assets
+VEDL,Mar 2019,+,-,-,Shareholder Returns
+VEDL,Mar 2020,+,-,-,Reinvestor
+VEDL,Mar 2021,+,-,-,Shareholder Returns
+VEDL,Mar 2022,+,-,-,Shareholder Returns
+VEDL,Mar 2023,+,-,-,Shareholder Returns
+VEDL,Mar 2024,+,-,-,Shareholder Returns
+WIPRO,Mar 2013,+,-,-,Shareholder Returns
+WIPRO,Mar 2014,+,-,-,Reinvestor
+WIPRO,Mar 2015,+,-,-,Reinvestor
+WIPRO,Mar 2016,+,-,-,Reinvestor
+WIPRO,Mar 2017,+,-,-,Shareholder Returns
+WIPRO,Mar 2018,+,+,-,Liquidating Assets
+WIPRO,Mar 2019,+,+,-,Liquidating Assets
+WIPRO,Mar 2020,+,+,-,Liquidating Assets
+WIPRO,Mar 2021,+,+,-,Liquidating Assets
+WIPRO,Mar 2022,+,-,+,Mixed
+WIPRO,Mar 2023,+,-,-,Shareholder Returns
+WIPRO,Mar 2024,+,+,-,Liquidating Assets
+ZYDUSLIFE,Mar 2013,+,-,+,Mixed
+ZYDUSLIFE,Mar 2014,+,-,-,Shareholder Returns
+ZYDUSLIFE,Mar 2015,+,-,-,Reinvestor
+ZYDUSLIFE,Mar 2016,+,-,-,Reinvestor
+ZYDUSLIFE,Mar 2017,+,-,+,Mixed
+ZYDUSLIFE,Mar 2018,+,-,+,Mixed
+ZYDUSLIFE,Mar 2019,+,-,+,Mixed
+ZYDUSLIFE,Mar 2020,+,-,-,Shareholder Returns
+ZYDUSLIFE,Mar 2021,+,-,-,Shareholder Returns
+ZYDUSLIFE,Mar 2022,+,-,-,Reinvestor
+ZYDUSLIFE,Mar 2023,+,+,-,Liquidating Assets
+ZYDUSLIFE,Mar 2024,+,-,-,Reinvestor
+LTM,Mar 2020,+,-,-,Shareholder Returns
+LTM,Mar 2021,+,-,-,Shareholder Returns
+LTM,Mar 2022,+,-,-,Shareholder Returns
+LTM,Mar 2023,+,-,-,Shareholder Returns
+LTM,Mar 2024,+,-,-,Reinvestor
+ENRIN,Mar 2020,+,-,-,Shareholder Returns
+ENRIN,Mar 2021,+,-,-,Shareholder Returns
+ENRIN,Mar 2022,+,-,-,Reinvestor
+ENRIN,Mar 2023,+,-,-,Shareholder Returns
+ENRIN,Mar 2024,+,-,-,Shareholder Returns
+TMPV,Mar 2020,+,-,-,Shareholder Returns
+TMPV,Mar 2021,+,-,-,Shareholder Returns
+TMPV,Mar 2022,+,-,-,Reinvestor
+TMPV,Mar 2023,+,-,-,Shareholder Returns
+TMPV,Mar 2024,+,-,-,Shareholder Returns
+CUMMINSIND,Mar 2020,+,-,-,Shareholder Returns
+CUMMINSIND,Mar 2021,+,-,-,Shareholder Returns
+CUMMINSIND,Mar 2022,+,-,-,Reinvestor
+CUMMINSIND,Mar 2023,+,-,-,Shareholder Returns
+CUMMINSIND,Mar 2024,+,-,-,Shareholder Returns
+HINDZINC,Mar 2020,+,-,-,Reinvestor
+HINDZINC,Mar 2021,+,-,-,Reinvestor
+HINDZINC,Mar 2022,+,-,-,Shareholder Returns
+HINDZINC,Mar 2023,+,-,-,Shareholder Returns
+HINDZINC,Mar 2024,+,-,-,Reinvestor
+TATACAP,Mar 2020,+,-,-,Shareholder Returns
+TATACAP,Mar 2021,+,-,-,Shareholder Returns
+TATACAP,Mar 2022,+,-,-,Shareholder Returns
+TATACAP,Mar 2023,+,-,-,Shareholder Returns
+TATACAP,Mar 2024,+,-,-,Shareholder Returns
+HYUNDAI,Mar 2020,+,-,-,Shareholder Returns
+HYUNDAI,Mar 2021,+,-,-,Shareholder Returns
+HYUNDAI,Mar 2022,+,-,-,Shareholder Returns
+HYUNDAI,Mar 2023,+,-,-,Reinvestor
+HYUNDAI,Mar 2024,+,-,-,Shareholder Returns
+CGPOWER,Mar 2020,+,-,-,Shareholder Returns
+CGPOWER,Mar 2021,+,-,-,Shareholder Returns
+CGPOWER,Mar 2022,+,-,-,Shareholder Returns
+CGPOWER,Mar 2023,+,-,-,Shareholder Returns
+CGPOWER,Mar 2024,+,-,-,Shareholder Returns
+HDFCAMC,Mar 2020,+,-,-,Shareholder Returns
+HDFCAMC,Mar 2021,+,-,-,Reinvestor
+HDFCAMC,Mar 2022,+,-,-,Shareholder Returns
+HDFCAMC,Mar 2023,+,-,-,Shareholder Returns
+HDFCAMC,Mar 2024,+,-,-,Shareholder Returns
+ETERNAL,Mar 2020,+,-,-,Reinvestor
+ETERNAL,Mar 2021,+,-,-,Shareholder Returns
+ETERNAL,Mar 2022,+,-,-,Reinvestor
+ETERNAL,Mar 2023,+,-,-,Reinvestor
+ETERNAL,Mar 2024,+,-,-,Shareholder Returns
+SOLARINDS,Mar 2020,+,-,-,Reinvestor
+SOLARINDS,Mar 2021,+,-,-,Shareholder Returns
+SOLARINDS,Mar 2022,+,-,-,Shareholder Returns
+SOLARINDS,Mar 2023,+,-,-,Shareholder Returns
+SOLARINDS,Mar 2024,+,-,-,Shareholder Returns
+MAZDOCK,Mar 2020,+,-,-,Reinvestor
+MAZDOCK,Mar 2021,+,-,-,Shareholder Returns
+MAZDOCK,Mar 2022,+,-,-,Shareholder Returns
+MAZDOCK,Mar 2023,+,-,-,Shareholder Returns
+MAZDOCK,Mar 2024,+,-,-,Shareholder Returns
+MUTHOOTFIN,Mar 2020,+,-,-,Reinvestor
+MUTHOOTFIN,Mar 2021,+,-,-,Reinvestor
+MUTHOOTFIN,Mar 2022,+,-,-,Shareholder Returns
+MUTHOOTFIN,Mar 2023,+,-,-,Shareholder Returns
+MUTHOOTFIN,Mar 2024,+,-,-,Reinvestor
+TMCV,Mar 2020,+,-,-,Shareholder Returns
+TMCV,Mar 2021,+,-,-,Shareholder Returns
+TMCV,Mar 2022,+,-,-,Reinvestor
+TMCV,Mar 2023,+,-,-,Reinvestor
+TMCV,Mar 2024,+,-,-,Reinvestor
+MAXHEALTH,Mar 2020,+,-,-,Shareholder Returns
+MAXHEALTH,Mar 2021,+,-,-,Shareholder Returns
+MAXHEALTH,Mar 2022,+,-,-,Shareholder Returns
+MAXHEALTH,Mar 2023,+,-,-,Shareholder Returns
+MAXHEALTH,Mar 2024,+,-,-,Shareholder Returns
+INDHOTEL,Mar 2020,+,-,-,Reinvestor
+INDHOTEL,Mar 2021,+,-,-,Reinvestor
+INDHOTEL,Mar 2022,+,-,-,Shareholder Returns
+INDHOTEL,Mar 2023,+,-,-,Shareholder Returns
+INDHOTEL,Mar 2024,+,-,-,Reinvestor

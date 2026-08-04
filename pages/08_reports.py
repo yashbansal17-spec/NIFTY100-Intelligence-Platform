@@ -7,7 +7,6 @@ from pathlib import Path
 import pandas as pd
 import streamlit as st
 
-
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 DB_PATH = PROJECT_ROOT / "output" / "nifty100.db"
 sys.path.insert(0, str(PROJECT_ROOT / "src"))
@@ -76,7 +75,7 @@ def render_selected_report(year: int, url: str) -> None:
     status = report_status(url)
     detail_cols[1].metric("Status", "Available" if status == "available" else "Unavailable")
     if url and str(url).strip():
-        detail_cols[2].link_button("Open Annual Report PDF", url, use_container_width=True)
+        detail_cols[2].link_button("Open Annual Report PDF ↗", url, use_container_width=True)
         st.markdown("**BSE PDF URL**")
         st.code(url, language=None)
     else:
@@ -85,9 +84,12 @@ def render_selected_report(year: int, url: str) -> None:
 
 
 def render() -> None:
-    st.title("Annual Reports")
-    st.caption("Select a NIFTY100 company and open the stored BSE annual report PDF links.")
-    if st.button("Refresh report links"):
+    theme_mod.render_page_header(
+        "Document Repository",
+        "Annual Reports",
+        "Select any NIFTY 100 company and open stored BSE annual report PDF links.",
+    )
+    if st.button("Refresh Report Links"):
         st.cache_data.clear()
         st.rerun()
 
@@ -98,8 +100,8 @@ def render() -> None:
 
     reports = get_annual_reports(ticker)
     company_name = get_company_name(companies, ticker)
-    st.subheader(f"{ticker} annual reports")
-    st.write(company_name)
+    st.subheader(f"{ticker} Annual Reports")
+    st.caption(company_name)
 
     if reports.empty:
         st.info("No annual report links available for this company.")

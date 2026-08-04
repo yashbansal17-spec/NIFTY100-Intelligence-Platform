@@ -1,10 +1,5 @@
 company_id,company_name,broad_sector,metric,value,z_score
-INDIGO,Interglobe Aviation Ltd,Consumer Discretionary,return_on_equity_pct,892.568306010929,3.471902785993034
-INDIGO,Interglobe Aviation Ltd,Consumer Discretionary,return_on_capital_employed_pct,5643.454935622318,3.4731048622060348
-TATAMOTORS,Tata Motors Ltd,Consumer Discretionary,free_cash_flow_cr,45133.0,3.22891444411325
-INDIGO,Interglobe Aviation Ltd,Consumer Discretionary,asset_turnover,56.38625204582652,3.4725940517670435
-ADANIGREEN,Adani Green Energy Ltd,Energy,debt_to_equity,6.595281675818589,3.156159321784749
-PNB,Punjab National Bank,Financials,return_on_equity_pct,61.320565191187306,3.332382548347957
-ICICIPRULI,ICICI Prudential Life Insurance Company Ltd,Financials,return_on_capital_employed_pct,754.8873412535846,3.307532676142507
-BAJAJHLDNG,Bajaj Holdings & Investment Ltd,Financials,net_profit_margin_pct,432.7262044653349,4.38986921725281
-PNB,Punjab National Bank,Financials,asset_turnover,1.5070262950629396,4.233577435077388
+SBIN,State Bank of India,Financial Services,return_on_equity_pct,396.92473652217836,4.5430951063303
+HDFCLIFE,HDFC Life Insurance Company Ltd,Financial Services,return_on_capital_employed_pct,646.4651639344262,3.731756485933047
+BAJAJHLDNG,Bajaj Holdings & Investment Ltd,Financial Services,net_profit_margin_pct,432.7262044653349,4.505934054476852
+SBIN,State Bank of India,Financial Services,asset_turnover,15.061428642465582,4.54061238235099

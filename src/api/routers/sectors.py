@@ -57,10 +57,11 @@ def sector_companies(sector: str) -> list[dict]:
         FROM sectors s
         JOIN companies c ON c.id = s.company_id
         LEFT JOIN latest ON latest.company_id = c.id AND latest.rn = 1
-        WHERE LOWER(s.broad_sector) LIKE LOWER(?)
+        WHERE (LOWER(?) = 'it' AND (LOWER(s.broad_sector) = 'it' OR LOWER(s.broad_sector) = 'information technology'))
+           OR (LOWER(?) != 'it' AND LOWER(s.broad_sector) LIKE LOWER(?))
         ORDER BY latest.composite_quality_score DESC
         """,
-        (f"%{sector}%",),
+        (sector, sector, f"%{sector}%"),
     )
     if not data:
         raise HTTPException(status_code=404, detail="Unknown sector")
