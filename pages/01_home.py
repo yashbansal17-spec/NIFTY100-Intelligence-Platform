@@ -45,8 +45,8 @@ def render() -> None:
         ],
     )
 
-    # 3. Monthly Market Update Banner
-    theme_mod.render_monthly_update_summary(monthly_summary)
+    # # 3. Monthly Market Update Banner
+    # theme_mod.render_monthly_update_summary(monthly_summary)
 
     # 4. Recent Market Stats Grid
     st.markdown("###  Recent Market & Monthly Update Stats")
