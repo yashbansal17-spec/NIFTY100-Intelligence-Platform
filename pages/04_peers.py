@@ -80,7 +80,7 @@ def render() -> None:
         polar=dict(radialaxis=dict(visible=True), angularaxis=dict(tickfont=dict(size=12))),
         title=f"{selected_id} vs {group} Average",
     )
-    st.plotly_chart(fig, use_container_width=True)
+    st.plotly_chart(fig, width="stretch")
 
     display_cols = ["company_id", "company_name", "is_benchmark"] + list(METRICS.values())
     display = display_peers[display_cols].rename(
@@ -99,4 +99,4 @@ def render() -> None:
         }
     )
     table_height = min(520, max(120, 38 * (len(display) + 1)))
-    st.dataframe(display.style.apply(style_benchmark, axis=1), use_container_width=True, hide_index=True, height=table_height)
+    st.dataframe(display.style.apply(style_benchmark, axis=1), width="stretch", hide_index=True, height=table_height)

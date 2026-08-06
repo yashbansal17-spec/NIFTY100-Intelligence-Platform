@@ -121,7 +121,7 @@ def render() -> None:
         yaxis_title="INR Crore",
         legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1),
     )
-    st.plotly_chart(bar, use_container_width=True)
+    st.plotly_chart(bar, width="stretch")
 
     # 10-Year ROE / ROCE Line Chart
     chart_ratios = ratios.tail(10)
@@ -140,4 +140,4 @@ def render() -> None:
     line.update_xaxes(title_text="Fiscal Year")
     line.update_yaxes(title_text="ROE %", secondary_y=False)
     line.update_yaxes(title_text="ROCE %", secondary_y=True)
-    st.plotly_chart(line, use_container_width=True)
+    st.plotly_chart(line, width="stretch")

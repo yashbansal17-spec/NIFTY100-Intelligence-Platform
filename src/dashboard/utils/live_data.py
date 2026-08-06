@@ -18,7 +18,11 @@ import sys
 if str(PROJECT_ROOT / "src") not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT / "src"))
 
-from analytics.live_market import fetch_live_market_data, get_monthly_market_summary
+from analytics.live_market import (
+    fetch_live_market_data,
+    get_monthly_market_summary,
+    fetch_company_yfinance_history,
+)
 
 
 @st.cache_data(ttl=900, show_spinner="Fetching latest market stats...")
@@ -32,6 +36,13 @@ def get_cached_monthly_summary() -> dict:
     """Cached summary of top gainers, losers, 52W breakouts, and market breadths."""
     df = get_cached_live_market()
     return get_monthly_market_summary(df)
+
+
+@st.cache_data(ttl=900, show_spinner="Fetching yfinance stock chart data...")
+def get_company_chart_data(company_id: str, period: str = "1y") -> pd.DataFrame:
+    """Cached helper to fetch historical daily price series from yfinance."""
+    return fetch_company_yfinance_history(company_id, period=period)
+
 
 
 def normalize_api_url(user_url: str) -> str:

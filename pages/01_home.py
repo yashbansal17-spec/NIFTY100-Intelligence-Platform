@@ -110,7 +110,7 @@ def render() -> None:
         uniformtext_minsize=11,
         uniformtext_mode="hide",
     )
-    left.plotly_chart(fig, use_container_width=True)
+    left.plotly_chart(fig, width="stretch")
 
     top = universe.sort_values("composite_quality_score", ascending=False).head(5)
     top = top[
@@ -134,7 +134,7 @@ def render() -> None:
         }
     )
     right.subheader("Top 5 Quality Score Companies")
-    right.dataframe(top, use_container_width=True, hide_index=True)
+    right.dataframe(top, width="stretch", hide_index=True)
 
     # 6. Monthly Updates Tabs
     st.markdown("### 🔥 Recent Updates & Monthly Leaders")
@@ -144,7 +144,7 @@ def render() -> None:
         if top_gainer is not None and not top_gainer.empty:
             df_g = top_gainer.copy()
             df_g.columns = ["Ticker", "Company Name", "Current Price (₹)", "1-Month Return %"]
-            st.dataframe(df_g, use_container_width=True, hide_index=True)
+            st.dataframe(df_g, width="stretch", hide_index=True)
         else:
             st.info("No gainer data available.")
 
@@ -153,7 +153,7 @@ def render() -> None:
         if top_loser is not None and not top_loser.empty:
             df_l = top_loser.copy()
             df_l.columns = ["Ticker", "Company Name", "Current Price (₹)", "1-Month Return %"]
-            st.dataframe(df_l, use_container_width=True, hide_index=True)
+            st.dataframe(df_l, width="stretch", hide_index=True)
         else:
             st.info("No loser data available.")
 
@@ -162,6 +162,6 @@ def render() -> None:
         if near_high is not None and not near_high.empty:
             df_h = near_high.copy()
             df_h.columns = ["Ticker", "Company Name", "Current Price (₹)", "52W High (₹)", "% From High"]
-            st.dataframe(df_h, use_container_width=True, hide_index=True)
+            st.dataframe(df_h, width="stretch", hide_index=True)
         else:
             st.info("No companies currently within 5% of 52-week high.")

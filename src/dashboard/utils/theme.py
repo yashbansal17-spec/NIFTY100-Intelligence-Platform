@@ -342,7 +342,7 @@ def render_live_ticker(df: pd.DataFrame) -> None:
     </body>
     </html>
     """
-    components.html(ticker_code, height=46)
+    st.html(ticker_code, unsafe_allow_javascript=True)
 
 
 def render_api_status_widget() -> None:
@@ -422,7 +422,7 @@ def render_monthly_update_summary(summary: dict) -> None:
 
 def render_hero(eyebrow: str, title_lines: list[str], subtitle: str, stats: list[tuple] | None = None) -> None:
     title_html = "<br>".join(title_lines)
-    components.html(
+    st.html(
         f"""
         <div id="market-hero">
           <canvas id="market-canvas"></canvas>
@@ -545,5 +545,5 @@ def render_hero(eyebrow: str, title_lines: list[str], subtitle: str, stats: list
         }})();
         </script>
         """,
-        height=355,
+        unsafe_allow_javascript=True,
     )

@@ -79,7 +79,7 @@ def render() -> None:
     st.sidebar.markdown("### Preset Filters")
     preset_cols = st.sidebar.columns(2)
     for idx, (name, values) in enumerate(PRESETS.items()):
-        if preset_cols[idx % 2].button(name, use_container_width=True):
+        if preset_cols[idx % 2].button(name, width="stretch"):
             apply_preset(values)
 
     st.sidebar.markdown("### Recent Stats & Momentum")
@@ -149,6 +149,6 @@ def render() -> None:
         visible.to_csv(index=False).encode("utf-8"),
         file_name="screener_results.csv",
         mime="text/csv",
-        use_container_width=True,
+        width="stretch",
     )
-    st.dataframe(visible, use_container_width=True, hide_index=True, height=560)
+    st.dataframe(visible, width="stretch", hide_index=True, height=560)

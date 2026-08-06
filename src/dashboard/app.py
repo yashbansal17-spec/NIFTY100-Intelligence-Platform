@@ -16,6 +16,7 @@ from dashboard.utils import live_data
 PAGES = {
     "Home": "01_home.py",
     "Company Profile": "02_profile.py",
+    "Daily Market": "09_daily_market.py",
     "Screener": "03_screener.py",
     "Peers": "04_peers.py",
     "Trends": "05_trends.py",
@@ -27,6 +28,7 @@ PAGES = {
 NAV_ICONS = {
     "Home": "📊 Overview & Live Stats",
     "Company Profile": "🏢 Company Profile",
+    "Daily Market": "⚡ Daily Market",
     "Screener": "🔍 Metric Screener",
     "Peers": "👥 Peer Groups",
     "Trends": "📈 Trend Analysis",
@@ -74,7 +76,7 @@ def main() -> None:
 
     # Manual Live Market Sync Button
     st.sidebar.markdown('<div style="margin-top: 0.5rem;"></div>', unsafe_allow_html=True)
-    if st.sidebar.button("🔄 Sync Live Market Data", use_container_width=True):
+    if st.sidebar.button("🔄 Sync Live Market Data", width="stretch"):
         with st.spinner("Syncing latest market stats..."):
             live_data.get_cached_live_market(force_refresh=True)
             st.cache_data.clear()
