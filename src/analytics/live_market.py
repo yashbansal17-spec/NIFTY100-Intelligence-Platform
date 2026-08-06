@@ -5,7 +5,7 @@ Fetches real-time market prices, rolling 52-week Highs and Lows,
 """
 
 from __future__ import annotations
-
+import streamlit as st
 from datetime import datetime, timedelta
 import logging
 import sqlite3
@@ -31,7 +31,7 @@ def get_db_connection() -> sqlite3.Connection:
     conn.row_factory = sqlite3.Row
     return conn
 
-
+@st.cache_data(ttl=1800)
 def fetch_live_market_data(force_refresh: bool = False) -> pd.DataFrame:
     """
     Fetches up-to-date market stats for NIFTY 100 companies.
@@ -61,7 +61,8 @@ def fetch_live_market_data(force_refresh: bool = False) -> pd.DataFrame:
                 ticker_map[ns_symbol] = company_id
             
             logger.info("Fetching live history from Yahoo Finance for NIFTY 100...")
-            data = yf.download(list(ticker_map.keys()), period="1y", interval="1d", group_by="ticker", threads=True, progress=False)
+            data = yf.download(list(ticker_map.keys()), period="3mo", interval="1d", group_by="ticker", threads=False, progress=False, timeout=15)
+
 
             for ns_symbol, company_id in ticker_map.items():
                 try:
@@ -191,7 +192,8 @@ def fetch_live_market_data(force_refresh: bool = False) -> pd.DataFrame:
     
     # Save/Sync to SQLite stock_prices for current date if database is accessible
     try:
-        _update_db_stock_prices(res_df)
+        if not res_df.empty:
+            _update_db_stock_prices(res_df)
     except Exception as e:
         logger.warning(f"Could not update stock_prices table: {e}")
 
