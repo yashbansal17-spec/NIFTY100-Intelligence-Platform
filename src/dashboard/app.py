@@ -26,15 +26,15 @@ PAGES = {
 }
 
 NAV_ICONS = {
-    "Home": "📊 Overview & Live Stats",
-    "Company Profile": "🏢 Company Profile",
-    "Daily Market": "⚡ Daily Market",
-    "Screener": "🔍 Metric Screener",
-    "Peers": "👥 Peer Groups",
-    "Trends": "📈 Trend Analysis",
-    "Sectors": "🏭 Sector Analysis",
-    "Capital Allocation": "💼 Capital Allocation",
-    "Reports": "📄 Annual Reports",
+    "Home": "Overview",
+    "Company Profile": "Company Profile",
+    "Daily Market": " Daily Market",
+    "Screener": "Metric Screener",
+    "Peers": " Peer Groups",
+    "Trends": " Trend Analysis",
+    "Sectors": " Sector Analysis",
+    "Capital Allocation": "Capital Allocation",
+    "Reports": "Annual Reports",
 }
 
 

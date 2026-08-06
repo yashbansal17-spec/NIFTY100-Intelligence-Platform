@@ -55,13 +55,12 @@ def render() -> None:
                     <span style="background: rgba(59, 130, 246, 0.2); color: #60a5fa; font-size: 0.75rem; font-weight: 700;
                                  padding: 0.25rem 0.75rem; border-radius: 9999px; text-transform: uppercase; letter-spacing: 0.05em;
                                  border: 1px solid rgba(96, 165, 250, 0.3);">
-                        ⚡ Real-Time &amp; Daily yfinance Engine
+                        Real-Time &amp; Daily yfinance Engine
                     </span>
                     <h1 style="color: #f8fafc; font-size: 2.2rem; font-weight: 800; margin: 0.5rem 0 0.25rem 0; letter-spacing: -0.02em;">
                         Daily Market Dashboard
                     </h1>
                     <p style="color: #94a3b8; font-size: 0.95rem; margin: 0; max-width: 700px;">
-                        Track real-time stock prices, 52-week breakouts, daily price changes, intraday momentum, and sync up-to-date data from Yahoo Finance across NIFTY 100.
                     </p>
                 </div>
             </div>
@@ -91,7 +90,7 @@ def render() -> None:
         )
 
     with top_col2:
-        if st.button("🔄 Fetch Daily Data (yfinance)", width="stretch", type="primary"):
+        if st.button("Fetch Data", width="stretch", type="primary"):
             with st.spinner("Downloading fresh quotes & history from Yahoo Finance..."):
                 live_data.get_cached_live_market(force_refresh=True)
                 st.cache_data.clear()
@@ -122,11 +121,11 @@ def render() -> None:
     st.markdown('<div class="clean-rule"></div>', unsafe_allow_html=True)
 
     # 4. Interactive Tabs
-    tab1, tab2, tab3 = st.tabs(["📊 Market Movers & Breakouts", "📈 Single Stock yfinance Chart", "📋 Complete NIFTY 100 Screener"])
+    tab1, tab2, tab3 = st.tabs([" Market Movers & Breakouts", "Single Stock yfinance Chart", "Complete NIFTY 100 Screener"])
 
     # ---------------- TAB 1: MARKET MOVERS & BREAKOUTS ----------------
     with tab1:
-        st.markdown("### 🚀 Market Gainers & Losers (1-Month Return)")
+        st.markdown("### Market Gainers & Losers (1-Month Return)")
         col_g, col_l = st.columns(2, gap="medium")
 
         with col_g:
@@ -170,11 +169,11 @@ def render() -> None:
                 )
 
         st.markdown('<div style="margin-top: 1.5rem;"></div>', unsafe_allow_html=True)
-        st.markdown("### 🔥 52-Week Breakout & Value Candidates")
+        st.markdown("### 52-Week Breakout & Value Candidates")
         b1, b2 = st.columns(2, gap="medium")
 
         with b1:
-            st.markdown("#### ⚡ Near 52-Week High (≤ 5% Distance)")
+            st.markdown("#### Near 52-Week High (≤ 5% Distance)")
             near_hi = live_df[live_df["pct_from_52w_high"] >= -5.0].sort_values("pct_from_52w_high", ascending=False)
             if not near_hi.empty:
                 display_hi = near_hi[["company_id", "company_name", "current_price", "high_52w", "pct_from_52w_high"]].head(8)
@@ -192,7 +191,7 @@ def render() -> None:
                 st.info("No stocks currently within 5% of 52-week high.")
 
         with b2:
-            st.markdown("#### 🎯 Near 52-Week Low (≤ 5% Distance)")
+            st.markdown("#### Near 52-Week Low (≤ 5% Distance)")
             near_lo = live_df[live_df["pct_from_52w_low"] <= 5.0].sort_values("pct_from_52w_low", ascending=True)
             if not near_lo.empty:
                 display_lo = near_lo[["company_id", "company_name", "current_price", "low_52w", "pct_from_52w_low"]].head(8)
@@ -211,7 +210,7 @@ def render() -> None:
 
     # ---------------- TAB 2: SINGLE STOCK YFINANCE DEEP DIVE ----------------
     with tab2:
-        st.markdown("### 📈 Stock Chart & Interactive yfinance Price History")
+        st.markdown("###  Stock Chart & Interactive yfinance Price History")
         company_list = companies["company_id"].tolist() if not companies.empty else live_df["company_id"].tolist()
         
         c_sel1, c_sel2 = st.columns([2, 1])
@@ -363,7 +362,7 @@ def render() -> None:
 
     # ---------------- TAB 3: COMPLETE NIFTY 100 SCREENER ----------------
     with tab3:
-        st.markdown("### 📋 Complete NIFTY 100 Daily Market Data Table")
+        st.markdown("###  Complete NIFTY 100 Daily Market Data Table")
         
         # Filter controls
         f_col1, f_col2, f_col3 = st.columns([2, 1.5, 1.5])

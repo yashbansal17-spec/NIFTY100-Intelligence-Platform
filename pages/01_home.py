@@ -36,10 +36,7 @@ def render() -> None:
     theme_mod.render_hero(
         eyebrow="",
         title_lines=["NIFTY 100", "INTELLIGENCE PLATFORM"],
-        subtitle=(
-            "Real-time benchmark intelligence across India's top 100 companies — "
-            "featuring live 52-week Highs/Lows, monthly stats updates, quality scores, and fundamental analysis."
-        ),
+        subtitle="",
         stats=[
             ("Companies Tracked", f"{len(companies):,}" if not companies.empty else "—"),
             ("Avg ROE", metric_value(avg_roe, "%") if avg_roe is not None else "—"),
@@ -52,7 +49,7 @@ def render() -> None:
     theme_mod.render_monthly_update_summary(monthly_summary)
 
     # 4. Recent Market Stats Grid
-    st.markdown("### 📊 Recent Market & Monthly Update Stats")
+    st.markdown("###  Recent Market & Monthly Update Stats")
     m_cols = st.columns(4, gap="medium")
     
     avg_1m = monthly_summary.get("avg_1m_return", 0.0)
@@ -88,7 +85,7 @@ def render() -> None:
     st.markdown('<div class="clean-rule"></div>', unsafe_allow_html=True)
 
     # 5. Core Market Structure & Quality Ranking
-    st.markdown("### 🏛️ Sector Structure & Quality Leaders")
+    st.markdown("###  Sector Structure & Quality Leaders")
     left, right = st.columns([1.05, 1], gap="large")
 
     sector_counts = companies.groupby("broad_sector", dropna=False)["company_id"].count().reset_index()
@@ -137,7 +134,7 @@ def render() -> None:
     right.dataframe(top, width="stretch", hide_index=True)
 
     # 6. Monthly Updates Tabs
-    st.markdown("### 🔥 Recent Updates & Monthly Leaders")
+    st.markdown("### Recent Updates & Monthly Leaders")
     tab1, tab2, tab3 = st.tabs(["Top Gainers (1M)", "Top Losers (1M)", "Near 52-Week High"])
 
     with tab1:

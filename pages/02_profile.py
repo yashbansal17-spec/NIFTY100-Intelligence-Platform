@@ -35,7 +35,7 @@ def render() -> None:
     theme_mod.render_page_header(
         "Company Intelligence",
         "Company Profile",
-        "Select any NIFTY 100 benchmark company to inspect its real-time market stats, 52-week range, and 10-year financial trend.",
+        "",
     )
 
     live_df = live_data.get_cached_live_market()
