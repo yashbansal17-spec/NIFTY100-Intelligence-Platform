@@ -297,36 +297,47 @@ def _fetch_company_history_cached(company_id: str, period: str, cache_date: str)
 
         df = df.dropna(subset=['Close'])
         df['company_id'] = company_id
+
+        # --- Filter out Weekend days (Saturday & Sunday) ---
+        # NSE market is closed on Saturdays & Sundays.
+        df['Date_dt'] = pd.to_datetime(df['Date'])
+        df = df[df['Date_dt'].dt.weekday < 5].drop(columns=['Date_dt']).reset_index(drop=True)
+
         df['Day_Change_Pct'] = df['Close'].pct_change() * 100.0
 
-        # --- Guarantee today's candle is present ---
-        # Yahoo often has not finalized the current session's daily bar yet
-        # (it appears only after close / on the next sync). If the fetched
-        # history's last row isn't dated `cache_date`, append a provisional
-        # candle built from the latest live quote so charts always extend
-        # through the current trading day instead of stopping one day short.
-        has_today = not df.empty and str(df['Date'].iloc[-1]) == cache_date
-        if not has_today:
+        # --- Target trading day calculation ---
+        # If cache_date falls on a weekend (Saturday=5 or Sunday=6), the target
+        # last trading day is Friday. Otherwise, it is cache_date.
+        cache_dt = datetime.strptime(cache_date, "%Y-%m-%d")
+        if cache_dt.weekday() >= 5:
+            target_trading_date = (cache_dt - timedelta(days=cache_dt.weekday() - 4)).strftime("%Y-%m-%d")
+        else:
+            target_trading_date = cache_date
+
+        # Guarantee the last trading day's candle (e.g. 7th Aug) is present
+        has_target_day = not df.empty and str(df['Date'].iloc[-1]) == target_trading_date
+        if not has_target_day:
             try:
                 fast = ticker.fast_info
-                live_close = float(fast.get("last_price") or fast.get("lastPrice"))
-                live_open = float(fast.get("open") or live_close)
-                live_high = float(fast.get("day_high") or fast.get("dayHigh") or live_close)
-                live_low = float(fast.get("day_low") or fast.get("dayLow") or live_close)
-                live_vol = int(fast.get("last_volume") or fast.get("lastVolume") or 0)
-                today_row = {
-                    "Date": cache_date,
-                    "Open": live_open,
-                    "High": max(live_high, live_open, live_close),
-                    "Low": min(live_low, live_open, live_close),
-                    "Close": live_close,
-                    "Volume": live_vol,
-                    "company_id": company_id,
-                    "Day_Change_Pct": ((live_close - df['Close'].iloc[-1]) / df['Close'].iloc[-1] * 100.0) if not df.empty and df['Close'].iloc[-1] else 0.0,
-                }
-                df = pd.concat([df, pd.DataFrame([today_row])], ignore_index=True)
+                live_close = float(fast.get("last_price") or fast.get("lastPrice") or 0.0)
+                if live_close > 0:
+                    live_open = float(fast.get("open") or live_close)
+                    live_high = float(fast.get("day_high") or fast.get("dayHigh") or live_close)
+                    live_low = float(fast.get("day_low") or fast.get("dayLow") or live_close)
+                    live_vol = int(fast.get("last_volume") or fast.get("lastVolume") or 0)
+                    today_row = {
+                        "Date": target_trading_date,
+                        "Open": live_open,
+                        "High": max(live_high, live_open, live_close),
+                        "Low": min(live_low, live_open, live_close),
+                        "Close": live_close,
+                        "Volume": live_vol,
+                        "company_id": company_id,
+                        "Day_Change_Pct": ((live_close - df['Close'].iloc[-1]) / df['Close'].iloc[-1] * 100.0) if not df.empty and df['Close'].iloc[-1] else 0.0,
+                    }
+                    df = pd.concat([df, pd.DataFrame([today_row])], ignore_index=True)
             except Exception as ex:
-                logger.debug(f"Could not synthesize today's provisional candle for {company_id}: {ex}")
+                logger.debug(f"Could not synthesize target trading day's provisional candle for {company_id}: {ex}")
 
         # Save/sync to DB stock_prices
         try:
