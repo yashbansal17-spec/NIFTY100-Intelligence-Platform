@@ -1,0 +1,71 @@
+[INFO] 
+[INFO] ======================================================================
+[INFO] NIFTY100 DASHBOARD VALIDATION - STARTED 2026-08-07 13:28:09
+[INFO] ======================================================================
+[PASS] Project root: C:\Users\hp\Desktop\NIFTY100
+[INFO] 
+[INFO] ======================================================================
+[INFO] 1. COMPANY UNIVERSE
+[INFO] ======================================================================
+[PASS] Company count = 100 (matches NIFTY 100 expectation).
+[PASS] No duplicate company_id values.
+[PASS] All companies have a sector assigned.
+[INFO] 
+[INFO] ======================================================================
+[INFO] 2. LIVE MARKET DATA (Daily Open / Close / Current Price)
+[INFO] ======================================================================
+[PASS] Live market data returned for 100 companies.
+[PASS] Every company in the universe has a live price row.
+[PASS] No null/zero current_price values.
+[PASS] 52W High >= 52W Low for all companies.
+[PASS] current_price falls within each company's own 52W High/Low range.
+[PASS] Live yfinance data: 100 companies | Simulated fallback data: 0 companies.
+[PASS] Data as-of timestamp(s) present: ['2026-08-07 13:28']
+[INFO] 
+[INFO] ======================================================================
+[INFO] 3. MONTHLY SUMMARY (Top Gainers / Losers / 52W Breakouts)
+[INFO] ======================================================================
+[PASS] Top Gainers correctly sorted descending. #1 = TVSMOTOR (+22.55%).
+[PASS] Top Losers correctly sorted ascending. #1 worst = HDFCBANK (-11.15%).
+[PASS] No overlap between Top Gainers and Top Losers.
+[PASS] 'Near 52W High' list (46 companies) all within 5% of their high.
+[PASS] 'Near 52W Low' list (19 companies) all within 5% of their low.
+[PASS] Average 1M market return: +3.18% | Advancing: 66.0%
+[INFO] 
+[INFO] ======================================================================
+[INFO] 4. 5-YEAR FUNDAMENTALS HISTORY (per-company fiscal year coverage)
+[INFO] ======================================================================
+[PASS] Every company has at least some fundamentals history.
+[WARN] 1 companies have FEWER than 5 years of history (partial history, charts will note this): ['JIOFIN']
+[PASS] Most recent fiscal year found across the universe: 2026 (most common latest year: 2026).
+[INFO] 
+[INFO] ======================================================================
+[INFO] 5. ROE vs ROCE CHART
+[INFO] ======================================================================
+[PASS] ROE vs ROCE scatter chart saved to: C:\Users\hp\Desktop\NIFTY100\roe_vs_roce.png (99 companies plotted).
+[WARN] 13 companies show a >40 point gap between ROE and ROCE (could indicate high leverage or a data issue - worth a manual look): ['BEL', 'CIPLA', 'COALINDIA', 'HDFCLIFE', 'HINDALCO', 'HAL', 'HINDUNILVR', 'HINDZINC', 'INDIGO', 'LT']
+[INFO] 
+[INFO] ======================================================================
+[INFO] 6. REVENUE TREND CHART (selected companies)
+[INFO] ======================================================================
+[PASS] RELIANCE: 15 years of revenue data, latest FY2026.0, latest revenue ₹939,838 Cr.
+[PASS] TCS: 15 years of revenue data, latest FY2026.0, latest revenue ₹252,082 Cr.
+[PASS] HDFCBANK: 15 years of revenue data, latest FY2026.0, latest revenue ₹329,022 Cr.
+[PASS] INFY: 15 years of revenue data, latest FY2026.0, latest revenue ₹159,988 Cr.
+[PASS] ITC: 15 years of revenue data, latest FY2026.0, latest revenue ₹75,135 Cr.
+[PASS] Revenue trend chart saved to: C:\Users\hp\Desktop\NIFTY100\revenue_trends.png
+[INFO] 
+[INFO] ======================================================================
+[INFO] 7. PEER GROUPS
+[INFO] ======================================================================
+[PASS] 28 peer groups found: ['Automobile and Auto Components', 'Automobiles', 'Capital Goods', 'Chemicals', 'Construction', 'Construction Materials', 'Consumer Durables', 'Consumer Finance', 'Consumer Services', 'FMCG'] ...
+[PASS] Peer group 'Automobile and Auto Components': 4 companies, 0 marked as benchmark.
+[PASS] Peer group 'Automobiles': 5 companies, 0 marked as benchmark.
+[PASS] Peer group 'Capital Goods': 9 companies, 0 marked as benchmark.
+[PASS] Peer group 'Chemicals': 2 companies, 0 marked as benchmark.
+[PASS] Peer group 'Construction': 1 companies, 0 marked as benchmark.
+[INFO] 
+[INFO] ======================================================================
+[INFO] SUMMARY
+[INFO] ======================================================================
+[PASS] PASS: 32  |  WARN: 2  |  FAIL: 0

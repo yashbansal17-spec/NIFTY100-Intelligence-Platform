@@ -39,7 +39,7 @@ def render() -> None:
     theme_mod.render_page_header(
         "Historical Trends",
         "Trend Analysis",
-        "Overlay up to three metrics for any listed NIFTY100 company.",
+        "",
     )
     ticker = pick_company()
     if not ticker:

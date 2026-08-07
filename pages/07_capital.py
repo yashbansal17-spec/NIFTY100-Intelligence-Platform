@@ -18,7 +18,7 @@ def render() -> None:
     theme_mod.render_page_header(
         "Capital Deployment",
         "Capital Allocation Map",
-        "View how companies are classified by their latest capital allocation pattern.",
+        "",
     )
     frame = db.get_capital_allocation()
     if frame.empty:

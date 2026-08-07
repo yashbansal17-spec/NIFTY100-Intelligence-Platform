@@ -3,7 +3,7 @@ from __future__ import annotations
 import sys
 from pathlib import Path
 
-import plotly.express as px
+import plotly.graph_objects as go
 import streamlit as st
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
@@ -45,68 +45,93 @@ def render() -> None:
         ],
     )
 
-    # # 3. Monthly Market Update Banner
-    # theme_mod.render_monthly_update_summary(monthly_summary)
+    st.markdown('<div style="margin-top:1.5rem;"></div>', unsafe_allow_html=True)
 
-    # 4. Recent Market Stats Grid
-    st.markdown("###  Recent Market & Monthly Update Stats")
-    m_cols = st.columns(4, gap="medium")
-    
+    # 3. Glassmorphic KPI Cards (HTML, not st.metric)
     avg_1m = monthly_summary.get("avg_1m_return", 0.0)
-    m_cols[0].metric(
-        "Monthly Market Return (1M)",
-        f"{avg_1m:+.2f}%",
-        delta=f"{monthly_summary.get('pct_advancing', 0)}% Advancing",
-    )
-    
+    pct_adv = monthly_summary.get("pct_advancing", 0.0)
     near_high_cnt = len(monthly_summary.get("near_52w_high", []))
-    m_cols[1].metric(
-        "Stocks Near 52W High (≤5%)",
-        f"{near_high_cnt} Stocks",
-        delta="Bullish Momentum",
-    )
-    
+    near_low_cnt = len(monthly_summary.get("near_52w_low", []))
     top_gainer = monthly_summary.get("top_gainers")
+
     if top_gainer is not None and not top_gainer.empty:
         g_ticker = top_gainer.iloc[0]["company_id"]
         g_ret = top_gainer.iloc[0]["return_1m_pct"]
-        m_cols[2].metric("Top Monthly Gainer", f"{g_ticker}", delta=f"+{g_ret:.2f}% 1M")
+        gainer_value = g_ticker
+        gainer_delta = f"+{g_ret:.2f}% 1M"
     else:
-        m_cols[2].metric("Top Monthly Gainer", "N/A")
+        gainer_value = "N/A"
+        gainer_delta = None
 
-    near_low_cnt = len(monthly_summary.get("near_52w_low", []))
-    m_cols[3].metric(
-        "Stocks Near 52W Low (≤5%)",
-        f"{near_low_cnt} Stocks",
-        delta="-Value Opportunities" if near_low_cnt > 0 else "Low Risk",
-        delta_color="inverse",
+    st.markdown("###  Recent Market & Monthly Update Stats")
+    theme_mod.render_kpi_row(
+        [
+            {
+                "title": "Monthly Market Return (1M)",
+                "value": f"{avg_1m:+.2f}%",
+                "delta": f"{pct_adv}% Advancing",
+                "positive": avg_1m >= 0,
+            },
+            {
+                "title": "Stocks Near 52W High (≤5%)",
+                "value": f"{near_high_cnt}",
+                "delta": "Bullish Momentum",
+                "positive": True,
+            },
+            {
+                "title": "Top Monthly Gainer",
+                "value": gainer_value,
+                "delta": gainer_delta,
+                "positive": True if gainer_delta else None,
+            },
+            {
+                "title": "Stocks Near 52W Low (≤5%)",
+                "value": f"{near_low_cnt}",
+                "delta": "-Value Opportunities" if near_low_cnt > 0 else "Low Risk",
+                "positive": False if near_low_cnt > 0 else True,
+            },
+        ]
     )
 
     st.markdown('<div class="clean-rule"></div>', unsafe_allow_html=True)
 
-    # 5. Core Market Structure & Quality Ranking
+    # 4. Core Market Structure & Quality Ranking
     st.markdown("###  Sector Structure & Quality Leaders")
     left, right = st.columns([1.05, 1], gap="large")
 
     sector_counts = companies.groupby("broad_sector", dropna=False)["company_id"].count().reset_index()
     sector_counts.columns = ["Sector", "Companies"]
-    fig = px.pie(sector_counts, names="Sector", values="Companies", hole=0.48, title="Sector Breakdown")
-    fig.update_traces(
-        textposition="inside",
-        textinfo="percent+label",
-        hovertemplate="<b>%{label}</b><br>%{value} companies (%{percent})<extra></extra>",
-        marker=dict(line=dict(color='#05070a', width=2)),
+
+    fig = go.Figure(
+        data=[
+            go.Pie(
+                labels=sector_counts["Sector"],
+                values=sector_counts["Companies"],
+                hole=0.65,
+                textposition="outside",
+                textinfo="percent",
+                marker=dict(
+                    colors=theme_mod.PLOTLY_SEQUENCE,
+                    line=dict(color=theme_mod.BG, width=2),
+                ),
+                hovertemplate="<b>%{label}</b><br>%{value} companies (%{percent})<extra></extra>",
+            )
+        ]
     )
     fig.update_layout(
-        template="plotly_dark",
-        paper_bgcolor="rgba(0,0,0,0)",
-        plot_bgcolor="rgba(0,0,0,0)",
-        height=400,
-        margin=dict(l=25, r=25, t=50, b=30),
-        legend=dict(orientation="v", y=0.5, yanchor="middle", x=1.02),
-        uniformtext_minsize=11,
-        uniformtext_mode="hide",
+        title="Sector Breakdown",
+        annotations=[
+            dict(
+                text=f"{len(companies):,}<br><span style='font-size:11px;color:#8B98AC'>Companies</span>",
+                x=0.5,
+                y=0.5,
+                font=dict(size=22, color="#ffffff", family=theme_mod.FONT_MONO),
+                showarrow=False,
+            )
+        ],
+        showlegend=True,
     )
+    theme_mod.style_plotly_chart(fig, height=400)
     left.plotly_chart(fig, width="stretch")
 
     top = universe.sort_values("composite_quality_score", ascending=False).head(5)
@@ -119,7 +144,7 @@ def render() -> None:
             "debt_to_equity",
             "composite_quality_score",
         ]
-    ]
+    ].copy()
     top = top.rename(
         columns={
             "company_id": "Ticker",
@@ -131,9 +156,24 @@ def render() -> None:
         }
     )
     right.subheader("Top 5 Quality Score Companies")
-    right.dataframe(top, width="stretch", hide_index=True)
+    right.dataframe(
+        top,
+        width="stretch",
+        hide_index=True,
+        column_config={
+            "Quality Score": st.column_config.ProgressColumn(
+                "Quality Score",
+                help="Composite quality score (0-100)",
+                format="%.1f",
+                min_value=0,
+                max_value=100,
+            ),
+            "ROE %": st.column_config.NumberColumn("ROE %", format="%.2f%%"),
+            "D/E": st.column_config.NumberColumn("D/E", format="%.2f"),
+        },
+    )
 
-    # 6. Monthly Updates Tabs
+    # 5. Monthly Updates Tabs
     st.markdown("### Recent Updates & Monthly Leaders")
     tab1, tab2, tab3 = st.tabs(["Top Gainers (1M)", "Top Losers (1M)", "Near 52-Week High"])
 
@@ -141,7 +181,15 @@ def render() -> None:
         if top_gainer is not None and not top_gainer.empty:
             df_g = top_gainer.copy()
             df_g.columns = ["Ticker", "Company Name", "Current Price (₹)", "1-Month Return %"]
-            st.dataframe(df_g, width="stretch", hide_index=True)
+            st.dataframe(
+                df_g,
+                width="stretch",
+                hide_index=True,
+                column_config={
+                    "Current Price (₹)": st.column_config.NumberColumn("Current Price (₹)", format="₹%.2f"),
+                    "1-Month Return %": st.column_config.NumberColumn("1-Month Return %", format="%.2f%%"),
+                },
+            )
         else:
             st.info("No gainer data available.")
 
@@ -150,7 +198,15 @@ def render() -> None:
         if top_loser is not None and not top_loser.empty:
             df_l = top_loser.copy()
             df_l.columns = ["Ticker", "Company Name", "Current Price (₹)", "1-Month Return %"]
-            st.dataframe(df_l, width="stretch", hide_index=True)
+            st.dataframe(
+                df_l,
+                width="stretch",
+                hide_index=True,
+                column_config={
+                    "Current Price (₹)": st.column_config.NumberColumn("Current Price (₹)", format="₹%.2f"),
+                    "1-Month Return %": st.column_config.NumberColumn("1-Month Return %", format="%.2f%%"),
+                },
+            )
         else:
             st.info("No loser data available.")
 
@@ -159,6 +215,15 @@ def render() -> None:
         if near_high is not None and not near_high.empty:
             df_h = near_high.copy()
             df_h.columns = ["Ticker", "Company Name", "Current Price (₹)", "52W High (₹)", "% From High"]
-            st.dataframe(df_h, width="stretch", hide_index=True)
+            st.dataframe(
+                df_h,
+                width="stretch",
+                hide_index=True,
+                column_config={
+                    "Current Price (₹)": st.column_config.NumberColumn("Current Price (₹)", format="₹%.2f"),
+                    "52W High (₹)": st.column_config.NumberColumn("52W High (₹)", format="₹%.2f"),
+                    "% From High": st.column_config.NumberColumn("% From High", format="%.2f%%"),
+                },
+            )
         else:
             st.info("No companies currently within 5% of 52-week high.")

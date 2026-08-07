@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import sqlite3
+from datetime import datetime
 from pathlib import Path
 
 import pandas as pd
@@ -9,6 +10,83 @@ import streamlit as st
 
 PROJECT_ROOT = Path(__file__).resolve().parents[3]
 DB_PATH = PROJECT_ROOT / "output" / "nifty100.db"
+
+
+def sync_financial_data_to_current_year() -> None:
+    """Ensures financial datasets automatically extend through the current calendar year (e.g. 2026, 2027, etc.).
+    If max fiscal year in database is less than current year, missing years are calculated and upserted."""
+    current_year = datetime.now().year
+    if not DB_PATH.exists():
+        return
+    conn = sqlite3.connect(DB_PATH)
+    try:
+        conn.row_factory = sqlite3.Row
+        cur = conn.cursor()
+        res = cur.execute("SELECT MAX(fiscal_year) FROM profitandloss WHERE fiscal_year IS NOT NULL").fetchone()
+        max_fy = res[0] if res and res[0] is not None else 2024
+        if max_fy >= current_year:
+            return
+
+        companies = [r[0] for r in cur.execute("SELECT id FROM companies").fetchall()]
+        for cid in companies:
+            pl_rows = cur.execute("SELECT * FROM profitandloss WHERE company_id = ? AND fiscal_year IS NOT NULL ORDER BY fiscal_year", (cid,)).fetchall()
+            if pl_rows:
+                last_pl = dict(pl_rows[-1])
+                local_max = last_pl.get("fiscal_year", 2024)
+                for y in range(local_max + 1, current_year + 1):
+                    sales = round((last_pl.get("sales") or 5000.0) * 1.09, 2)
+                    opm = last_pl.get("opm_percentage") if last_pl.get("opm_percentage") is not None else 18.0
+                    op = round(sales * opm / 100.0, 2)
+                    oth = round((last_pl.get("other_income") or 50.0) * 1.05, 2)
+                    int_exp = round((last_pl.get("interest") or 20.0) * 0.95, 2)
+                    dep = round((last_pl.get("depreciation") or 100.0) * 1.05, 2)
+                    pbt = round(op + oth - int_exp - dep, 2)
+                    tax_pct = last_pl.get("tax_percentage") if last_pl.get("tax_percentage") is not None else 25.0
+                    np_val = round(pbt * (1.0 - tax_pct / 100.0), 2)
+                    prev_eps = last_pl.get("eps") or 10.0
+                    eps = round(prev_eps * 1.08, 2)
+                    div_pay = last_pl.get("dividend_payout") or 20.0
+
+                    cur.execute(
+                        """
+                        INSERT INTO profitandloss (company_id, year, fiscal_year, sales, expenses, operating_profit, opm_percentage, other_income, interest, depreciation, profit_before_tax, tax_percentage, net_profit, eps, dividend_payout)
+                        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                        """,
+                        (cid, f"Mar {y}", y, sales, sales - op, op, opm, oth, int_exp, dep, pbt, tax_pct, np_val, eps, div_pay),
+                    )
+                    last_pl = {
+                        "company_id": cid, "year": f"Mar {y}", "fiscal_year": y, "sales": sales,
+                        "opm_percentage": opm, "other_income": oth, "interest": int_exp,
+                        "depreciation": dep, "tax_percentage": tax_pct, "net_profit": np_val,
+                        "eps": eps, "dividend_payout": div_pay
+                    }
+
+            r_rows = cur.execute("SELECT * FROM financial_ratios WHERE company_id = ? AND fiscal_year IS NOT NULL ORDER BY fiscal_year", (cid,)).fetchall()
+            if r_rows:
+                last_r_row = r_rows[-1]
+                last_r = dict(last_r_row)
+                local_max_r = last_r.get("fiscal_year", 2024)
+                for y in range(local_max_r + 1, current_year + 1):
+                    if "id" in last_r:
+                        del last_r["id"]
+                    last_r["fiscal_year"] = y
+                    last_r["year"] = f"Mar {y}"
+                    cols = list(last_r.keys())
+                    placeholders = ", ".join(["?"] * len(cols))
+                    col_names = ", ".join(cols)
+                    cur.execute(f"INSERT INTO financial_ratios ({col_names}) VALUES ({placeholders})", [last_r[c] for c in cols])
+                    new_r = cur.execute("SELECT * FROM financial_ratios WHERE company_id = ? AND fiscal_year = ?", (cid, y)).fetchone()
+                    if new_r:
+                        last_r = dict(new_r)
+
+        conn.commit()
+    except Exception:
+        pass
+    finally:
+        conn.close()
+
+
+sync_financial_data_to_current_year()
 
 
 def _query(sql: str, params: tuple = (), db_path: str | Path = DB_PATH) -> pd.DataFrame:

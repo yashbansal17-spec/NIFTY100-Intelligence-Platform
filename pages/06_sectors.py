@@ -18,7 +18,7 @@ def render() -> None:
     theme_mod.render_page_header(
         "Sector Intelligence",
         "Sector Analysis",
-        "Compare sector-level market scale, profitability, leverage, and growth.",
+        "",
     )
     universe = db.get_latest_universe()
     sectors = sorted(universe["broad_sector"].dropna().unique())

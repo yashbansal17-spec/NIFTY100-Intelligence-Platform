@@ -87,7 +87,7 @@ def render() -> None:
     theme_mod.render_page_header(
         "Document Repository",
         "Annual Reports",
-        "Select any NIFTY 100 company and open stored BSE annual report PDF links.",
+        "",
     )
     if st.button("Refresh Report Links"):
         st.cache_data.clear()

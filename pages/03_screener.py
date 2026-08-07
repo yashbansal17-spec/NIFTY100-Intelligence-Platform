@@ -37,6 +37,20 @@ DEFAULTS = {
     "near_high": -100.0,
 }
 
+FILTER_LABELS = {
+    "roe": ("ROE min", "%"),
+    "de": ("D/E max", ""),
+    "fcf": ("FCF min", " Cr"),
+    "rev": ("Revenue CAGR min", "%"),
+    "pat": ("PAT CAGR min", "%"),
+    "opm": ("OPM min", "%"),
+    "pe": ("P/E max", ""),
+    "pb": ("P/B max", ""),
+    "div": ("Dividend Yield min", "%"),
+    "ret1m": ("1M Return min", "%"),
+    "near_high": ("% From 52W High min", "%"),
+}
+
 
 def init_state() -> None:
     for key, value in DEFAULTS.items():
@@ -46,6 +60,16 @@ def init_state() -> None:
 def apply_preset(preset: dict) -> None:
     for key, value in DEFAULTS.items():
         st.session_state[f"screener_{key}"] = preset.get(key, value)
+
+
+def active_filter_pills() -> list[str]:
+    pills = []
+    for key, (label, suffix) in FILTER_LABELS.items():
+        current = st.session_state.get(f"screener_{key}")
+        default = DEFAULTS.get(key)
+        if current is not None and current != default:
+            pills.append(f"{label}: {current:g}{suffix}")
+    return pills
 
 
 def filter_universe(frame: pd.DataFrame) -> pd.DataFrame:
@@ -59,7 +83,7 @@ def filter_universe(frame: pd.DataFrame) -> pd.DataFrame:
     result = result[result["pe_ratio"].fillna(999999) <= st.session_state.screener_pe]
     result = result[result["pb_ratio"].fillna(999999) <= st.session_state.screener_pb]
     result = result[result["dividend_yield_pct"].fillna(-999) >= st.session_state.screener_div]
-    
+
     if "return_1m_pct" in result.columns:
         result = result[result["return_1m_pct"].fillna(-999) >= st.session_state.screener_ret1m]
     if "pct_from_52w_high" in result.columns:
@@ -70,9 +94,9 @@ def filter_universe(frame: pd.DataFrame) -> pd.DataFrame:
 
 def render() -> None:
     theme_mod.render_page_header(
-        "Quantitative Screener",
+        "Capital Deployment",
         "Multi-Factor Screener",
-        "Filter the NIFTY 100 benchmark by fundamentals, quality scores, and real-time monthly market stats & 52-week High proximity.",
+        "",
     )
     init_state()
 
@@ -101,12 +125,13 @@ def render() -> None:
     live_df = live_data.get_cached_live_market()
 
     if not live_df.empty:
-        # Merge live market stats into universe
         live_sub = live_df[["company_id", "current_price", "high_52w", "low_52w", "return_1m_pct", "pct_from_52w_high"]]
         universe = pd.merge(universe, live_sub, on="company_id", how="left")
 
     filtered = filter_universe(universe)
-    
+
+    theme_mod.render_filter_pills(active_filter_pills())
+
     columns = [
         "company_id",
         "company_name",
@@ -151,4 +176,23 @@ def render() -> None:
         mime="text/csv",
         width="stretch",
     )
-    st.dataframe(visible, width="stretch", hide_index=True, height=560)
+    st.dataframe(
+        visible,
+        width="stretch",
+        hide_index=True,
+        height=560,
+        column_config={
+            "Quality Score": st.column_config.ProgressColumn(
+                "Quality Score", format="%.1f", min_value=0, max_value=100
+            ),
+            "Price (₹)": st.column_config.NumberColumn("Price (₹)", format="₹%.2f"),
+            "52W High (₹)": st.column_config.NumberColumn("52W High (₹)", format="₹%.2f"),
+            "1M Return %": st.column_config.NumberColumn("1M Return %", format="%+.2f%%"),
+            "% From High": st.column_config.NumberColumn("% From High", format="%+.2f%%"),
+            "ROE %": st.column_config.NumberColumn("ROE %", format="%.2f%%"),
+            "Rev CAGR 5yr %": st.column_config.NumberColumn("Rev CAGR 5yr %", format="%.2f%%"),
+            "D/E": st.column_config.NumberColumn("D/E", format="%.2f"),
+            "FCF Cr": st.column_config.NumberColumn("FCF Cr", format="%.1f"),
+            "P/E": st.column_config.NumberColumn("P/E", format="%.1f"),
+        },
+    )

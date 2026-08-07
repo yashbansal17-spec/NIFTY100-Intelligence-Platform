@@ -53,19 +53,17 @@ def render() -> None:
     ratios = db.get_ratios(ticker)
     pl = db.get_pl(ticker)
 
-    st.markdown('<div class="clean-rule"></div>', unsafe_allow_html=True)
-    
-    # Header with live price and 52W metrics
+    # ---------------- Executive Header ----------------
     c_live = live_df[live_df["company_id"] == ticker] if not live_df.empty else None
-    
-    head_left, head_right = st.columns([2, 1])
+
+    head_left, head_right = st.columns([2, 1.2])
     with head_left:
-        st.subheader(f"{company['company_id']} - {company['company_name']}")
+        st.subheader(f"{company['company_id']} — {company['company_name']}")
         meta_cols = st.columns([1, 1, 2], gap="medium")
         meta_cols[0].markdown(f"**Sector**  \n{company['broad_sector']}")
         meta_cols[1].markdown(f"**Sub-sector**  \n{company.get('sub_sector') or 'N/A'}")
         meta_cols[2].markdown(f"**Website**  \n{company.get('website') or 'N/A'}")
-    
+
     with head_right:
         if c_live is not None and not c_live.empty:
             l_row = c_live.iloc[0]
@@ -73,71 +71,95 @@ def render() -> None:
             ret1m = l_row["return_1m_pct"]
             h52 = l_row["high_52w"]
             l52 = l_row["low_52w"]
-            sign = "+" if ret1m >= 0 else ""
-            badge_cls = "badge-pos" if ret1m >= 0 else "badge-neg"
+            badge_html = theme_mod.badge(ret1m, suffix="% (1M)")
 
             st.markdown(
                 f"""
-                <div style="background: rgba(15, 23, 42, 0.8); border: 1px solid rgba(0, 230, 118, 0.25); border-radius: 12px; padding: 1rem; text-align: right;">
-                    <div style="font-size: 0.75rem; font-family: 'JetBrains Mono', monospace; color: var(--muted); text-transform: uppercase;">Current Live Quote</div>
-                    <div style="font-size: 1.8rem; font-weight: 800; color: #ffffff;">₹{cp:,.2f}</div>
-                    <div style="margin-top: 4px;">
-                        <span class="{badge_cls}">{sign}{ret1m:.2f}% (1M)</span>
-                    </div>
-                    <div style="font-size: 0.72rem; font-family: 'JetBrains Mono', monospace; color: var(--muted); margin-top: 8px;">
-                        52W High: ₹{h52:,.2f} &middot; 52W Low: ₹{l52:,.2f}
+                <div class="kpi-card" style="text-align:right;">
+                    <div class="kpi-title">Current Live Quote</div>
+                    <div class="kpi-value" style="font-size:1.9rem;">₹{cp:,.2f}</div>
+                    <div style="margin-top:6px;">{badge_html}</div>
+                    <div style="margin-top:12px;">
+                        {theme_mod.range_bar(cp, l52, h52, f"₹{l52:,.0f}", f"₹{h52:,.0f}")}
                     </div>
                 </div>
                 """,
                 unsafe_allow_html=True,
             )
 
+    st.markdown('<div class="clean-rule"></div>', unsafe_allow_html=True)
     st.write(company.get("about_company") or "No company description available.")
 
+    # ---------------- Key Ratios Strip ----------------
     latest = ratios.sort_values("fiscal_year").tail(1)
     latest_row = latest.iloc[0] if not latest.empty else {}
-    cols = st.columns(6, gap="medium")
-    cols[0].metric("ROE", fmt(latest_row.get("return_on_equity_pct"), "%"))
-    cols[1].metric("ROCE", fmt(latest_row.get("return_on_capital_employed_pct"), "%"))
-    cols[2].metric("Net Profit Margin", fmt(latest_row.get("net_profit_margin_pct"), "%"))
-    cols[3].metric("D/E", fmt(latest_row.get("debt_to_equity")))
-    cols[4].metric("Revenue CAGR 5yr", fmt(latest_row.get("revenue_cagr_5yr"), "%"))
-    cols[5].metric("FCF (Cr)", fmt(latest_row.get("free_cash_flow_cr")))
 
-    # 10-Year P&L Bar Chart
+    theme_mod.render_kpi_row(
+        [
+            {"title": "ROE", "value": fmt(latest_row.get("return_on_equity_pct"), "%")},
+            {"title": "ROCE", "value": fmt(latest_row.get("return_on_capital_employed_pct"), "%")},
+            {"title": "Net Profit Margin", "value": fmt(latest_row.get("net_profit_margin_pct"), "%")},
+            {"title": "D/E", "value": fmt(latest_row.get("debt_to_equity"))},
+            {"title": "Revenue CAGR 5yr", "value": fmt(latest_row.get("revenue_cagr_5yr"), "%")},
+            {"title": "FCF (Cr)", "value": fmt(latest_row.get("free_cash_flow_cr"))},
+        ]
+    )
+
+    st.markdown('<div style="margin-top:1.4rem;"></div>', unsafe_allow_html=True)
+
+    # ---------------- 10-Year Revenue vs Net Profit (area gradient, dual) ----------------
     chart_pl = pl.tail(10)
     bar = go.Figure()
-    bar.add_bar(x=chart_pl["fiscal_year"], y=chart_pl["sales"], name="Revenue", marker_color="#00e676")
-    bar.add_bar(x=chart_pl["fiscal_year"], y=chart_pl["net_profit"], name="Net Profit", marker_color="#38bdf8")
-    bar.update_layout(
-        title="10-Year Revenue and Net Profit History (INR Crore)",
-        template="plotly_dark",
-        paper_bgcolor="rgba(0,0,0,0)",
-        plot_bgcolor="rgba(0,0,0,0)",
-        barmode="group",
-        height=420,
-        margin=dict(l=40, r=20, t=60, b=50),
-        xaxis_title="Fiscal Year",
-        yaxis_title="INR Crore",
-        legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1),
+    bar.add_trace(
+        go.Scatter(
+            x=chart_pl["fiscal_year"],
+            y=chart_pl["sales"],
+            name="Revenue",
+            mode="lines",
+            line=dict(color=theme_mod.ACCENT, width=2.5, shape="spline"),
+            fill="tozeroy",
+            fillcolor="rgba(16, 185, 129, 0.18)",
+        )
     )
+    bar.add_trace(
+        go.Scatter(
+            x=chart_pl["fiscal_year"],
+            y=chart_pl["net_profit"],
+            name="Net Profit",
+            mode="lines",
+            line=dict(color=theme_mod.ACCENT_2, width=2.5, shape="spline"),
+            fill="tozeroy",
+            fillcolor="rgba(16, 185, 129, 0.15)",
+        )
+    )
+    bar.update_layout(title="10-Year Revenue and Net Profit History (INR Crore)", xaxis_title="Fiscal Year", yaxis_title="INR Crore")
+    theme_mod.style_plotly_chart(bar, height=420)
     st.plotly_chart(bar, width="stretch")
 
-    # 10-Year ROE / ROCE Line Chart
+    # ---------------- 10-Year ROE / ROCE Line Chart (smooth splines, secondary axis) ----------------
     chart_ratios = ratios.tail(10)
     line = make_subplots(specs=[[{"secondary_y": True}]])
-    line.add_trace(go.Scatter(x=chart_ratios["fiscal_year"], y=chart_ratios["return_on_equity_pct"], name="ROE %", line=dict(color="#00e676", width=3)), secondary_y=False)
-    line.add_trace(go.Scatter(x=chart_ratios["fiscal_year"], y=chart_ratios["return_on_capital_employed_pct"], name="ROCE %", line=dict(color="#f43f5e", width=3, dash="dot")), secondary_y=True)
-    line.update_layout(
-        title="ROE & ROCE Return Trends (%)",
-        template="plotly_dark",
-        paper_bgcolor="rgba(0,0,0,0)",
-        plot_bgcolor="rgba(0,0,0,0)",
-        height=420,
-        margin=dict(l=40, r=50, t=60, b=50),
-        legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1),
+    line.add_trace(
+        go.Scatter(
+            x=chart_ratios["fiscal_year"],
+            y=chart_ratios["return_on_equity_pct"],
+            name="ROE %",
+            line=dict(color=theme_mod.ACCENT, width=3, shape="spline"),
+        ),
+        secondary_y=False,
     )
+    line.add_trace(
+        go.Scatter(
+            x=chart_ratios["fiscal_year"],
+            y=chart_ratios["return_on_capital_employed_pct"],
+            name="ROCE %",
+            line=dict(color=theme_mod.WARNING, width=3, dash="dot", shape="spline"),
+        ),
+        secondary_y=True,
+    )
+    line.update_layout(title="ROE & ROCE Return Trends (%)")
+    theme_mod.style_plotly_chart(line, height=420)
     line.update_xaxes(title_text="Fiscal Year")
-    line.update_yaxes(title_text="ROE %", secondary_y=False)
-    line.update_yaxes(title_text="ROCE %", secondary_y=True)
+    line.update_yaxes(title_text="ROE %", secondary_y=False, gridcolor=theme_mod.GRID)
+    line.update_yaxes(title_text="ROCE %", secondary_y=True, showgrid=False)
     st.plotly_chart(line, width="stretch")
