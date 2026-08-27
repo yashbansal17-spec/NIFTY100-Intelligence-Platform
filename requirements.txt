@@ -21,3 +21,4 @@ requests
 tabulate
 pillow
 yfinance
+scikit-learn

@@ -15,6 +15,7 @@ sys.path.insert(0, str(PROJECT_ROOT / "src"))
 from dashboard.utils import db
 from dashboard.utils import theme as theme_mod
 from dashboard.utils import live_data
+from analytics.ml_models import train_and_predict_close
 
 
 def mover_card_html(row: pd.Series, positive: bool) -> str:
@@ -245,14 +246,22 @@ def render() -> None:
                     unsafe_allow_html=True,
                 )
 
+                chart_df = live_data.get_company_chart_data(selected_stock, period=period_choice)
+
+                # ML Prediction
+                predicted_close = cprice
+                if not chart_df.empty and "Close" in chart_df.columns:
+                    # Filter out today's provisional candle (if it exists) to train the model
+                    today_str = datetime.now().strftime("%Y-%m-%d")
+                    hist_for_train = chart_df[chart_df["Date"] != today_str]
+                    predicted_close = train_and_predict_close(hist_for_train, oprice, hprice, lprice)
+
                 sc1, sc2, sc3, sc4, sc5 = st.columns(5)
                 sc1.metric("Open Price", f"₹{oprice:,.2f}")
                 sc2.metric("Day Range", f"₹{lprice:,.2f} - ₹{hprice:,.2f}")
-                sc3.metric("52W Range", f"₹{lo_52:,.2f} - ₹{hi_52:,.2f}")
+                sc3.metric("ML Predicted Close", f"₹{predicted_close:,.2f}", delta="ML Prediction", delta_color="off")
                 sc4.metric("1-Month Return", f"{ret_1m:+.2f}%")
                 sc5.metric("1-Year Return", f"{ret_1y:+.2f}%")
-
-                chart_df = live_data.get_company_chart_data(selected_stock, period=period_choice)
 
                 if not chart_df.empty and "Close" in chart_df.columns:
                     fig = make_subplots(
