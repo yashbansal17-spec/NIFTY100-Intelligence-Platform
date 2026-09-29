@@ -42,8 +42,8 @@ def train_and_predict_close(history_df: pd.DataFrame, today_open: float, today_h
         return today_open
         
     try:
-        # Prepare Data
-        df = history_df.dropna(subset=required_cols).copy()
+        # Prepare Data (less train data, use only recent 60 days)
+        df = history_df.tail(100).dropna(subset=required_cols).copy()
         
         # Add technicals
         df = add_technical_features(df)
@@ -64,11 +64,11 @@ def train_and_predict_close(history_df: pd.DataFrame, today_open: float, today_h
         X_train = train_df[features]
         y_train = train_df['Return']
         
-        # XGBoost tuned
+        # XGBoost tuned (simpler model to reduce errors and overfitting)
         model = xgb.XGBRegressor(
-            n_estimators=100, 
-            learning_rate=0.05, 
-            max_depth=4, 
+            n_estimators=30, 
+            learning_rate=0.01, 
+            max_depth=2, 
             subsample=0.8,
             colsample_bytree=0.8,
             random_state=42,
@@ -109,10 +109,16 @@ def train_and_predict_close(history_df: pd.DataFrame, today_open: float, today_h
         # Return = ln(Close_today / Close_yesterday) => Close_today = Close_yesterday * exp(Return)
         predicted_close = last_row['Close'] * np.exp(predicted_return)
         
-        # Sanity bounds (restrict predicted close within today's live High/Low if they make sense)
+        # Sanity bounds: force prediction closer to today's open to minimize extreme errors
+        # (e.g. restrict to within +/- 3% of today's open)
+        min_close = today_open * 0.97
+        max_close = today_open * 1.03
+        
+        predicted_close = max(min_close, min(max_close, predicted_close))
+        
         if today_high > today_low:
-             # Just in case today's live high/low are realistic
-             predicted_close = max(today_low * 0.98, min(today_high * 1.02, predicted_close))
+             # Just in case today's live high/low are tighter than our 3% bound
+             predicted_close = max(today_low, min(today_high, predicted_close))
         
         return round(float(predicted_close), 2)
         

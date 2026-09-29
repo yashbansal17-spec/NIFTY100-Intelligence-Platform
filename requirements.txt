@@ -22,3 +22,4 @@ tabulate
 pillow
 yfinance
 scikit-learn
+xgboost
